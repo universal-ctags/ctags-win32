@@ -1,0 +1,61 @@
+version: "1.0.{build}"
+
+environment:
+  global:
+    CTAGS_FOLDER: '%APPVEYOR_BUILD_FOLDER%\ctags'
+    DEPLOY_USER_NAME: 'K.Takata'
+    DEPLOY_USER_EMAIL: 'kentkt@csc.jp'
+
+  matrix:
+    - compiler: msys2
+      ARCH: x64
+      MSYS2_ARCH: x86_64
+      MSYS2_DIR: msys64
+      MSYSTEM: MINGW64
+    - compiler: msys2
+      ARCH: x86
+      MSYS2_ARCH: i686
+      MSYS2_DIR: msys64
+      MSYSTEM: MINGW32
+
+matrix:
+  fast_finish: true
+
+init:
+  - git config --global core.autocrlf false
+
+build_script:
+  - '%APPVEYOR_BUILD_FOLDER%\scripts\appveyor.bat build'
+
+after_build:
+  - '%APPVEYOR_BUILD_FOLDER%\scripts\appveyor.bat package'
+
+test_script:
+  - '%APPVEYOR_BUILD_FOLDER%\scripts\appveyor.bat test'
+
+
+artifacts:
+  - path: ctags\ctags-*.zip
+
+
+before_deploy:
+  - for /f "delims=" %%i in (gitlog.txt) do set GITLOG=%%i
+
+deploy:
+  - provider: GitHub
+    description: |
+      Universal Ctags Win32 daily builds ([more information](https://ctags.io)).
+
+      ### Changes:
+
+      $(GITLOG)
+
+    #auth_token:
+    #  secure: 
+    #artifact: /ctags/
+    draft: false
+    prerelease: true
+    on:
+      appveyor_repo_tag: true
+
+# vim: ts=2 sw=2 et
