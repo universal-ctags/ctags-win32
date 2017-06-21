@@ -29,7 +29,7 @@ git checkout master
 git pull --no-edit
 ctagsver=$(git describe --tags --always)
 ctagslog=$(git log --no-merges --pretty=format:%s $ctagsoldver..HEAD | sed -e 's/^/* /')
-cd -
+cd ..
 
 # Check if it is updated
 if git diff --quiet; then
@@ -41,5 +41,5 @@ fi
 # replace newline by \n
 echo "$ctagslog" | perl -pe 's/\n/\\n/g' > gitlog.txt
 git commit -a -m "ctags: Import $ctagsver" -m "$ctagslog"
-git tag $(date --rfc-3339=date)/$ctagsver
+git tag $(date --rfc-3339=date).$ctagsver
 git push origin master --tags

@@ -2,9 +2,10 @@ version: "1.0.{build}"
 
 environment:
   global:
-    CTAGS_FOLDER: '%APPVEYOR_BUILD_FOLDER%\ctags'
     DEPLOY_USER_NAME: 'K.Takata'
     DEPLOY_USER_EMAIL: 'kentkt@csc.jp'
+    CI_KEY:
+      secure: OsOObr0WYr//2z7r52iwFIRrtfcse9b5ZO0hthRln1+rxi4qT15yZh14Kwk0ERiM
 
   matrix:
     - compiler: msys2
@@ -50,9 +51,9 @@ deploy:
 
       $(GITLOG)
 
-    #auth_token:
-    #  secure: 
-    #artifact: /ctags/
+    auth_token:
+      secure: zov5j7Y2nW0LLq2nApyZSCE15mdKm2U4AiZJTPxzs4S1fog7RCYWe30Bm+vC0Ive
+    artifact: /ctags/
     draft: false
     prerelease: true
     on:

@@ -12,7 +12,10 @@ if "%APPVEYOR_REPO_TAG_NAME%"=="" (
 )
 goto :eof
 
+
 :call_submodule
+git submodule init
+git submodule update
 set OLD_APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%
 set APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%\ctags
 call ctags\win32\appveyor.bat %1
@@ -23,7 +26,15 @@ goto :eof
 :update_repo
 path C:\%MSYS2_DIR%\usr\bin;%PATH%
 set CHERE_INVOKING=yes
-bash -lc "git config user.name '%DEPLOY_USER_NAME%'; git config user.email '%DEPLOY_USER_EMAIL%'"
-bash -lc "file ./scripts/update-repo.sh"
-bash -lc "./scripts/update-repo.sh"
+
+@git config user.name "%DEPLOY_USER_NAME%"
+@git config user.email "%DEPLOY_USER_EMAIL%"
+git remote set-url --push origin "git@github.com:%APPVEYOR_REPO_NAME%.git"
+
+@rem Skip if the commit is tagged.
+git describe --tags --exact-match > NUL 2>&1
+if not ERRORLEVEL 1 goto :eof
+
+bash -lc "mkdir -p ~/.ssh; sh ./scripts/install_sshkey_github.sh ./scripts/ci-uctags-win32.enc ~/.ssh/ci-uctags-win32"
+bash -lc "sh ./scripts/update-repo.sh"
 goto :eof
