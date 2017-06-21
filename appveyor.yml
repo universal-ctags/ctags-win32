@@ -40,7 +40,7 @@ artifacts:
 
 
 before_deploy:
-  - for /f "delims=" %%i in (gitlog.txt) do set GITLOG=%%i
+  - for /f "delims=" %%i in (%APPVEYOR_BUILD_FOLDER%\gitlog.txt) do set GITLOG=%%i
 
 deploy:
   - provider: GitHub
