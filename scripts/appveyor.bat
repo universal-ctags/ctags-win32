@@ -4,9 +4,10 @@ echo on
 cd %APPVEYOR_BUILD_FOLDER%
 
 if "%APPVEYOR_REPO_TAG_NAME%"=="" (
-  if "%1"=="build" (
+  if "%1_%ARCH%"=="build_x64" (
     goto update_repo
   )
+  appveyor exit
 ) else (
   goto call_submodule
 )
@@ -33,8 +34,10 @@ git remote set-url --push origin "git@github.com:%APPVEYOR_REPO_NAME%.git"
 
 @rem Skip if the commit is tagged.
 git describe --tags --exact-match > NUL 2>&1
-if not ERRORLEVEL 1 goto :eof
+if not ERRORLEVEL 1 appveyor exit
 
 bash -lc "mkdir -p ~/.ssh; sh ./scripts/install_sshkey_github.sh ./scripts/ci-uctags-win32.enc ~/.ssh/ci-uctags-win32"
 bash -lc "sh ./scripts/update-repo.sh"
+
+appveyor exit
 goto :eof
