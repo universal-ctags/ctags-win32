@@ -1,5 +1,5 @@
 #!/bin/sh
-set -x
+#set -x
 
 # Work directory of this repository.
 if [ "$1" != "" ]; then
