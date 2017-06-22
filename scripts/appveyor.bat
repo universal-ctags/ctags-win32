@@ -33,8 +33,12 @@ set CHERE_INVOKING=yes
 git remote set-url --push origin "git@github.com:%APPVEYOR_REPO_NAME%.git"
 
 @rem Skip if the commit is tagged.
-git describe --tags --exact-match > NUL 2>&1
-if not ERRORLEVEL 1 appveyor exit
+rem git describe --tags --exact-match > NUL 2>&1
+git describe --tags --exact-match
+if not ERRORLEVEL 1 (
+  echo tag exists.
+  appveyor exit
+)
 
 set MSYSTEM=MSYS
 bash -lc "mkdir -p ~/.ssh; sh ./scripts/install_sshkey_github.sh ./scripts/ci-uctags-win32.enc ~/.ssh/ci-uctags-win32"
