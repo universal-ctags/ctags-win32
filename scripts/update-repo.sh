@@ -28,7 +28,8 @@ ctagsoldver=$(git rev-parse HEAD)
 git checkout master
 git pull --no-edit
 ctagsver=$(git describe --tags --always)
-ctagslog=$(git log --no-merges --pretty=format:%s $ctagsoldver..HEAD | sed -e 's/^/* /')
+ctagslog_detail=$(git log --format='%H %s' $ctagsoldver..HEAD)
+ctagslog=$(echo "$ctagslog_detail" | sed -e 's/^[^ ]* /* /')
 cd ..
 
 # Check if it is updated
@@ -39,7 +40,10 @@ fi
 
 # Commit the change and push it
 # replace newline by \n
-echo "$ctagslog" | perl -pe 's/\n/\\n/g' > gitlog.txt
-git commit -a -m "ctags: Import $ctagsver" -m "$ctagslog"
+echo "$ctagslog_detail" | \
+	sed -e 's/\([][_*^<`\\]\)/\\\1/g' | \
+	sed -e 's#^\([^ ]*\) \(.*\)#* [\2](https://github.com/universal-ctags/ctags/commit/\1)#' | \
+	perl -pe 's/\n/\\n/g' > gitlog.txt
+git commit -a -m "ctags: Update to $ctagsver" -m "$ctagslog"
 git tag $(date --rfc-3339=date).$ctagsver
 git push origin master --tags

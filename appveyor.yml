@@ -2,8 +2,8 @@ version: "1.0.{build}"
 
 environment:
   global:
-    DEPLOY_USER_NAME: 'K.Takata'
-    DEPLOY_USER_EMAIL: 'kentkt@csc.jp'
+    DEPLOY_USER_NAME: 'ctags-win32 CI'
+    DEPLOY_USER_EMAIL: 'k-takata@users.noreply.github.com'
     CI_KEY:
       secure: OsOObr0WYr//2z7r52iwFIRrtfcse9b5ZO0hthRln1+rxi4qT15yZh14Kwk0ERiM
 
@@ -21,9 +21,6 @@ environment:
 
 matrix:
   fast_finish: true
-
-init:
-  - git config --global core.autocrlf false
 
 build_script:
   - '%APPVEYOR_BUILD_FOLDER%\scripts\appveyor.bat build'
@@ -54,7 +51,6 @@ deploy:
     auth_token:
       secure: zov5j7Y2nW0LLq2nApyZSCE15mdKm2U4AiZJTPxzs4S1fog7RCYWe30Bm+vC0Ive
     artifact: /ctags/
-    draft: false
     prerelease: true
     on:
       appveyor_repo_tag: true
