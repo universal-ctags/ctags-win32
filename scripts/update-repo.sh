@@ -24,13 +24,11 @@ git submodule update
 
 # Get the latest ctags source code
 cd ctags
-ctagsoldver=$(git rev-parse HEAD)
 git checkout master
 git pull --no-edit
 ctagsver=$(git describe --tags --always)
-ctagslog_detail=$(git log --format='%H %s' $ctagsoldver..HEAD)
-ctagslog=$(echo "$ctagslog_detail" | sed -e 's/^[^ ]* /* /')
 cd ..
+ctagslog=$(git submodule summary | grep '^  > ')
 
 # Check if it is updated
 if git diff --quiet; then
@@ -40,10 +38,12 @@ fi
 
 # Commit the change and push it
 # replace newline by \n
-echo "$ctagslog_detail" | \
-	sed -e 's/\([][_*^<`\\]\)/\\\1/g' | \
-	sed -e 's#^\([^ ]*\) \(.*\)#* [\2](https://github.com/universal-ctags/ctags/commit/\1)#' | \
+echo "$ctagslog" | \
+	sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
+	    -e 's/^  >/*/' \
+	    -e 's!#\([0-9][0-9]*\)![#\1](https://github.com/universal-ctags/ctags/issues/\1)!' | \
 	perl -pe 's/\n/\\n/g' > gitlog.txt
+ctagslog=$(echo "$ctagslog" | sed -e 's/^  >/*/')
 git commit -a -m "ctags: Update to $ctagsver" -m "$ctagslog"
 git tag $(date --rfc-3339=date).$ctagsver
 git push origin master --tags
