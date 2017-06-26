@@ -17,8 +17,10 @@ goto :eof
 :call_submodule
 echo on
 
-git submodule init
-git submodule update
+if "%1"=="build" (
+  git submodule init
+  git submodule update
+)
 set OLD_APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%
 set APPVEYOR_BUILD_FOLDER=%APPVEYOR_BUILD_FOLDER%\ctags
 call ctags\win32\appveyor.bat %1
