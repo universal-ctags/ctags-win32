@@ -3,7 +3,7 @@ version: "1.0.{build}"
 environment:
   global:
     DEPLOY_USER_NAME: 'ctags-win32 CI'
-    DEPLOY_USER_EMAIL: 'k-takata@users.noreply.github.com'
+    DEPLOY_USER_EMAIL: 'ctags-win32-ci@users.noreply.github.com'
     CI_KEY:
       secure: LaecAZTo7wMBnPJEKX5CJjFvbfStmZNk+tWTQP9k4M93jLfuPDBnCu30Ktmt0Kdn
 
@@ -49,7 +49,7 @@ deploy:
       $(GITLOG)
 
     auth_token:
-      secure: lSgX+1mGSxiPoovXbzhkf3kWR9LCCbROazcrlly1NHN7kN2NcghZ95nGWrzyeYXI
+      secure: WqjLi6FMpAWGSZvDSpVaZ3hNhE69MVeqGNh0CwMcXtu/pPKiLbX+KmBbActqt8Di
     artifact: /ctags/
     prerelease: true
     on:
