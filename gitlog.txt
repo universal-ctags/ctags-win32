@@ -1,1 +1,1 @@
-* Merge pull request [#1500](https://github.com/universal-ctags/ctags/issues/1500) from masatake/fix-1498\n* Merge pull request [#1501](https://github.com/universal-ctags/ctags/issues/1501) from masatake/units-multi-input-files\n
+* Merge pull request [#1486](https://github.com/universal-ctags/ctags/issues/1486) from masatake/objc-signature\n
