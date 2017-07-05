@@ -1,1 +1,1 @@
-* Merge pull request [#1486](https://github.com/universal-ctags/ctags/issues/1486) from masatake/objc-signature\n
+* Merge pull request [#1503](https://github.com/universal-ctags/ctags/issues/1503) from k-takata/fix-indent\n
