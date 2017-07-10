@@ -1,1 +1,1 @@
-* Merge pull request [#1504](https://github.com/universal-ctags/ctags/issues/1504) from masatake/man--tag-concept-code-only\n
+* Merge pull request [#1506](https://github.com/universal-ctags/ctags/issues/1506) from sdwolf/fix/call-from-makefile\n
