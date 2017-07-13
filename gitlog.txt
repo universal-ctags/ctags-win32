@@ -1,1 +1,1 @@
-* main: fix a typo in comment\n
+* Merge pull request [#1497](https://github.com/universal-ctags/ctags/issues/1497) from masatake/man--tag-concept\n
