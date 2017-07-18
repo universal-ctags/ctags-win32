@@ -1,1 +1,1 @@
-* Merge pull request [#1497](https://github.com/universal-ctags/ctags/issues/1497) from masatake/man--tag-concept\n
+* Merge pull request [#1507](https://github.com/universal-ctags/ctags/issues/1507) from vhda/verilog/enum\n
