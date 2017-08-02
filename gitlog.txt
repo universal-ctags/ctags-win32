@@ -1,1 +1,1 @@
-* Merge pull request [#1513](https://github.com/universal-ctags/ctags/issues/1513) from masatake/improve-dist-test-cases\n* Merge pull request [#1515](https://github.com/universal-ctags/ctags/issues/1515) from masatake/fix-the-way-to-report-the-existence-of-mblen\n
+* Merge pull request [#1518](https://github.com/universal-ctags/ctags/issues/1518) from k-takata/allow-slash-in-tag\n* Merge pull request [#1509](https://github.com/universal-ctags/ctags/issues/1509) from masatake/revise-multiline-regex-parser\n
