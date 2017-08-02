@@ -1,1 +1,1 @@
-* Merge pull request [#1507](https://github.com/universal-ctags/ctags/issues/1507) from vhda/verilog/enum\n
+* Merge pull request [#1513](https://github.com/universal-ctags/ctags/issues/1513) from masatake/improve-dist-test-cases\n* Merge pull request [#1515](https://github.com/universal-ctags/ctags/issues/1515) from masatake/fix-the-way-to-report-the-existence-of-mblen\n
