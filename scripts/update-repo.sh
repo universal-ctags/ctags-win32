@@ -45,5 +45,5 @@ echo "$ctagslog" | \
 	perl -pe 's/\n/\\n/g' > gitlog.txt
 ctagslog=$(echo "$ctagslog" | sed -e 's/^  >/*/')
 git commit -a -m "ctags: Update to $ctagsver" -m "$ctagslog"
-git tag $(date --rfc-3339=date).$ctagsver
+git tag $(date --rfc-3339=date)/$ctagsver
 git push origin master --tags
