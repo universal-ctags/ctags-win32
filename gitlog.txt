@@ -1,1 +1,1 @@
-* Merge pull request [#1518](https://github.com/universal-ctags/ctags/issues/1518) from k-takata/allow-slash-in-tag\n* Merge pull request [#1509](https://github.com/universal-ctags/ctags/issues/1509) from masatake/revise-multiline-regex-parser\n
+* Merge pull request [#1524](https://github.com/universal-ctags/ctags/issues/1524) from masatake/circleci-ignore-errors-in-install-build-tools-step\n* Merge pull request [#1520](https://github.com/universal-ctags/ctags/issues/1520) from k-takata/remove-dir\_h\n
