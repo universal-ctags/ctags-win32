@@ -1,1 +1,1 @@
-* Merge pull request [#1524](https://github.com/universal-ctags/ctags/issues/1524) from masatake/circleci-ignore-errors-in-install-build-tools-step\n* Merge pull request [#1520](https://github.com/universal-ctags/ctags/issues/1520) from k-takata/remove-dir\_h\n
+* Merge pull request [#1525](https://github.com/universal-ctags/ctags/issues/1525) from masatake/fix-wrong-help-message\n
