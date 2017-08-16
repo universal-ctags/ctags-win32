@@ -1,1 +1,1 @@
-* Merge pull request [#1525](https://github.com/universal-ctags/ctags/issues/1525) from masatake/fix-wrong-help-message\n
+* Merge pull request [#1528](https://github.com/universal-ctags/ctags/issues/1528) from masatake/fix-1526\n
