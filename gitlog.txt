@@ -1,1 +1,1 @@
-* Merge pull request [#1528](https://github.com/universal-ctags/ctags/issues/1528) from masatake/fix-1526\n
+* Merge pull request [#1529](https://github.com/universal-ctags/ctags/issues/1529) from masatake/introduce-work-around-for-lcoveralls-bug\n
