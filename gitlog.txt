@@ -1,1 +1,1 @@
-* Merge pull request [#1529](https://github.com/universal-ctags/ctags/issues/1529) from masatake/introduce-work-around-for-lcoveralls-bug\n
+* docs(web): correct the sentence about MSYS2\n* Merge pull request [#1516](https://github.com/universal-ctags/ctags/issues/1516) from jwilk-forks/spelling\n* Merge pull request [#1527](https://github.com/universal-ctags/ctags/issues/1527) from masatake/refactor-regex-parsers\n
