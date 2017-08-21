@@ -1,1 +1,1 @@
-* docs(web): correct the sentence about MSYS2\n* Merge pull request [#1516](https://github.com/universal-ctags/ctags/issues/1516) from jwilk-forks/spelling\n* Merge pull request [#1527](https://github.com/universal-ctags/ctags/issues/1527) from masatake/refactor-regex-parsers\n
+* docs: Update MSYS2 URL\n
