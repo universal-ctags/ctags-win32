@@ -1,1 +1,1 @@
-* Merge pull request [#1530](https://github.com/universal-ctags/ctags/issues/1530) from masatake/handle-eof-in-template-string-of-jscript\n
+* Merge pull request [#1541](https://github.com/universal-ctags/ctags/issues/1541) from pragmaware/improve-namespace-parsing-2\n* Merge pull request [#1540](https://github.com/universal-ctags/ctags/issues/1540) from masatake/allow-C++-in-modeline\n
