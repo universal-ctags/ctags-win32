@@ -1,1 +1,1 @@
-* Merge pull request [#1544](https://github.com/universal-ctags/ctags/issues/1544) from b4n/jscript/async\n
+* Merge pull request [#1542](https://github.com/universal-ctags/ctags/issues/1542) from masatake/mtable-regex\n* Merge pull request [#1535](https://github.com/universal-ctags/ctags/issues/1535) from masatake/revise-lineNumberEntry-field\n
