@@ -1,1 +1,1 @@
-* Merge pull request [#1549](https://github.com/universal-ctags/ctags/issues/1549) from masatake/fix-broken-colon-handling-of-make-parser\n* Merge pull request [#1548](https://github.com/universal-ctags/ctags/issues/1548) from masatake/fix-things-reported-by-cppcheck\n
+* Merge pull request [#1550](https://github.com/universal-ctags/ctags/issues/1550) from masatake/output-option-in-json-output-mode\n
