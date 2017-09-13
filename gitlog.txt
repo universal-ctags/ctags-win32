@@ -1,1 +1,1 @@
-* Merge pull request [#1550](https://github.com/universal-ctags/ctags/issues/1550) from masatake/output-option-in-json-output-mode\n
+* Merge pull request [#1553](https://github.com/universal-ctags/ctags/issues/1553) from vpereira/master\n
