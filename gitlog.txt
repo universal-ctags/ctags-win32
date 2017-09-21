@@ -1,1 +1,1 @@
-* Merge pull request [#1553](https://github.com/universal-ctags/ctags/issues/1553) from vpereira/master\n
+* Merge pull request [#1555](https://github.com/universal-ctags/ctags/issues/1555) from masatake/using-bamke-as-make\n
