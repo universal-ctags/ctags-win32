@@ -1,1 +1,1 @@
-* Merge pull request [#1555](https://github.com/universal-ctags/ctags/issues/1555) from masatake/using-bamke-as-make\n
+* Merge pull request [#1556](https://github.com/universal-ctags/ctags/issues/1556) from mqudsi/autogen\_compat\n
