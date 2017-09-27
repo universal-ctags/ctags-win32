@@ -1,1 +1,1 @@
-* Merge pull request [#1556](https://github.com/universal-ctags/ctags/issues/1556) from mqudsi/autogen\_compat\n
+* asm: Add .equiv and .quv defines ([#1557](https://github.com/universal-ctags/ctags/issues/1557))\n
