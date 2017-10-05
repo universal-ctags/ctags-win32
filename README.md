@@ -15,3 +15,9 @@ Four types of packages are provided:
 
 `{CommitID}` is a commit ID or a tag name of the [ctags repository](https://github.com/universal-ctags/ctags).
 Normally you may want to use the release builds. If you need unstripped binaries for debugging, use the debug builds.
+
+# License
+
+Universal Ctags itself (which is in the ctags subdirectory) is licensed under GPL 2 (or later).
+
+The build scripts in this repository are based on the [vim-win32-installer](https://github.com/vim/vim-win32-installer) project, and [the Vim license](http://vimhelp.appspot.com/uganda.txt.html#license) applies to them.
