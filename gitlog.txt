@@ -1,1 +1,1 @@
-* Merge pull request [#1567](https://github.com/universal-ctags/ctags/issues/1567) from masatake/trim-whitespace-prefixe-from-tagname\n
+* Merge pull request [#1519](https://github.com/universal-ctags/ctags/issues/1519) from masatake/portable-scandir-implementation\n* Merge pull request [#1578](https://github.com/universal-ctags/ctags/issues/1578) from sdwolf/fix/autogen-from-makefile\n
