@@ -16,6 +16,11 @@ Four types of packages are provided:
 `{CommitID}` is a commit ID or a tag name of the [ctags repository](https://github.com/universal-ctags/ctags).
 Normally you may want to use the release builds. If you need unstripped binaries for debugging, use the debug builds.
 
+# Note
+
+Starting from the build [2017-10-14/d9944ef9](https://github.com/universal-ctags/ctags-win32/releases/tag/2017-10-14%2Fd9944ef9), Universal Ctags doesn't load `~/.ctags` and other exuberant-ctags compatible configuration files.
+See `man/ctags.1.html` and `man/ctags-incompatibilities.7.html` in the zip packages. Also refer to [#1519](https://github.com/universal-ctags/ctags/pull/1519).
+
 # License
 
 Universal Ctags itself (which is in the ctags subdirectory) is licensed under GPL 2 (or later).
