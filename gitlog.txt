@@ -1,1 +1,1 @@
-* Merge commit 'f546df6' (main: invalidate output pattern cache when a sub stream is pushed)\n* cxx: use getLanguageKindName() in tracing code\n* main: add getLanguageKindName()\n
+* Merge pull request [#1595](https://github.com/universal-ctags/ctags/issues/1595) from masatake/puppet-README-for-test-cases\n
