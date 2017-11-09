@@ -1,1 +1,1 @@
-* Merge pull request [#1595](https://github.com/universal-ctags/ctags/issues/1595) from masatake/puppet-README-for-test-cases\n
+* Merge pull request [#1403](https://github.com/universal-ctags/ctags/issues/1403) from masatake/cxx-generic-reducer\n* Merge pull request [#1363](https://github.com/universal-ctags/ctags/issues/1363) from masatake/cxx-capture-array-var-in-parentheses\n* Merge pull request [#1586](https://github.com/universal-ctags/ctags/issues/1586) from masatake/sh-run-subparser-in-here-doc-area\n
