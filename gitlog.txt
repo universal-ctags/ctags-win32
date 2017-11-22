@@ -1,1 +1,1 @@
-* Merge pull request [#1594](https://github.com/universal-ctags/ctags/issues/1594) from b4n/misc-fixes\n* Merge pull request [#1590](https://github.com/universal-ctags/ctags/issues/1590) from masatake/cxx-digraph-or-template-angle-detection\n* Merge pull request [#1596](https://github.com/universal-ctags/ctags/issues/1596) from masatake/docs--write-about-CATEOGRIES-of-units-target\n
+* Merge pull request [#1602](https://github.com/universal-ctags/ctags/issues/1602) from masatake/vString-Usage-in-Rust-parser\n* Add AutoIt parser\n
