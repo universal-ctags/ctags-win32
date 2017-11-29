@@ -1,1 +1,1 @@
-* Merge pull request [#1602](https://github.com/universal-ctags/ctags/issues/1602) from masatake/vString-Usage-in-Rust-parser\n* Add AutoIt parser\n
+* Merge pull request [#1580](https://github.com/universal-ctags/ctags/issues/1580) from b4n/name-escape\n
