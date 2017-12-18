@@ -1,1 +1,1 @@
-* Merge pull request [#1597](https://github.com/universal-ctags/ctags/issues/1597) from masatake/QtMoc\n* Merge pull request [#1591](https://github.com/universal-ctags/ctags/issues/1591) from techee/go\_simplify\n* Merge pull request [#1614](https://github.com/universal-ctags/ctags/issues/1614) from Inform-Software/sandbox-futex\n
+* Merge pull request [#1617](https://github.com/universal-ctags/ctags/issues/1617) from masatake/fortran-submodule-support\n* Merge pull request [#1618](https://github.com/universal-ctags/ctags/issues/1618) from masatake/making-a-report\n
