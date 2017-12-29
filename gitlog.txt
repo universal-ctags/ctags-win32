@@ -1,1 +1,1 @@
-* Merge pull request [#1628](https://github.com/universal-ctags/ctags/issues/1628) from jannick0/patch-2\n* Merge pull request [#1626](https://github.com/universal-ctags/ctags/issues/1626) from jannick0/patch-1\n
+* Merge pull request [#1627](https://github.com/universal-ctags/ctags/issues/1627) from masatake/fix-about-seccomp-test-parser\n
