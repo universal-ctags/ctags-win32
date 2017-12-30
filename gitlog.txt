@@ -1,1 +1,1 @@
-* Merge pull request [#1627](https://github.com/universal-ctags/ctags/issues/1627) from masatake/fix-about-seccomp-test-parser\n
+* Merge pull request [#1630](https://github.com/universal-ctags/ctags/issues/1630) from masatake/dont-print-file-format-ptag-in-json-output\n* Merge pull request [#1629](https://github.com/universal-ctags/ctags/issues/1629) from jannick0/patch-3\n
