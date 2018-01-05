@@ -1,1 +1,1 @@
-* Merge pull request [#1643](https://github.com/universal-ctags/ctags/issues/1643) from pragmaware/fix-c++14-digit-separator-2\n
+* Merge pull request [#1650](https://github.com/universal-ctags/ctags/issues/1650) from masatake/fix-a-typo-in-desc-of-list-fields\n* Merge pull request [#1648](https://github.com/universal-ctags/ctags/issues/1648) from masatake/improve-error-message-printed-when-failing-to-open-tmp-file\n* Merge pull request [#1645](https://github.com/universal-ctags/ctags/issues/1645) from masatake/adding-debug-option-to-readtags\n
