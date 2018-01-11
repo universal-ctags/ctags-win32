@@ -1,1 +1,1 @@
-* Merge pull request [#1641](https://github.com/universal-ctags/ctags/issues/1641) from masatake/improve-roundtrip-test-harness--generic-part-of-b4n-s-work\n
+* Merge pull request [#1654](https://github.com/universal-ctags/ctags/issues/1654) from masatake/ada-remove-redundant-condition\n* Merge pull request [#1649](https://github.com/universal-ctags/ctags/issues/1649) from masatake/yacc--dont-call-readLineFromInputFile-from-callback-functions\n
