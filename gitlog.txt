@@ -1,1 +1,1 @@
-* Merge pull request [#1656](https://github.com/universal-ctags/ctags/issues/1656) from SiIky/master\n
+* Merge pull request [#1661](https://github.com/universal-ctags/ctags/issues/1661) from masatake/sh-fix-no-command-after-env\n
