@@ -1,1 +1,1 @@
-* Merge pull request [#1662](https://github.com/universal-ctags/ctags/issues/1662) from masatake/tcloo-fix-no-class-in-create\n* Merge pull request [#1660](https://github.com/universal-ctags/ctags/issues/1660) from pragmaware/fix-1659\n
+* Merge pull request [#1665](https://github.com/universal-ctags/ctags/issues/1665) from pragmaware/fix-1664\n
