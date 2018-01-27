@@ -1,1 +1,1 @@
-* Merge pull request [#1668](https://github.com/universal-ctags/ctags/issues/1668) from masatake/fix-a-typo-of-short-flag-for-extras-of-regex-option\n
+* Merge pull request [#1669](https://github.com/universal-ctags/ctags/issues/1669) from vrischmann/docs-interactive\n
