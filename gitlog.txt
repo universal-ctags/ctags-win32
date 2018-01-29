@@ -1,1 +1,1 @@
-* Merge pull request [#1669](https://github.com/universal-ctags/ctags/issues/1669) from vrischmann/docs-interactive\n
+* Merge pull request [#1663](https://github.com/universal-ctags/ctags/issues/1663) from masatake/ld-script-new-keywords\n* Merge pull request [#1667](https://github.com/universal-ctags/ctags/issues/1667) from pragmaware/improve-friend-declarations\n
