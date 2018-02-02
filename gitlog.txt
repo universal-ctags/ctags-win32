@@ -1,1 +1,1 @@
-* Merge pull request [#1670](https://github.com/universal-ctags/ctags/issues/1670) from pragmaware/improve-qt-header-parsing\n
+* Merge pull request [#1673](https://github.com/universal-ctags/ctags/issues/1673) from pragmaware/fix-1671\n
