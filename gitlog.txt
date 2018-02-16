@@ -1,1 +1,1 @@
-* Merge pull request [#1685](https://github.com/universal-ctags/ctags/issues/1685) from pragmaware/improve-struct-parsing\n
+* Merge pull request [#1691](https://github.com/universal-ctags/ctags/issues/1691) from masatake/fix-1686-json--null-output\n
