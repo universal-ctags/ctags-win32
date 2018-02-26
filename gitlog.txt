@@ -1,1 +1,1 @@
-* Merge pull request [#1693](https://github.com/universal-ctags/ctags/issues/1693) from masatake/fmt-optimization\n* Merge pull request [#1690](https://github.com/universal-ctags/ctags/issues/1690) from masatake/b4n-readtags-update-and-test-rebased-2\n* Merge pull request [#1692](https://github.com/universal-ctags/ctags/issues/1692) from masatake/cleanup-cxx-mem-leaks-3\n
+* Merge pull request [#1694](https://github.com/universal-ctags/ctags/issues/1694) from masatake/fix-typos-in-docs\n
