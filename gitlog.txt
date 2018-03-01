@@ -1,1 +1,1 @@
-* Merge pull request [#1694](https://github.com/universal-ctags/ctags/issues/1694) from masatake/fix-typos-in-docs\n
+* Merge pull request [#1698](https://github.com/universal-ctags/ctags/issues/1698) from masatake/python-wsgi-extension\n
