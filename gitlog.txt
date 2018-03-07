@@ -1,1 +1,1 @@
-* Merge pull request [#1695](https://github.com/universal-ctags/ctags/issues/1695) from masatake/man--optlib\n
+* Merge pull request [#1700](https://github.com/universal-ctags/ctags/issues/1700) from masatake/man-misc-fix\n
