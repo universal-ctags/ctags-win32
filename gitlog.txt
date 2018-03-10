@@ -1,1 +1,1 @@
-* Merge pull request [#1701](https://github.com/universal-ctags/ctags/issues/1701) from LemonBoy/ocaml-stack\n
+* Merge pull request [#1702](https://github.com/universal-ctags/ctags/issues/1702) from masatake/ocaml-delete-unused-kind\n* Merge pull request [#1703](https://github.com/universal-ctags/ctags/issues/1703) from masatake/man--fix-wrong-english\n* Merge pull request [#1704](https://github.com/universal-ctags/ctags/issues/1704) from masatake/make-field-name-alpha-only\n
