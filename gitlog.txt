@@ -1,1 +1,1 @@
-* Merge pull request [#1708](https://github.com/universal-ctags/ctags/issues/1708) from masatake/rename-multibyte-feature\n* Merge pull request [#1707](https://github.com/universal-ctags/ctags/issues/1707) from masatake/misc-change\n
+* Merge pull request [#1710](https://github.com/universal-ctags/ctags/issues/1710) from masatake/kinddef-tmain-test-case\n
