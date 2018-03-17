@@ -1,1 +1,1 @@
-* Merge pull request [#1710](https://github.com/universal-ctags/ctags/issues/1710) from masatake/kinddef-tmain-test-case\n
+* Merge pull request [#1709](https://github.com/universal-ctags/ctags/issues/1709) from masatake/refine-the-concept-of-role\n
