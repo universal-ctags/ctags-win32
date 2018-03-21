@@ -1,1 +1,1 @@
-* Merge pull request [#1709](https://github.com/universal-ctags/ctags/issues/1709) from masatake/refine-the-concept-of-role\n
+* Merge pull request [#1713](https://github.com/universal-ctags/ctags/issues/1713) from masatake/puppetManifest-varname\n
