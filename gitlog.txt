@@ -1,1 +1,1 @@
-* Merge pull request [#1713](https://github.com/universal-ctags/ctags/issues/1713) from masatake/puppetManifest-varname\n
+* Merge pull request [#1712](https://github.com/universal-ctags/ctags/issues/1712) from masatake/dynamic-role\n
