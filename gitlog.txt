@@ -1,1 +1,1 @@
-* Merge pull request [#1717](https://github.com/universal-ctags/ctags/issues/1717) from masatake/adding-\_-as-prefix-to-experimental-options\n* Merge pull request [#1718](https://github.com/universal-ctags/ctags/issues/1718) from masatake/qtmoc-wrong-struct-usage\n
+* Merge pull request [#1714](https://github.com/universal-ctags/ctags/issues/1714) from masatake/man--optlib\n
