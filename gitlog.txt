@@ -1,1 +1,1 @@
-* Merge pull request [#1720](https://github.com/universal-ctags/ctags/issues/1720) from masatake/fix-broken-links-in-web-doc\n
+* Merge pull request [#1726](https://github.com/universal-ctags/ctags/issues/1726) from masatake/circleci--fedora-and-centos\n* Merge pull request [#1725](https://github.com/universal-ctags/ctags/issues/1725) from masatake/circleci-build-fix\n* Merge pull request [#1722](https://github.com/universal-ctags/ctags/issues/1722) from masatake/split-help-output\n
