@@ -1,1 +1,1 @@
-* Merge pull request [#1726](https://github.com/universal-ctags/ctags/issues/1726) from masatake/circleci--fedora-and-centos\n* Merge pull request [#1725](https://github.com/universal-ctags/ctags/issues/1725) from masatake/circleci-build-fix\n* Merge pull request [#1722](https://github.com/universal-ctags/ctags/issues/1722) from masatake/split-help-output\n
+* Merge pull request [#1719](https://github.com/universal-ctags/ctags/issues/1719) from masatake/refine-mtable-regex-meta-parser\n
