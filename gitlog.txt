@@ -1,1 +1,1 @@
-* Merge pull request [#1719](https://github.com/universal-ctags/ctags/issues/1719) from masatake/refine-mtable-regex-meta-parser\n
+* Merge pull request [#1728](https://github.com/universal-ctags/ctags/issues/1728) from masatake/fix-man-page\n
