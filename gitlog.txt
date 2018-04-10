@@ -1,1 +1,1 @@
-* Merge pull request [#1728](https://github.com/universal-ctags/ctags/issues/1728) from masatake/fix-man-page\n
+* Merge pull request [#1723](https://github.com/universal-ctags/ctags/issues/1723) from masatake/anon-extra\n
