@@ -1,1 +1,1 @@
-* Merge pull request [#1723](https://github.com/universal-ctags/ctags/issues/1723) from masatake/anon-extra\n
+* Merge pull request [#1736](https://github.com/universal-ctags/ctags/issues/1736) from masatake/format-3\n* Merge pull request [#1729](https://github.com/universal-ctags/ctags/issues/1729) from masatake/capitalize-parser-names\n* Merge pull request [#1734](https://github.com/universal-ctags/ctags/issues/1734) from masatake/tambeta-ruby-assign-blocks\n
