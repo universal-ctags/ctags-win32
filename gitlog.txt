@@ -1,1 +1,1 @@
-* Merge pull request [#1742](https://github.com/universal-ctags/ctags/issues/1742) from masatake/fix-a-typo\n* Merge pull request [#1740](https://github.com/universal-ctags/ctags/issues/1740) from masatake/bool-and-boolean-literal\n* Merge pull request [#1733](https://github.com/universal-ctags/ctags/issues/1733) from masatake/sql--issue-1658\n
+* Merge pull request [#1744](https://github.com/universal-ctags/ctags/issues/1744) from masatake/github-issue-template\n
