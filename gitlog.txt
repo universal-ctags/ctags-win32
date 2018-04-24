@@ -1,1 +1,1 @@
-* Merge pull request [#1744](https://github.com/universal-ctags/ctags/issues/1744) from masatake/github-issue-template\n
+* Merge pull request [#1743](https://github.com/universal-ctags/ctags/issues/1743) from masatake/clojure-fix-namespace-handling\n
