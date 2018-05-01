@@ -1,1 +1,1 @@
-* Merge pull request [#1727](https://github.com/universal-ctags/ctags/issues/1727) from masatake/markdown\n* Merge pull request [#1745](https://github.com/universal-ctags/ctags/issues/1745) from universal-ctags/revert-1736-format-3\n
+* Merge pull request [#1747](https://github.com/universal-ctags/ctags/issues/1747) from masatake/cxx-handling-function-try-block\n
