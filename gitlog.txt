@@ -1,1 +1,1 @@
-* Merge pull request [#1749](https://github.com/universal-ctags/ctags/issues/1749) from pragmaware/better-handling-of-try-catch\n
+* Merge pull request [#1751](https://github.com/universal-ctags/ctags/issues/1751) from masatake/issue-template-using-quotes\n
