@@ -1,1 +1,1 @@
-* Merge pull request [#1752](https://github.com/universal-ctags/ctags/issues/1752) from masatake/cxx--fix-a-typo-in-comment\n
+* Merge pull request [#1755](https://github.com/universal-ctags/ctags/issues/1755) from masatake/misc-changes\n
