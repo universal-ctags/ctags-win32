@@ -1,1 +1,1 @@
-* Merge pull request [#1755](https://github.com/universal-ctags/ctags/issues/1755) from masatake/misc-changes\n
+* Merge pull request [#1756](https://github.com/universal-ctags/ctags/issues/1756) from masatake/booking-bugs\n* Merge pull request [#1757](https://github.com/universal-ctags/ctags/issues/1757) from masatake/readtags--handling-broken-input\n
