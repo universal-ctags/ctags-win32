@@ -1,1 +1,1 @@
-* Merge pull request [#1753](https://github.com/universal-ctags/ctags/issues/1753) from masatake/cxx--use-cxxTokenChainDestroyLast-macro\n
+* Merge pull request [#1759](https://github.com/universal-ctags/ctags/issues/1759) from pragmaware/fix-bug-1750-attempt-2\n
