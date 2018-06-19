@@ -1,1 +1,1 @@
-* Merge pull request [#1762](https://github.com/universal-ctags/ctags/issues/1762) from masatake/issue-655--FIX-Ubuntu-tmain-failure\n* Merge pull request [#1761](https://github.com/universal-ctags/ctags/issues/1761) from masatake/issue-655--Ubuntu-tmain-failure\n
+* Merge pull request [#1766](https://github.com/universal-ctags/ctags/issues/1766) from tambeta/ruby-assign-blocks-sigils\n
