@@ -1,1 +1,1 @@
-* Merge pull request [#1764](https://github.com/universal-ctags/ctags/issues/1764) from pragmaware/fix-1763\n
+* Merge pull request [#1769](https://github.com/universal-ctags/ctags/issues/1769) from masatake/dynamic-debug-print\n* Merge pull request [#1771](https://github.com/universal-ctags/ctags/issues/1771) from masatake/use--func--instead-of--PRETTY-FUNC--\n
