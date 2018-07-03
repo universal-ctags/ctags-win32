@@ -1,1 +1,1 @@
-* Merge pull request [#1776](https://github.com/universal-ctags/ctags/issues/1776) from masatake/add-doc-for-puppetManifest\n* Merge pull request [#1770](https://github.com/universal-ctags/ctags/issues/1770) from pragmaware/fix-1767\n
+* vim: parse functions with g: prefix ([#1780](https://github.com/universal-ctags/ctags/issues/1780))\n
