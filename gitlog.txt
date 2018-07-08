@@ -1,1 +1,1 @@
-* Merge pull request [#1782](https://github.com/universal-ctags/ctags/issues/1782) from pragmaware/fix-1781\n
+* Merge pull request [#1784](https://github.com/universal-ctags/ctags/issues/1784) from masatake/python-fix-wrong-role-assignment\n* Merge pull request [#1779](https://github.com/universal-ctags/ctags/issues/1779) from masatake/rst-target\n
