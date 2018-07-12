@@ -1,1 +1,1 @@
-* Merge pull request [#1789](https://github.com/universal-ctags/ctags/issues/1789) from masatake/misc-man-pages\n
+* Merge pull request [#1792](https://github.com/universal-ctags/ctags/issues/1792) from andebjor/clean\_matlab\_testcases\n* Merge pull request [#1791](https://github.com/universal-ctags/ctags/issues/1791) from andebjor/matlab\_classes\n
