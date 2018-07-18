@@ -1,1 +1,1 @@
-* Merge pull request [#1792](https://github.com/universal-ctags/ctags/issues/1792) from andebjor/clean\_matlab\_testcases\n* Merge pull request [#1791](https://github.com/universal-ctags/ctags/issues/1791) from andebjor/matlab\_classes\n
+* Merge pull request [#1795](https://github.com/universal-ctags/ctags/issues/1795) from pragmaware/fix-1787-1788\n
