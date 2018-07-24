@@ -1,1 +1,1 @@
-* Merge pull request [#1795](https://github.com/universal-ctags/ctags/issues/1795) from pragmaware/fix-1787-1788\n
+* Merge pull request [#1801](https://github.com/universal-ctags/ctags/issues/1801) from masatake/rpmspec-macro-ended-with-empty-line\n
