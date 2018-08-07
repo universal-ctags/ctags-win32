@@ -1,1 +1,1 @@
-* Merge pull request [#1809](https://github.com/universal-ctags/ctags/issues/1809) from universal-ctags/add-ctags-d-to-extra-dists\n
+* Merge pull request [#1807](https://github.com/universal-ctags/ctags/issues/1807) from b4n/utf8-pattern-truncation\n
