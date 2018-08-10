@@ -1,1 +1,1 @@
-* Merge pull request [#1807](https://github.com/universal-ctags/ctags/issues/1807) from b4n/utf8-pattern-truncation\n
+* Merge pull request [#1814](https://github.com/universal-ctags/ctags/issues/1814) from masatake/qtmoc-initialize-local-var\n
