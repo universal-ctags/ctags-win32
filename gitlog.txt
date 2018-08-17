@@ -1,1 +1,1 @@
-* Merge pull request [#1812](https://github.com/universal-ctags/ctags/issues/1812) from b4n/help/fields-and-extras\n
+* Merge pull request [#1827](https://github.com/universal-ctags/ctags/issues/1827) from hadrielk/hadriel/cmake-scoped-tags\n* Merge pull request [#1828](https://github.com/universal-ctags/ctags/issues/1828) from masatake/macros-for-printing-a-trace-line-incrementally\n
