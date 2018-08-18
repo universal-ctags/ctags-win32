@@ -1,1 +1,1 @@
-* Merge pull request [#1827](https://github.com/universal-ctags/ctags/issues/1827) from hadrielk/hadriel/cmake-scoped-tags\n* Merge pull request [#1828](https://github.com/universal-ctags/ctags/issues/1828) from masatake/macros-for-printing-a-trace-line-incrementally\n
+* Merge pull request [#1833](https://github.com/universal-ctags/ctags/issues/1833) from hadrielk/1832-cxx-costexpr-variables\n* Merge pull request [#1831](https://github.com/universal-ctags/ctags/issues/1831) from hadrielk/fix-cmake.c\n
