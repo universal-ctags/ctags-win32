@@ -1,1 +1,1 @@
-* Merge pull request [#1833](https://github.com/universal-ctags/ctags/issues/1833) from hadrielk/1832-cxx-costexpr-variables\n* Merge pull request [#1831](https://github.com/universal-ctags/ctags/issues/1831) from hadrielk/fix-cmake.c\n
+* Merge pull request [#1836](https://github.com/universal-ctags/ctags/issues/1836) from hadrielk/add-cmake-parser-doc\n
