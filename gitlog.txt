@@ -1,1 +1,1 @@
-* Merge pull request [#1825](https://github.com/universal-ctags/ctags/issues/1825) from masatake/line-oriented-fypp-parser\n* Merge pull request [#1860](https://github.com/universal-ctags/ctags/issues/1860) from hadrielk/invalid-asciidoc-anchors\n
+* Merge pull request [#1862](https://github.com/universal-ctags/ctags/issues/1862) from masatake/fix-memleak-in-regex-table-name\n
