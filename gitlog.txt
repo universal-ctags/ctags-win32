@@ -1,1 +1,1 @@
-* Merge pull request [#1862](https://github.com/universal-ctags/ctags/issues/1862) from masatake/fix-memleak-in-regex-table-name\n
+* Merge pull request [#1863](https://github.com/universal-ctags/ctags/issues/1863) from masatake/remove-dead-code\n
