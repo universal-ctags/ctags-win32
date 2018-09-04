@@ -1,1 +1,1 @@
-* Merge pull request [#1863](https://github.com/universal-ctags/ctags/issues/1863) from masatake/remove-dead-code\n
+* Merge pull request [#1850](https://github.com/universal-ctags/ctags/issues/1850) from b4n/use-vstringcat-when-possible\n* Merge pull request [#1849](https://github.com/universal-ctags/ctags/issues/1849) from b4n/vstring/faster-cat\n
