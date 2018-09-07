@@ -1,1 +1,1 @@
-* Merge pull request [#1848](https://github.com/universal-ctags/ctags/issues/1848) from b4n/parser/tex\n
+* Merge pull request [#1855](https://github.com/universal-ctags/ctags/issues/1855) from hadrielk/make-simple-tag-queue-to-cork\n* Merge pull request [#1854](https://github.com/universal-ctags/ctags/issues/1854) from hadrielk/disabled-kind-scoping\n
