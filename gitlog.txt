@@ -1,1 +1,1 @@
-* Merge pull request [#1875](https://github.com/universal-ctags/ctags/issues/1875) from masatake/ifdef-debug\n
+* Merge pull request [#1872](https://github.com/universal-ctags/ctags/issues/1872) from masatake/unit-accept-underscore-in-input-name\n* Merge pull request [#1826](https://github.com/universal-ctags/ctags/issues/1826) from hadrielk/hadriel/docs-optlib\n
