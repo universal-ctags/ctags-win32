@@ -1,1 +1,1 @@
-* Merge pull request [#1876](https://github.com/universal-ctags/ctags/issues/1876) from masatake/go-fill-more-fields-for-func\n
+* Merge pull request [#1881](https://github.com/universal-ctags/ctags/issues/1881) from masatake/fix-typo-in-trace-code\n* Merge pull request [#1879](https://github.com/universal-ctags/ctags/issues/1879) from masatake/fix-invalid-java-test-input\n
