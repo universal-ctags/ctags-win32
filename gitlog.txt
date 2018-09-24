@@ -1,1 +1,1 @@
-* Merge pull request [#1873](https://github.com/universal-ctags/ctags/issues/1873) from masatake/unify-makeSimpleRefTag-and-makeSimpleTag\n
+* Merge pull request [#1880](https://github.com/universal-ctags/ctags/issues/1880) from masatake/go-imported-role-for-package-kind\n
