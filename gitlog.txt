@@ -1,1 +1,1 @@
-* Merge pull request [#1880](https://github.com/universal-ctags/ctags/issues/1880) from masatake/go-imported-role-for-package-kind\n
+* Merge pull request [#1888](https://github.com/universal-ctags/ctags/issues/1888) from masatake/optlib2c-escape-braces\n* Merge pull request [#1886](https://github.com/universal-ctags/ctags/issues/1886) from masatake/ada-suppress-compiler-warning\n
