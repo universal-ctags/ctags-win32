@@ -1,1 +1,1 @@
-* Merge pull request [#1888](https://github.com/universal-ctags/ctags/issues/1888) from masatake/optlib2c-escape-braces\n* Merge pull request [#1886](https://github.com/universal-ctags/ctags/issues/1886) from masatake/ada-suppress-compiler-warning\n
+* Merge pull request [#1882](https://github.com/universal-ctags/ctags/issues/1882) from masatake/rpmspec-dont-readahead\n
