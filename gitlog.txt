@@ -1,1 +1,1 @@
-* Merge pull request [#1892](https://github.com/universal-ctags/ctags/issues/1892) from masatake/sql-remove-old-debug-code\n
+* Merge pull request [#1908](https://github.com/universal-ctags/ctags/issues/1908) from ahakanbaba/puppetManifest-verify-test-input\n* Merge pull request [#1906](https://github.com/universal-ctags/ctags/issues/1906) from ahakanbaba/puppetManifest-class-definition-name-underscore\n
