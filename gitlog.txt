@@ -1,1 +1,1 @@
-* ObjectiveC: capture functions with leading underscore\n* Merge pull request [#1893](https://github.com/universal-ctags/ctags/issues/1893) from fwmechanic/win32-case-insensitive-fnm-cmp\n
+* Merge pull request [#1913](https://github.com/universal-ctags/ctags/issues/1913) from masatake/puppetManifest-optimization\n* Merge pull request [#1910](https://github.com/universal-ctags/ctags/issues/1910) from masatake/puppetManifest-local-var\n* Merge pull request [#1907](https://github.com/universal-ctags/ctags/issues/1907) from masatake/verilog-dont-use-cpreprocessor-parser\n
