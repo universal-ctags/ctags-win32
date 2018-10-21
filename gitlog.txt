@@ -1,1 +1,1 @@
-* docs(web): remove a "NOT REVIEWED YET" marker\n* docs(web): Refers ctags-optlib(7) man page\n* docs(web): write about \_autoFQTag langdef flags\n* docs(web): trim trailing whitespaces\n* Units: add a case for testing \_autoFQTag langdef flag\n* optlib2c: support autoFQTag langdef flag\n* main: add \_autoFQTag langdef flag\n* docs(web): Fix a dangling reference\n
+* Merge pull request [#1922](https://github.com/universal-ctags/ctags/issues/1922) from razum2um/master\n
