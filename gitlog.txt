@@ -1,1 +1,1 @@
-* Merge pull request [#1923](https://github.com/universal-ctags/ctags/issues/1923) from razum2um/master\n
+* Merge pull request [#1921](https://github.com/universal-ctags/ctags/issues/1921) from masatake/verify-input-base\n
