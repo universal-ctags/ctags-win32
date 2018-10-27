@@ -1,1 +1,1 @@
-* Merge pull request [#1921](https://github.com/universal-ctags/ctags/issues/1921) from masatake/verify-input-base\n
+* Merge pull request [#1927](https://github.com/universal-ctags/ctags/issues/1927) from ditsara/docs-docker-build\n
