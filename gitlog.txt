@@ -1,1 +1,1 @@
-* Merge pull request [#1925](https://github.com/universal-ctags/ctags/issues/1925) from masatake/cleanup-inclusions\n
+* Merge pull request [#1930](https://github.com/universal-ctags/ctags/issues/1930) from masatake/rename--verifier--to--validator\n* Merge pull request [#1929](https://github.com/universal-ctags/ctags/issues/1929) from masatake/update-circleci-budge\n
