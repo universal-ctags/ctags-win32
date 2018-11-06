@@ -1,1 +1,1 @@
-* Merge pull request [#1930](https://github.com/universal-ctags/ctags/issues/1930) from masatake/rename--verifier--to--validator\n* Merge pull request [#1929](https://github.com/universal-ctags/ctags/issues/1929) from masatake/update-circleci-budge\n
+* Merge pull request [#1931](https://github.com/universal-ctags/ctags/issues/1931) from edigaryev/correct-xmalloc-usage\n
