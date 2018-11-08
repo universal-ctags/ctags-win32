@@ -1,1 +1,1 @@
-* Merge pull request [#1931](https://github.com/universal-ctags/ctags/issues/1931) from edigaryev/correct-xmalloc-usage\n
+* Merge pull request [#1926](https://github.com/universal-ctags/ctags/issues/1926) from masatake/verify-input-pr\n
