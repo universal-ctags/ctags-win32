@@ -1,1 +1,1 @@
-* Merge pull request [#1926](https://github.com/universal-ctags/ctags/issues/1926) from masatake/verify-input-pr\n
+* Merge pull request [#1934](https://github.com/universal-ctags/ctags/issues/1934) from masatake/cleanup-inclusions-2\n* Merge pull request [#1938](https://github.com/universal-ctags/ctags/issues/1938) from andreasbaumann/seccomp32\n
