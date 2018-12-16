@@ -1,1 +1,1 @@
-* Merge pull request [#1945](https://github.com/universal-ctags/ctags/issues/1945) from b4n/various-warnings\n
+* Merge pull request [#1954](https://github.com/universal-ctags/ctags/issues/1954) from b4n/cxx/opeartor-not-lambda\n* Merge pull request [#1953](https://github.com/universal-ctags/ctags/issues/1953) from masatake/add-missing-makefile-entry-lregex\_p\_h\n
