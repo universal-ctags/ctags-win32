@@ -1,1 +1,1 @@
-* Merge pull request [#1966](https://github.com/universal-ctags/ctags/issues/1966) from techee/cxx\_lambda\_fix\n
+* Merge pull request [#1965](https://github.com/universal-ctags/ctags/issues/1965) from pragmaware/fix-c++-public-protected-private-parsing\n
