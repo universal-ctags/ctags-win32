@@ -1,1 +1,1 @@
-* Merge pull request [#1965](https://github.com/universal-ctags/ctags/issues/1965) from pragmaware/fix-c++-public-protected-private-parsing\n
+* Merge pull request [#1964](https://github.com/universal-ctags/ctags/issues/1964) from masatake/cleanup-inclusions\n
