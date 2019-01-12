@@ -1,1 +1,1 @@
-* Merge pull request [#1968](https://github.com/universal-ctags/ctags/issues/1968) from masatake/cxx-capture-parameter-s-default-value-as-part-of-signature\n
+* CXX: More complete support for $ in C/C++ identifiers\n
