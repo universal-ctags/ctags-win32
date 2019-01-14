@@ -1,1 +1,1 @@
-* CXX: More complete support for $ in C/C++ identifiers\n
+* Merge pull request [#1973](https://github.com/universal-ctags/ctags/issues/1973) from masatake/remove-buildFqTagCache-method-from-tagWriter\n* Merge pull request [#1972](https://github.com/universal-ctags/ctags/issues/1972) from masatake/man-more-ext\n
