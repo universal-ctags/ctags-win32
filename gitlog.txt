@@ -1,1 +1,1 @@
-* Merge pull request [#1977](https://github.com/universal-ctags/ctags/issues/1977) from masatake/fix-readtags-dsl-or-operator\n
+* Merge pull request [#1976](https://github.com/universal-ctags/ctags/issues/1976) from masatake/objc-cateogry\n
