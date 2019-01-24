@@ -1,1 +1,1 @@
-* Merge pull request [#1976](https://github.com/universal-ctags/ctags/issues/1976) from masatake/objc-cateogry\n
+* Merge pull request [#1980](https://github.com/universal-ctags/ctags/issues/1980) from masatake/rpmspec-add-alias-for-emacs-mode\n
