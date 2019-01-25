@@ -1,1 +1,1 @@
-* Merge pull request [#1980](https://github.com/universal-ctags/ctags/issues/1980) from masatake/rpmspec-add-alias-for-emacs-mode\n
+* Merge pull request [#1974](https://github.com/universal-ctags/ctags/issues/1974) from masatake/go-fill-more-fields-rework-no-fqwork\n
