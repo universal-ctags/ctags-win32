@@ -1,1 +1,1 @@
-* Merge pull request [#1974](https://github.com/universal-ctags/ctags/issues/1974) from masatake/go-fill-more-fields-rework-no-fqwork\n
+* php: Do not get fooled by keywords used in class context\n
