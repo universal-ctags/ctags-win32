@@ -1,1 +1,1 @@
-* php: Do not get fooled by keywords used in class context\n
+* Merge pull request [#1970](https://github.com/universal-ctags/ctags/issues/1970) from masatake/systemtap-parser\n* Merge pull request [#1989](https://github.com/universal-ctags/ctags/issues/1989) from masatake/js-getter-and-setter\n* Merge pull request [#1990](https://github.com/universal-ctags/ctags/issues/1990) from masatake/emacs-editting-mode\n
