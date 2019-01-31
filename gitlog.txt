@@ -1,1 +1,1 @@
-* Merge pull request [#1984](https://github.com/universal-ctags/ctags/issues/1984) from masatake/go-fill-more-fields-rework-no-fqwork\n
+* Merge pull request [#1975](https://github.com/universal-ctags/ctags/issues/1975) from masatake/separator-for-optlib\n
