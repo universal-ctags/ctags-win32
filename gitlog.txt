@@ -1,1 +1,1 @@
-* Merge pull request [#1996](https://github.com/universal-ctags/ctags/issues/1996) from masatake/support-more-translators\n* Merge pull request [#1992](https://github.com/universal-ctags/ctags/issues/1992) from masatake/php-use-anonGenerate-func\n
+* Merge pull request [#1994](https://github.com/universal-ctags/ctags/issues/1994) from masatake/html-script-kind\n* Merge pull request [#1997](https://github.com/universal-ctags/ctags/issues/1997) from masatake/go-dont-record-underscore\n
