@@ -1,1 +1,1 @@
-* PHP,comment: update comments for parseFunction\n* Merge pull request [#1987](https://github.com/universal-ctags/ctags/issues/1987) from masatake/php-fill-typeref-field-for-function\n* Merge pull request [#2002](https://github.com/universal-ctags/ctags/issues/2002) from masatake/ldscript-update-map\n
+* Merge pull request [#2008](https://github.com/universal-ctags/ctags/issues/2008) from masatake/go-dont-solve-type-for-underscore-variable\n
