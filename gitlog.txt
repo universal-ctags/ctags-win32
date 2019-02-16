@@ -1,1 +1,1 @@
-* JavaScript: capture dynamically computed property names ([#1993](https://github.com/universal-ctags/ctags/issues/1993))\n* Merge pull request [#2003](https://github.com/universal-ctags/ctags/issues/2003) from masatake/go-type-alias\n* Merge pull request [#2004](https://github.com/universal-ctags/ctags/issues/2004) from masatake/dbus-overhaul\n
+* main,doc(man): fix typos ([#2011](https://github.com/universal-ctags/ctags/issues/2011))\n
