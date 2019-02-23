@@ -1,1 +1,1 @@
-* Merge pull request [#2012](https://github.com/universal-ctags/ctags/issues/2012) from masatake/generic-xml-parser\n
+* Merge pull request [#2015](https://github.com/universal-ctags/ctags/issues/2015) from masatake/accept-spcace-in-ectags-output\n
