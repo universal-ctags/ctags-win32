@@ -1,1 +1,1 @@
-* Merge pull request [#2015](https://github.com/universal-ctags/ctags/issues/2015) from masatake/accept-spcace-in-ectags-output\n
+* Merge pull request [#2006](https://github.com/universal-ctags/ctags/issues/2006) from masatake/varlink-parser-no-newjava\n
