@@ -1,1 +1,1 @@
-* Merge pull request [#2006](https://github.com/universal-ctags/ctags/issues/2006) from masatake/varlink-parser-no-newjava\n
+* Merge pull request [#2007](https://github.com/universal-ctags/ctags/issues/2007) from masatake/js-fq-name-after-new-op\n
