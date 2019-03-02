@@ -1,1 +1,1 @@
-* Merge pull request [#2007](https://github.com/universal-ctags/ctags/issues/2007) from masatake/js-fq-name-after-new-op\n
+* Merge pull request [#2022](https://github.com/universal-ctags/ctags/issues/2022) from dreamtigers/optlib2c/doublequote\n* Merge pull request [#2019](https://github.com/universal-ctags/ctags/issues/2019) from masatake/optimize-readtags\n* Merge pull request [#2018](https://github.com/universal-ctags/ctags/issues/2018) from masatake/js-improve-debug-infra\n
