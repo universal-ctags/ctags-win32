@@ -1,1 +1,1 @@
-* Merge pull request [#2016](https://github.com/universal-ctags/ctags/issues/2016) from masatake/handle-tab-in-parser-specific-fields\n
+* Merge pull request [#2023](https://github.com/universal-ctags/ctags/issues/2023) from dreamtigers/docs-typo\n
