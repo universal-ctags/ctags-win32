@@ -1,1 +1,1 @@
-* Merge pull request [#2023](https://github.com/universal-ctags/ctags/issues/2023) from dreamtigers/docs-typo\n
+* Merge pull request [#2027](https://github.com/universal-ctags/ctags/issues/2027) from masatake/update-optlib2c-based-on-dreamtigers-work\n
