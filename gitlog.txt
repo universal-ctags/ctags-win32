@@ -1,1 +1,1 @@
-* Merge pull request [#2034](https://github.com/universal-ctags/ctags/issues/2034) from masatake/dreamtigers-elixir-optlib+masatake\n
+* Merge pull request [#2035](https://github.com/universal-ctags/ctags/issues/2035) from k-takata/use-git-subtree\n
