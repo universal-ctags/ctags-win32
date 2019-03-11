@@ -1,1 +1,1 @@
-* Merge pull request [#2035](https://github.com/universal-ctags/ctags/issues/2035) from k-takata/use-git-subtree\n
+* Merge pull request [#2031](https://github.com/universal-ctags/ctags/issues/2031) from masatake/ci-out-of-tree-building\n* Merge pull request [#2028](https://github.com/universal-ctags/ctags/issues/2028) from masatake/xml-capture-nsprefix\n
