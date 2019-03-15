@@ -1,1 +1,1 @@
-* Merge pull request [#2044](https://github.com/universal-ctags/ctags/issues/2044) from dreamtigers/elixir/comma\n
+* Merge pull request [#2045](https://github.com/universal-ctags/ctags/issues/2045) from endersstocker/access-elixir\n
