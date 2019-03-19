@@ -1,1 +1,1 @@
-* Merge pull request [#2045](https://github.com/universal-ctags/ctags/issues/2045) from endersstocker/access-elixir\n
+* Merge pull request [#2037](https://github.com/universal-ctags/ctags/issues/2037) from masatake/readtags-refactor-for-adding-sorter\n* Merge pull request [#2047](https://github.com/universal-ctags/ctags/issues/2047) from endersstocker/elixir/fix-protocol-scope\n* Merge pull request [#2046](https://github.com/universal-ctags/ctags/issues/2046) from endersstocker/elixir/type\n
