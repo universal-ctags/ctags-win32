@@ -1,1 +1,1 @@
-* Merge pull request [#2052](https://github.com/universal-ctags/ctags/issues/2052) from k-takata/doc-packcc\n
+* Merge pull request [#2056](https://github.com/universal-ctags/ctags/issues/2056) from blueyed/ci-minor\n
