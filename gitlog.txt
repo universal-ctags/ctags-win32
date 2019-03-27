@@ -1,1 +1,1 @@
-* Merge pull request [#2056](https://github.com/universal-ctags/ctags/issues/2056) from blueyed/ci-minor\n
+* Merge pull request [#2054](https://github.com/universal-ctags/ctags/issues/2054) from masatake/fix-2053-dont-access-parser-field-directly-from-json-writer\n
