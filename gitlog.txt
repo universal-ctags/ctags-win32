@@ -1,1 +1,1 @@
-* Merge pull request [#2073](https://github.com/universal-ctags/ctags/issues/2073) from latricewilgus/issue2072\_interactive\n* Merge pull request [#2071](https://github.com/universal-ctags/ctags/issues/2071) from akrzyz/ttcn-templates\n
+* Merge pull request [#2075](https://github.com/universal-ctags/ctags/issues/2075) from masatake/fixing-lcoveralls-percent-char\n
