@@ -1,1 +1,1 @@
-* Merge pull request [#2064](https://github.com/universal-ctags/ctags/issues/2064) from masatake/typescript-with-input-wrapper\n
+* Merge pull request [#2077](https://github.com/universal-ctags/ctags/issues/2077) from masatake/developer-guideline\n
