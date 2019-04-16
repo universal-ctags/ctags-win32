@@ -1,1 +1,1 @@
-* ttcn: fix parsing string that contains double quotes escaped by backslash or double quotes   ([#2078](https://github.com/universal-ctags/ctags/issues/2078))\n
+* Merge pull request [#2081](https://github.com/universal-ctags/ctags/issues/2081) from masatake/update-help-option-and-man-pages\n
