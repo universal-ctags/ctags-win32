@@ -1,1 +1,1 @@
-* Merge pull request [#2025](https://github.com/universal-ctags/ctags/issues/2025) from masatake/anonymous-tag-in-optlib\n* Merge pull request [#2080](https://github.com/universal-ctags/ctags/issues/2080) from masatake/allow-to-disbale-fixed-fieds-in-json-writer\n
+* Merge pull request [#2083](https://github.com/universal-ctags/ctags/issues/2083) from ksamborski/typescript-cork\n
