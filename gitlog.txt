@@ -1,1 +1,1 @@
-* Merge pull request [#2083](https://github.com/universal-ctags/ctags/issues/2083) from ksamborski/typescript-cork\n
+* Merge pull request [#2082](https://github.com/universal-ctags/ctags/issues/2082) from masatake/drop-snap\n
