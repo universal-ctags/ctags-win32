@@ -1,1 +1,1 @@
-* Merge pull request [#2082](https://github.com/universal-ctags/ctags/issues/2082) from masatake/drop-snap\n
+* Merge pull request [#2086](https://github.com/universal-ctags/ctags/issues/2086) from techee/warning\_fix\n
