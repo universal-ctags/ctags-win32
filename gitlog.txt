@@ -1,1 +1,1 @@
-* Merge pull request [#2086](https://github.com/universal-ctags/ctags/issues/2086) from techee/warning\_fix\n
+* Merge pull request [#2032](https://github.com/universal-ctags/ctags/issues/2032) from dreamtigers/docs/optlib\n* Merge pull request [#2088](https://github.com/universal-ctags/ctags/issues/2088) from masatake/more-mini\_geany\n* Merge pull request [#2091](https://github.com/universal-ctags/ctags/issues/2091) from masatake/make-make-dist-work\n
