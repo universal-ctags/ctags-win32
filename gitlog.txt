@@ -1,1 +1,1 @@
-* Merge pull request [#2070](https://github.com/universal-ctags/ctags/issues/2070) from masatake/perl-moose\n* Merge pull request [#2094](https://github.com/universal-ctags/ctags/issues/2094) from YorickPeterse/master\n
+* Merge pull request [#2090](https://github.com/universal-ctags/ctags/issues/2090) from ksamborski/typescript-perf\n* Merge pull request [#2097](https://github.com/universal-ctags/ctags/issues/2097) from masatake/tag-relative-option-with-no-argument\n
