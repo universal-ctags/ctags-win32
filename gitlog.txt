@@ -1,1 +1,1 @@
-* Merge pull request [#2090](https://github.com/universal-ctags/ctags/issues/2090) from ksamborski/typescript-perf\n* Merge pull request [#2097](https://github.com/universal-ctags/ctags/issues/2097) from masatake/tag-relative-option-with-no-argument\n
+* Merge pull request [#2095](https://github.com/universal-ctags/ctags/issues/2095) from masatake/objc-ignore-extern-c\n
