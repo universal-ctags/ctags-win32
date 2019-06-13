@@ -1,1 +1,1 @@
-* Merge pull request [#2102](https://github.com/universal-ctags/ctags/issues/2102) from techee/external\_parser\_list\n* Merge pull request [#2084](https://github.com/universal-ctags/ctags/issues/2084) from b4n/parser/flex-as\n* Merge pull request [#2100](https://github.com/universal-ctags/ctags/issues/2100) from techee/dirent\n* Merge pull request [#2099](https://github.com/universal-ctags/ctags/issues/2099) from masatake/extend-total-option\n
+* Merge pull request [#2112](https://github.com/universal-ctags/ctags/issues/2112) from standby24x7/cxx\_parse-typo-fix\n
