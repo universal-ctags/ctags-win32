@@ -1,1 +1,1 @@
-* Merge pull request [#2114](https://github.com/universal-ctags/ctags/issues/2114) from standby24x7/fix-typo-doublewords\n* Merge pull request [#2113](https://github.com/universal-ctags/ctags/issues/2113) from YorickPeterse/master\n
+* Merge pull request [#2116](https://github.com/universal-ctags/ctags/issues/2116) from standby24x7/fix-typo-disabled\n
