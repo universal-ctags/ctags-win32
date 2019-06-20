@@ -1,1 +1,1 @@
-* Merge pull request [#2116](https://github.com/universal-ctags/ctags/issues/2116) from standby24x7/fix-typo-disabled\n
+* Merge pull request [#2117](https://github.com/universal-ctags/ctags/issues/2117) from ksamborski/typescript-semicolon\n
