@@ -1,1 +1,1 @@
-* Merge pull request [#2117](https://github.com/universal-ctags/ctags/issues/2117) from ksamborski/typescript-semicolon\n
+* Merge pull request [#2110](https://github.com/universal-ctags/ctags/issues/2110) from masatake/markdown-GFM-codeblock\n
