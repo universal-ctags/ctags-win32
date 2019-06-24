@@ -1,1 +1,1 @@
-* Merge pull request [#2109](https://github.com/universal-ctags/ctags/issues/2109) from masatake/perl-moose-and-moo\n* Merge pull request [#2120](https://github.com/universal-ctags/ctags/issues/2120) from masatake/CPreProcessor-newline-in-arglist-of-macrodef\n
+* Merge pull request [#2124](https://github.com/universal-ctags/ctags/issues/2124) from standby24x7/manpage-typo\n
