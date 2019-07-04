@@ -1,1 +1,1 @@
-* Merge pull request [#2124](https://github.com/universal-ctags/ctags/issues/2124) from standby24x7/manpage-typo\n
+* Merge pull request [#2129](https://github.com/universal-ctags/ctags/issues/2129) from pragmaware/cxx-multidimensional-array-parameters\n
