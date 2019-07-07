@@ -1,1 +1,1 @@
-* Merge pull request [#2125](https://github.com/universal-ctags/ctags/issues/2125) from clausmoltkeleth/master\n
+* Merge pull request [#2121](https://github.com/universal-ctags/ctags/issues/2121) from masatake/CPreProcessor-newline-in-arglist-of-macrodef\n
