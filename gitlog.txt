@@ -1,1 +1,1 @@
-* Merge pull request [#2121](https://github.com/universal-ctags/ctags/issues/2121) from masatake/CPreProcessor-newline-in-arglist-of-macrodef\n
+* Merge pull request [#2131](https://github.com/universal-ctags/ctags/issues/2131) from masatake/protobuf-package\n* Merge pull request [#2122](https://github.com/universal-ctags/ctags/issues/2122) from masatake/reject-printing-newline-in-ectags-output-format\n
