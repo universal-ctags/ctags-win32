@@ -1,1 +1,1 @@
-* Merge pull request [#2136](https://github.com/universal-ctags/ctags/issues/2136) from k-takata/fix-eol\n* BibTex: new parser ([#2137](https://github.com/universal-ctags/ctags/issues/2137))\n
+* Merge pull request [#2111](https://github.com/universal-ctags/ctags/issues/2111) from masatake/json-limit-depth-of-recursion\n
