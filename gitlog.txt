@@ -1,1 +1,1 @@
-* Merge pull request [#2145](https://github.com/universal-ctags/ctags/issues/2145) from masatake/NSIS-GPLv2\n
+* Merge pull request [#2151](https://github.com/universal-ctags/ctags/issues/2151) from k-takata/win32-remove-boolean\n* Merge pull request [#2150](https://github.com/universal-ctags/ctags/issues/2150) from k-takata/mingw-update-makefile\n* Merge pull request [#2148](https://github.com/universal-ctags/ctags/issues/2148) from k-takata/update-developers\n* Merge pull request [#2147](https://github.com/universal-ctags/ctags/issues/2147) from k-takata/refine-appveyor\n
