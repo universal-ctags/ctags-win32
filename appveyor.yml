@@ -5,7 +5,7 @@ environment:
     DEPLOY_USER_NAME: 'ctags-win32 CI'
     DEPLOY_USER_EMAIL: 'ctags-win32-ci@users.noreply.github.com'
     CI_KEY:
-      secure: LaecAZTo7wMBnPJEKX5CJjFvbfStmZNk+tWTQP9k4M93jLfuPDBnCu30Ktmt0Kdn
+      secure: lDGFwcq2G99xSBX+CQPzJdZyYI4YJ5mwx7sZiHckT46u51oTfMuYxHVQnPSoPrDV
 
   matrix:
     - compiler: msys2
