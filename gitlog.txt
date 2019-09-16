@@ -1,1 +1,1 @@
-* Merge pull request [#2191](https://github.com/universal-ctags/ctags/issues/2191) from masatake/optlib-scss-parser\n
+* Merge pull request [#1737](https://github.com/universal-ctags/ctags/issues/1737) from masatake/strict-naming-rules\n
