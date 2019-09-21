@@ -1,1 +1,1 @@
-* docs(web): fix a typo\n* Merge pull request [#2197](https://github.com/universal-ctags/ctags/issues/2197) from masatake/fix-unexpected-regex-kind-in-list-kinds\n* Merge pull request [#2196](https://github.com/universal-ctags/ctags/issues/2196) from masatake/run-dtd-as-guest\n
+* Update running-multi-parsers.rst\n
