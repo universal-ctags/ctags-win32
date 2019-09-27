@@ -1,1 +1,1 @@
-* Merge pull request [#2204](https://github.com/universal-ctags/ctags/issues/2204) from k-takata/use-getdrive\n
+* Merge pull request [#2206](https://github.com/universal-ctags/ctags/issues/2206) from masatake/revise-autogen\n
