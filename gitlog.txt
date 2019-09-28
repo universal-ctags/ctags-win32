@@ -1,1 +1,1 @@
-* Merge pull request [#2206](https://github.com/universal-ctags/ctags/issues/2206) from masatake/revise-autogen\n
+* Merge pull request [#2208](https://github.com/universal-ctags/ctags/issues/2208) from k-takata/fix-typo\n
