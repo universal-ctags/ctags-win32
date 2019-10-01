@@ -1,1 +1,1 @@
-* Merge pull request [#2213](https://github.com/universal-ctags/ctags/issues/2213) from masatake/include-man-pages-to-web-doc\n* Merge pull request [#2209](https://github.com/universal-ctags/ctags/issues/2209) from masatake/format-5-man-page\n
+* Merge pull request [#2214](https://github.com/universal-ctags/ctags/issues/2214) from k-takata/fix-typo\n
