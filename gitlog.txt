@@ -1,1 +1,1 @@
-* Merge pull request [#2214](https://github.com/universal-ctags/ctags/issues/2214) from k-takata/fix-typo\n
+* Merge pull request [#2218](https://github.com/universal-ctags/ctags/issues/2218) from k-takata/update-docs\n
