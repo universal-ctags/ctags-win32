@@ -1,1 +1,1 @@
-* Merge pull request [#2218](https://github.com/universal-ctags/ctags/issues/2218) from k-takata/update-docs\n
+* Merge pull request [#2212](https://github.com/universal-ctags/ctags/issues/2212) from masatake/macrodef\n* Merge pull request [#2199](https://github.com/universal-ctags/ctags/issues/2199) from masatake/use-slash-as-filename-separator\n* Merge pull request [#2219](https://github.com/universal-ctags/ctags/issues/2219) from masatake/circleci-centos8\n
