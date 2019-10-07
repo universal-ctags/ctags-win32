@@ -1,1 +1,1 @@
-* Merge pull request [#2223](https://github.com/universal-ctags/ctags/issues/2223) from masatake/go-fix-2220\n
+* Merge pull request [#2225](https://github.com/universal-ctags/ctags/issues/2225) from k-takata/update-gitignore\n* Merge pull request [#2226](https://github.com/universal-ctags/ctags/issues/2226) from k-takata/update-urls\n* Merge pull request [#2224](https://github.com/universal-ctags/ctags/issues/2224) from masatake/fix-unexpected-regex-kind-in-list-kinds\n
