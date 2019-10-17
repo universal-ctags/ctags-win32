@@ -1,1 +1,1 @@
-* Merge pull request [#2237](https://github.com/universal-ctags/ctags/issues/2237) from k-takata/update-editorconfig\n* Merge pull request [#2236](https://github.com/universal-ctags/ctags/issues/2236) from k-takata/update-gitignore\n
+* Merge pull request [#2238](https://github.com/universal-ctags/ctags/issues/2238) from k-takata/make-units-faster\n
