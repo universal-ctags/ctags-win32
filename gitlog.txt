@@ -1,1 +1,1 @@
-* Merge pull request [#2238](https://github.com/universal-ctags/ctags/issues/2238) from k-takata/make-units-faster\n
+* Merge pull request [#2243](https://github.com/universal-ctags/ctags/issues/2243) from k-takata/dont-execute-a-test-twice\n* Merge pull request [#2239](https://github.com/universal-ctags/ctags/issues/2239) from masatake/misc-fix\n
