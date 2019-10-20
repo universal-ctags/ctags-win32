@@ -1,1 +1,1 @@
-* Merge pull request [#2245](https://github.com/universal-ctags/ctags/issues/2245) from k-takata/remove-modeline-vs-2gram\n
+* Merge pull request [#2246](https://github.com/universal-ctags/ctags/issues/2246) from k-takata/appveyor-enable-all-on-cygwin\n
