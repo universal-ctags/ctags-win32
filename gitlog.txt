@@ -1,1 +1,1 @@
-* optlib2c: fix a typo in comment\n
+* Merge pull request [#2249](https://github.com/universal-ctags/ctags/issues/2249) from k-takata/win32-mkstemp-workaround\n* Merge pull request [#2250](https://github.com/universal-ctags/ctags/issues/2250) from k-takata/adjust-configure-message\n* Merge pull request [#2251](https://github.com/universal-ctags/ctags/issues/2251) from k-takata/fix-typo\n
