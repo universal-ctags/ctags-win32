@@ -1,1 +1,1 @@
-* Merge pull request [#2254](https://github.com/universal-ctags/ctags/issues/2254) from k-takata/delete-unnecessary-filter\n* Merge pull request [#2255](https://github.com/universal-ctags/ctags/issues/2255) from k-takata/docs-update-units\n* units: store regex pattern to variable\n* main: make fq tags only if the original tag is writable\n* Merge pull request [#2235](https://github.com/universal-ctags/ctags/issues/2235) from k-takata/suppress-mingw-warnings\n
+* Merge pull request [#2257](https://github.com/universal-ctags/ctags/issues/2257) from k-takata/readme-https\n
