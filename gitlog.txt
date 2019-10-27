@@ -1,1 +1,1 @@
-* Merge pull request [#2258](https://github.com/universal-ctags/ctags/issues/2258) from k-takata/enable-static\n* Merge pull request [#2260](https://github.com/universal-ctags/ctags/issues/2260) from k-takata/reduce-makefiles\n
+* Merge pull request [#2262](https://github.com/universal-ctags/ctags/issues/2262) from k-takata/speed-up-filter\_by\_column\_index\n
