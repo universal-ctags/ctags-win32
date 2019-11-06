@@ -1,1 +1,1 @@
-* Merge pull request [#2298](https://github.com/universal-ctags/ctags/issues/2298) from k-takata/fix-distcheck2\n
+* Merge pull request [#2299](https://github.com/universal-ctags/ctags/issues/2299) from k-takata/add-dirs-to-extra\_dist\n* Merge pull request [#2300](https://github.com/universal-ctags/ctags/issues/2300) from k-takata/parsers-suppress-warnings\n
