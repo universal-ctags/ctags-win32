@@ -22,6 +22,8 @@ Normally you may want to use the release builds. If you need unstripped binaries
 Starting from the build [2017-10-14/d9944ef9](https://github.com/universal-ctags/ctags-win32/releases/tag/2017-10-14%2Fd9944ef9), Universal Ctags doesn't load `~/.ctags` and other exuberant-ctags compatible configuration files.
 See `man/ctags.1.html` and `man/ctags-incompatibilities.7.html` in the zip packages. Also refer to [#1519](https://github.com/universal-ctags/ctags/pull/1519).
 
+Starting from the build [2019-10-03/70b44e7d](https://github.com/universal-ctags/ctags-win32/releases/tag/2019-10-03%2F70b44e7d), the default directory separator has been changed from `\\` to `/`. This should improve the compatibilities to Exuberant Ctags, however if you still have a compatibility issue, try `--output-format=e-ctags` option. Also refer to [#2199](https://github.com/universal-ctags/ctags/pull/2199) and [#1325](https://github.com/universal-ctags/ctags/issues/1325).
+
 # License
 
 Universal Ctags itself (which is in the ctags subdirectory) is licensed under GPL 2 (or later).
