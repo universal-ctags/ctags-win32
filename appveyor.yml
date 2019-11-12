@@ -42,6 +42,7 @@ before_deploy:
 deploy:
   - provider: GitHub
     description: |
+      ![Github Downloads (by Release)](https://img.shields.io/github/downloads/$(APPVEYOR_REPO_NAME)/$(APPVEYOR_REPO_TAG_NAME)/total.svg)
       Universal Ctags Win32 daily builds ([more information](https://ctags.io)).
 
       ### Changes:
