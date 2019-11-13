@@ -1,1 +1,1 @@
-* Merge pull request [#2316](https://github.com/universal-ctags/ctags/issues/2316) from k-takata/mention-ubuntu\n* Merge pull request [#2314](https://github.com/universal-ctags/ctags/issues/2314) from masatake/make--lang-kinds-option-obsolte\n* Merge pull request [#2315](https://github.com/universal-ctags/ctags/issues/2315) from plv/racket-support\n
+* Merge pull request [#2317](https://github.com/universal-ctags/ctags/issues/2317) from k-takata/fix-escaping-backslash\n
