@@ -1,1 +1,1 @@
-* Merge pull request [#2319](https://github.com/universal-ctags/ctags/issues/2319) from masatake/set-usecork-for-parsers-using-cpreproc\n* Merge pull request [#2318](https://github.com/universal-ctags/ctags/issues/2318) from masatake/remove-subword-extra-and-ispell-features\n
+* Merge pull request [#2322](https://github.com/universal-ctags/ctags/issues/2322) from k-takata/fix-2321\n
