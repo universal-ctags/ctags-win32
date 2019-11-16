@@ -1,1 +1,1 @@
-* Merge pull request [#2322](https://github.com/universal-ctags/ctags/issues/2322) from k-takata/fix-2321\n
+* Merge pull request [#2326](https://github.com/universal-ctags/ctags/issues/2326) from albfan/shrink-typo\n* Merge pull request [#2324](https://github.com/universal-ctags/ctags/issues/2324) from masatake/extend-fuzz-timeout\n* Merge pull request [#2323](https://github.com/universal-ctags/ctags/issues/2323) from masatake/fix-typos-in-comments\n
