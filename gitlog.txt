@@ -1,1 +1,1 @@
-* Merge pull request [#2331](https://github.com/universal-ctags/ctags/issues/2331) from k-takata/fix-typo\n* Merge pull request [#2332](https://github.com/universal-ctags/ctags/issues/2332) from masatake/minor-tokeninfo-fixes\n* Merge pull request [#2327](https://github.com/universal-ctags/ctags/issues/2327) from masatake/reject-more-non-alnum-chars-in-langdef\n
+* Merge pull request [#2334](https://github.com/universal-ctags/ctags/issues/2334) from k-takata/link-manpages\n
