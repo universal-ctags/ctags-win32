@@ -1,1 +1,1 @@
-* Merge pull request [#2336](https://github.com/universal-ctags/ctags/issues/2336) from k-takata/fix-typo\n* Merge pull request [#2337](https://github.com/universal-ctags/ctags/issues/2337) from k-takata/fix-double-hypen\n* Merge pull request [#2333](https://github.com/universal-ctags/ctags/issues/2333) from masatake/webdoc-remove-sections\n* Merge pull request [#2338](https://github.com/universal-ctags/ctags/issues/2338) from k-takata/docs-windows-testing\n
+* Merge pull request [#2340](https://github.com/universal-ctags/ctags/issues/2340) from k-takata/fix-backslash\n
