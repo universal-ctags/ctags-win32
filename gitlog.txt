@@ -1,1 +1,1 @@
-* Merge pull request [#2340](https://github.com/universal-ctags/ctags/issues/2340) from k-takata/fix-backslash\n
+* Merge pull request [#2344](https://github.com/universal-ctags/ctags/issues/2344) from k-takata/update-units\n
