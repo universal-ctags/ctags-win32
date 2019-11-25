@@ -1,1 +1,1 @@
-* Merge pull request [#2344](https://github.com/universal-ctags/ctags/issues/2344) from k-takata/update-units\n
+* Merge pull request [#2342](https://github.com/universal-ctags/ctags/issues/2342) from k-takata/fix-help\n* Merge pull request [#2335](https://github.com/universal-ctags/ctags/issues/2335) from masatake/optlib2c-kinddef-handling\n
