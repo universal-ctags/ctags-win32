@@ -1,1 +1,1 @@
-* Merge pull request [#2342](https://github.com/universal-ctags/ctags/issues/2342) from k-takata/fix-help\n* Merge pull request [#2335](https://github.com/universal-ctags/ctags/issues/2335) from masatake/optlib2c-kinddef-handling\n
+* Merge pull request [#2347](https://github.com/universal-ctags/ctags/issues/2347) from k-takata/gen-sed-rules\n
