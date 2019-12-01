@@ -1,1 +1,1 @@
-* Merge pull request [#2268](https://github.com/universal-ctags/ctags/issues/2268) from masatake/sql--issue-2266-reserved-word-predication\n* Merge pull request [#2349](https://github.com/universal-ctags/ctags/issues/2349) from k-takata/man-use-links\n
+* Merge pull request [#2353](https://github.com/universal-ctags/ctags/issues/2353) from masatake/use-kinddef-in-man-optlib-parser\n
