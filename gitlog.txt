@@ -1,1 +1,1 @@
-* Merge pull request [#2357](https://github.com/universal-ctags/ctags/issues/2357) from masatake/optlib2c-more-strict-fielddef-and-extradef\n
+* Merge pull request [#2360](https://github.com/universal-ctags/ctags/issues/2360) from k-takata/win32-add-resource\n
