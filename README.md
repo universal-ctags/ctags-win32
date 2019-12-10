@@ -24,6 +24,8 @@ See `man/ctags.1.html` and `man/ctags-incompatibilities.7.html` in the zip packa
 
 Starting from the build [2019-10-03/70b44e7d](https://github.com/universal-ctags/ctags-win32/releases/tag/2019-10-03%2F70b44e7d), the default directory separator has been changed from `\\` to `/`. This should improve the compatibilities to Exuberant Ctags, however if you still have a compatibility issue, try `--output-format=e-ctags` option. Also refer to [#2199](https://github.com/universal-ctags/ctags/pull/2199) and [#1325](https://github.com/universal-ctags/ctags/issues/1325).
 
+Starting from the build [2019-12-10/9f494f08](https://github.com/universal-ctags/ctags-win32/releases/tag/2019-12-10%2F9f494f08), Universal Ctags uses [the UTF-8 code page](https://docs.microsoft.com/en-us/windows/uwp/design/globalizing/use-utf8-code-page) on Windows 10 version 1903 or later. This allows you to use Unicode file names on u-ctags. Also refer to [#2360](https://github.com/universal-ctags/ctags/pull/2360) and [#1837](https://github.com/universal-ctags/ctags/issues/1837).
+
 # License
 
 Universal Ctags itself (which is in the ctags subdirectory) is licensed under GPL 2 (or later).
