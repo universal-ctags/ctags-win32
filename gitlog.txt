@@ -1,1 +1,1 @@
-* Merge pull request [#2365](https://github.com/universal-ctags/ctags/issues/2365) from k-takata/adjust-rst2man\n* Merge pull request [#2366](https://github.com/universal-ctags/ctags/issues/2366) from k-takata/use-copyrightmark\n* Merge pull request [#2363](https://github.com/universal-ctags/ctags/issues/2363) from masatake/fix-2358\n
+* Merge pull request [#2354](https://github.com/universal-ctags/ctags/issues/2354) from masatake/misc-doc-fix\n
