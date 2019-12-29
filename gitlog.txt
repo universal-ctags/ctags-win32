@@ -1,1 +1,1 @@
-* Merge pull request [#2377](https://github.com/universal-ctags/ctags/issues/2377) from masatake/circleci-fedora31\n
+* Merge pull request [#2386](https://github.com/universal-ctags/ctags/issues/2386) from masatake/masatake--itchyny-support-xdg-config-home\n
