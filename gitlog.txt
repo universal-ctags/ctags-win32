@@ -1,1 +1,1 @@
-* Merge pull request [#2386](https://github.com/universal-ctags/ctags/issues/2386) from masatake/masatake--itchyny-support-xdg-config-home\n
+* Merge pull request [#2388](https://github.com/universal-ctags/ctags/issues/2388) from masatake/cleanup-diff-files-in-units-py\n
