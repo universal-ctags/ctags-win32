@@ -1,1 +1,1 @@
-* Merge pull request [#2388](https://github.com/universal-ctags/ctags/issues/2388) from masatake/cleanup-diff-files-in-units-py\n
+* Merge pull request [#2387](https://github.com/universal-ctags/ctags/issues/2387) from masatake/revise-role-related-options\n
