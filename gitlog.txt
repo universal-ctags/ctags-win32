@@ -1,1 +1,1 @@
-* Merge pull request [#2390](https://github.com/universal-ctags/ctags/issues/2390) from masatake/rst-citation\n* Merge pull request [#2391](https://github.com/universal-ctags/ctags/issues/2391) from masatake/fix-type-mismatching-in-lregex\n
+* Merge pull request [#2392](https://github.com/universal-ctags/ctags/issues/2392) from masatake/protobuf-signature-and-typeref\n
