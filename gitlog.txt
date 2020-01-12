@@ -1,1 +1,1 @@
-* Merge pull request [#2392](https://github.com/universal-ctags/ctags/issues/2392) from masatake/protobuf-signature-and-typeref\n
+* Merge pull request [#2395](https://github.com/universal-ctags/ctags/issues/2395) from pragmaware/fix-bug-2394\n
