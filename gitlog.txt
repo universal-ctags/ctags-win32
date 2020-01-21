@@ -1,1 +1,1 @@
-* Merge pull request [#2395](https://github.com/universal-ctags/ctags/issues/2395) from pragmaware/fix-bug-2394\n
+* Merge pull request [#2383](https://github.com/universal-ctags/ctags/issues/2383) from masatake/ada-skip-overriding-keyword\n
