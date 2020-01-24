@@ -1,1 +1,1 @@
-* Merge pull request [#2383](https://github.com/universal-ctags/ctags/issues/2383) from masatake/ada-skip-overriding-keyword\n
+* Merge pull request [#2401](https://github.com/universal-ctags/ctags/issues/2401) from masatake/ada-capture-entries-after-with-in-type\n
