@@ -1,1 +1,1 @@
-* Merge pull request [#2401](https://github.com/universal-ctags/ctags/issues/2401) from masatake/ada-capture-entries-after-with-in-type\n
+* Merge pull request [#2405](https://github.com/universal-ctags/ctags/issues/2405) from masatake/update-message-of--help-option\n* Merge pull request [#2403](https://github.com/universal-ctags/ctags/issues/2403) from masatake/perl-pod-after-end-marker\n
