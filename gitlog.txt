@@ -1,1 +1,1 @@
-* Merge pull request [#2406](https://github.com/universal-ctags/ctags/issues/2406) from masatake/fill-scope-field-of-markdown\n
+* Merge pull request [#2414](https://github.com/universal-ctags/ctags/issues/2414) from masatake/fix-tokeninfo-broken-initializer\n* Merge pull request [#2411](https://github.com/universal-ctags/ctags/issues/2411) from masatake/fix-field-name-combination\n
