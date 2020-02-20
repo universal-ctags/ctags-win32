@@ -1,1 +1,1 @@
-* Merge pull request [#2426](https://github.com/universal-ctags/ctags/issues/2426) from masatake/minor-improvement\n
+* Merge pull request [#2429](https://github.com/universal-ctags/ctags/issues/2429) from masatake/accept--kinds-all=F-option\n* Merge pull request [#2425](https://github.com/universal-ctags/ctags/issues/2425) from masatake/emacs-lisp\n* Merge pull request [#2389](https://github.com/universal-ctags/ctags/issues/2389) from masatake/improve-docs-and-man-pages-1\n
