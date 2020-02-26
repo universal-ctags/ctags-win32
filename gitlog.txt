@@ -1,1 +1,1 @@
-* Merge pull request [#2424](https://github.com/universal-ctags/ctags/issues/2424) from masatake/tex-beamer\n* Merge pull request [#2436](https://github.com/universal-ctags/ctags/issues/2436) from pragmaware/fix-bug-2433\n
+* Merge pull request [#2438](https://github.com/universal-ctags/ctags/issues/2438) from masatake/markdown-use-two-dquotes-as-scope-separator\n
