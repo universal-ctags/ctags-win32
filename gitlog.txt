@@ -1,1 +1,1 @@
-* Merge pull request [#2442](https://github.com/universal-ctags/ctags/issues/2442) from masatake/make-shrinker-work\n* Merge pull request [#2440](https://github.com/universal-ctags/ctags/issues/2440) from mattn/yaml-xml\n
+* Merge pull request [#2444](https://github.com/universal-ctags/ctags/issues/2444) from k-takata/use-priuptr\n
