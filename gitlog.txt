@@ -1,1 +1,1 @@
-* Merge pull request [#2446](https://github.com/universal-ctags/ctags/issues/2446) from pragmaware/more-work-on-templates-2\n
+* Merge pull request [#2457](https://github.com/universal-ctags/ctags/issues/2457) from masatake/improve-misc-review-script\n* Merge pull request [#2453](https://github.com/universal-ctags/ctags/issues/2453) from masatake/foreign-reftag\n* Merge pull request [#2449](https://github.com/universal-ctags/ctags/issues/2449) from masatake/extend-hashtable-API\n
