@@ -1,1 +1,1 @@
-* Merge pull request [#2461](https://github.com/universal-ctags/ctags/issues/2461) from pragmaware/fix-an-unit-test\n* Merge pull request [#2458](https://github.com/universal-ctags/ctags/issues/2458) from pragmaware/fix-array-type\n* Merge pull request [#2456](https://github.com/universal-ctags/ctags/issues/2456) from masatake/Cxx-fill-end-field-for-variable-kind\n
+* Merge pull request [#2455](https://github.com/universal-ctags/ctags/issues/2455) from masatake/Tcl--fill-signature-field\n
