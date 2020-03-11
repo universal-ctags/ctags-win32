@@ -1,1 +1,1 @@
-* Merge pull request [#2455](https://github.com/universal-ctags/ctags/issues/2455) from masatake/Tcl--fill-signature-field\n
+* Merge pull request [#2462](https://github.com/universal-ctags/ctags/issues/2462) from pragmaware/fix-preprocessor-branching\n
