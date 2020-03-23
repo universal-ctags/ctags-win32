@@ -1,1 +1,1 @@
-* Merge pull request [#2466](https://github.com/universal-ctags/ctags/issues/2466) from masatake/use-libreadtags\n
+* Merge pull request [#2467](https://github.com/universal-ctags/ctags/issues/2467) from masatake/rpmspec--patch-declare-role\n* Merge pull request [#2459](https://github.com/universal-ctags/ctags/issues/2459) from masatake/revise-pseudo-tags\n
