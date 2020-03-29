@@ -1,1 +1,1 @@
-* Merge pull request [#2468](https://github.com/universal-ctags/ctags/issues/2468) from masatake/readtags-extend-API-for-pseudo-tags\n
+* Merge pull request [#2472](https://github.com/universal-ctags/ctags/issues/2472) from masatake/revise-readtags-cmdline-interface\n
