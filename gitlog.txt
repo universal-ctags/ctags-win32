@@ -1,1 +1,1 @@
-* Merge pull request [#2477](https://github.com/universal-ctags/ctags/issues/2477) from masatake/readtags-downcase-op\n
+* Merge pull request [#2478](https://github.com/universal-ctags/ctags/issues/2478) from masatake/ruby-mixin-include\n
