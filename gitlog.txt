@@ -1,1 +1,1 @@
-* Merge pull request [#2478](https://github.com/universal-ctags/ctags/issues/2478) from masatake/ruby-mixin-include\n
+* Merge pull request [#2482](https://github.com/universal-ctags/ctags/issues/2482) from masatake/ruby-mixin-fix-typo\n* Merge pull request [#2481](https://github.com/universal-ctags/ctags/issues/2481) from AmaiKinono/ruby-mixin\n
