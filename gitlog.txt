@@ -1,1 +1,1 @@
-* Merge pull request [#2450](https://github.com/universal-ctags/ctags/issues/2450) from masatake/rbtree-based-symbol-table\n* Merge pull request [#2487](https://github.com/universal-ctags/ctags/issues/2487) from masatake/ruby-attr\n
+* Merge pull request [#2492](https://github.com/universal-ctags/ctags/issues/2492) from masatake/systemverilog-typedef-lookup\n
