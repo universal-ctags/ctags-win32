@@ -1,1 +1,1 @@
-* Merge pull request [#2492](https://github.com/universal-ctags/ctags/issues/2492) from masatake/systemverilog-typedef-lookup\n
+* Merge pull request [#2491](https://github.com/universal-ctags/ctags/issues/2491) from masatake/systemverilog-multi-dim-array\n
