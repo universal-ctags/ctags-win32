@@ -1,1 +1,1 @@
-* Merge pull request [#2503](https://github.com/universal-ctags/ctags/issues/2503) from masatake/ruby-single-quotes-string-literal\n* Merge pull request [#2502](https://github.com/universal-ctags/ctags/issues/2502) from masatake/readtags-begin-operator\n* Merge pull request [#2500](https://github.com/universal-ctags/ctags/issues/2500) from AmaiKinono/readtags-upcase-op\n
+* Merge pull request [#2506](https://github.com/universal-ctags/ctags/issues/2506) from masatake/go-use-symtab\n
