@@ -1,1 +1,1 @@
-* Merge pull request [#2506](https://github.com/universal-ctags/ctags/issues/2506) from masatake/go-use-symtab\n
+* Merge pull request [#2505](https://github.com/universal-ctags/ctags/issues/2505) from masatake/sql-suppress-null-tag-warning\n
