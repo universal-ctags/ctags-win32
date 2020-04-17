@@ -1,1 +1,1 @@
-* Merge pull request [#2510](https://github.com/universal-ctags/ctags/issues/2510) from masatake/update-libreadtags\n
+* Merge pull request [#2511](https://github.com/universal-ctags/ctags/issues/2511) from masatake/readtags-printer\n
