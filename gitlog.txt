@@ -1,1 +1,1 @@
-* Merge pull request [#2511](https://github.com/universal-ctags/ctags/issues/2511) from masatake/readtags-printer\n
+* Merge pull request [#2515](https://github.com/universal-ctags/ctags/issues/2515) from masatake/rename-readtags-cmd-dir\n* Merge pull request [#2513](https://github.com/universal-ctags/ctags/issues/2513) from masatake/readtags-rename-option\n
