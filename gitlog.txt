@@ -1,1 +1,1 @@
-* Merge pull request [#2507](https://github.com/universal-ctags/ctags/issues/2507) from masatake/protobuf-scope-field\n* Merge pull request [#2516](https://github.com/universal-ctags/ctags/issues/2516) from masatake/printtags-default-stream\n
+* Merge pull request [#2518](https://github.com/universal-ctags/ctags/issues/2518) from masatake/protobuf-proto3\n
