@@ -1,1 +1,1 @@
-* Merge pull request [#2520](https://github.com/universal-ctags/ctags/issues/2520) from masatake/go-receiver-kind\n* Merge pull request [#2517](https://github.com/universal-ctags/ctags/issues/2517) from pragmaware/improve-end-tag\n
+* Merge pull request [#2519](https://github.com/universal-ctags/ctags/issues/2519) from masatake/readtags-dsl\n
