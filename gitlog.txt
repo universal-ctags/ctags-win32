@@ -1,1 +1,1 @@
-* Merge pull request [#2519](https://github.com/universal-ctags/ctags/issues/2519) from masatake/readtags-dsl\n
+* Merge pull request [#2521](https://github.com/universal-ctags/ctags/issues/2521) from masatake/readtags-alias-for-true-and-false\n
