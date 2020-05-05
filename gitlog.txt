@@ -1,1 +1,1 @@
-* Cxx: destroy the token returned from cxxTagCheckAndSetTypeField() for fixing memory leak\n
+* parsers,main: handle the cae when getEntryInCorkQueue() return NULL\n* Typescript: remove is-null conditions prefixed at vStringDelete invocations\n* main: use int for representing cork queue indexes\n
