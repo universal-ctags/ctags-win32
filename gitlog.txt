@@ -1,1 +1,1 @@
-* Merge pull request [#2452](https://github.com/universal-ctags/ctags/issues/2452) from masatake/R-rewrite\n
+* Merge pull request [#2536](https://github.com/universal-ctags/ctags/issues/2536) from pragmaware/improve-template-parsing-2\n
