@@ -1,1 +1,1 @@
-* Merge pull request [#2536](https://github.com/universal-ctags/ctags/issues/2536) from pragmaware/improve-template-parsing-2\n
+* Merge pull request [#2529](https://github.com/universal-ctags/ctags/issues/2529) from masatake/cxx-fix-memory-leak-in-field-attaching\n
