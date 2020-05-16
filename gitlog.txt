@@ -1,1 +1,1 @@
-* Merge pull request [#2529](https://github.com/universal-ctags/ctags/issues/2529) from masatake/cxx-fix-memory-leak-in-field-attaching\n
+* CXX: Avoid stack overflow with recursive macros or broken input ([#2539](https://github.com/universal-ctags/ctags/issues/2539))\n
