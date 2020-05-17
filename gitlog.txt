@@ -1,1 +1,1 @@
-* CXX: Avoid stack overflow with recursive macros or broken input ([#2539](https://github.com/universal-ctags/ctags/issues/2539))\n
+* Merge pull request [#2546](https://github.com/universal-ctags/ctags/issues/2546) from masatake/docs-man-readtags-stub\n
