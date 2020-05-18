@@ -1,1 +1,1 @@
-* Merge pull request [#2546](https://github.com/universal-ctags/ctags/issues/2546) from masatake/docs-man-readtags-stub\n
+* Merge pull request [#2549](https://github.com/universal-ctags/ctags/issues/2549) from AmaiKinono/readtags-fix-typo\n
