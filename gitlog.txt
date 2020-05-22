@@ -1,1 +1,1 @@
-* Merge pull request [#2550](https://github.com/universal-ctags/ctags/issues/2550) from masatake/readtags-manpage-minor-work\n* Merge pull request [#2543](https://github.com/universal-ctags/ctags/issues/2543) from masatake/cpreprocessor-infile-macro-expanding\n
+* Merge pull request [#2552](https://github.com/universal-ctags/ctags/issues/2552) from standby24x7/fix-typo\n
