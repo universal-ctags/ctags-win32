@@ -1,1 +1,1 @@
-* Merge pull request [#2552](https://github.com/universal-ctags/ctags/issues/2552) from standby24x7/fix-typo\n
+* Merge pull request [#2556](https://github.com/universal-ctags/ctags/issues/2556) from masatake/asm-improve-label-capturing\n* Merge pull request [#2555](https://github.com/universal-ctags/ctags/issues/2555) from masatake/ruby-skip-methods-for-visibility-controll\n
