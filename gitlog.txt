@@ -1,1 +1,1 @@
-* Merge pull request [#2563](https://github.com/universal-ctags/ctags/issues/2563) from masatake/perl-moose-role\n* Merge pull request [#2551](https://github.com/universal-ctags/ctags/issues/2551) from masatake/readtags-regex-match\n
+* Merge pull request [#2568](https://github.com/universal-ctags/ctags/issues/2568) from AmaiKinono/readtags-manpage\n
