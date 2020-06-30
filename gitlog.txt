@@ -1,1 +1,1 @@
-* Merge pull request [#2575](https://github.com/universal-ctags/ctags/issues/2575) from ddrone/patch-1\n
+* Merge pull request [#2577](https://github.com/universal-ctags/ctags/issues/2577) from masatake/php-typed-props\n* Merge pull request [#2578](https://github.com/universal-ctags/ctags/issues/2578) from masatake/i386\n
