@@ -1,1 +1,1 @@
-* Merge pull request [#2581](https://github.com/universal-ctags/ctags/issues/2581) from masatake/sql-ignore--create-extension\n* Merge pull request [#2584](https://github.com/universal-ctags/ctags/issues/2584) from masatake/circleci-i386-workaround\n
+* CXX: Avoid accessing token after it has been destroyed ([#2586](https://github.com/universal-ctags/ctags/issues/2586))\n
