@@ -1,1 +1,1 @@
-* Merge pull request [#2579](https://github.com/universal-ctags/ctags/issues/2579) from masatake/enabling-disabling-roles\n* Merge pull request [#2593](https://github.com/universal-ctags/ctags/issues/2593) from lacygoill/vim-const\n
+* Merge pull request [#2595](https://github.com/universal-ctags/ctags/issues/2595) from masatake/unused-code-in-cofingure-ac\n* Merge pull request [#2594](https://github.com/universal-ctags/ctags/issues/2594) from masatake/vim-signature\n
