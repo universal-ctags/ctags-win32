@@ -1,1 +1,1 @@
-* Merge pull request [#2595](https://github.com/universal-ctags/ctags/issues/2595) from masatake/unused-code-in-cofingure-ac\n* Merge pull request [#2594](https://github.com/universal-ctags/ctags/issues/2594) from masatake/vim-signature\n
+* Merge pull request [#2597](https://github.com/universal-ctags/ctags/issues/2597) from ploxiln/configure\_typo\_fix\n
