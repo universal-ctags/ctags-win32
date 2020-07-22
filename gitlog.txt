@@ -1,1 +1,1 @@
-* Merge pull request [#2597](https://github.com/universal-ctags/ctags/issues/2597) from ploxiln/configure\_typo\_fix\n
+* Merge pull request [#2600](https://github.com/universal-ctags/ctags/issues/2600) from masatake/readtags-length-op\n
