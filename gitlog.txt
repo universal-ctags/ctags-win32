@@ -1,1 +1,1 @@
-* Merge pull request [#2600](https://github.com/universal-ctags/ctags/issues/2600) from masatake/readtags-length-op\n
+* Merge pull request [#2605](https://github.com/universal-ctags/ctags/issues/2605) from masatake/ldscript-fix-map-pattern\n
