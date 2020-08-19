@@ -1,1 +1,1 @@
-* Merge pull request [#2614](https://github.com/universal-ctags/ctags/issues/2614) from masatake/ignore-unreadable-input-files\n
+* Merge pull request [#2616](https://github.com/universal-ctags/ctags/issues/2616) from masatake/revise-role-related-options\n
