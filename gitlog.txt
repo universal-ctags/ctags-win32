@@ -1,1 +1,1 @@
-* Merge pull request [#2616](https://github.com/universal-ctags/ctags/issues/2616) from masatake/revise-role-related-options\n
+* Merge pull request [#2625](https://github.com/universal-ctags/ctags/issues/2625) from masatake/tcl-github-issue-2624\n
