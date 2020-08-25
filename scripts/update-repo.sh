@@ -15,7 +15,7 @@ if [ ! -f appveyor.yml ]; then
 fi
 
 git checkout master
-git pull --no-edit
+git pull --no-edit --ff-only
 
 if [ ! -d ctags/src ]; then
 	git submodule init
@@ -25,7 +25,7 @@ git submodule update
 # Get the latest ctags source code
 cd ctags
 git checkout master
-git pull --no-edit
+git pull --no-edit --ff-only
 ctagsver=$(git describe --tags --always)
 cd ..
 ctagslog=$(git submodule summary | grep '^  > ')
