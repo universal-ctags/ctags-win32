@@ -1,5 +1,7 @@
 version: "1.0.{build}"
 
+image: Visual Studio 2019
+
 environment:
   global:
     DEPLOY_USER_NAME: 'ctags-win32 CI'
