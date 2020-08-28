@@ -1,1 +1,1 @@
-* Merge pull request [#2621](https://github.com/universal-ctags/ctags/issues/2621) from masatake/fix-the-way-to-handle-malloc-0\n
+* Merge pull request [#2631](https://github.com/universal-ctags/ctags/issues/2631) from masatake/sql-shart-as-coment-starter\n* Merge pull request [#2630](https://github.com/universal-ctags/ctags/issues/2630) from masatake/ruby-improve-parsing-signatures\n
