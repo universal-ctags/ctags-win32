@@ -1,1 +1,1 @@
-* Merge pull request [#2631](https://github.com/universal-ctags/ctags/issues/2631) from masatake/sql-shart-as-coment-starter\n* Merge pull request [#2630](https://github.com/universal-ctags/ctags/issues/2630) from masatake/ruby-improve-parsing-signatures\n
+* Merge pull request [#2613](https://github.com/universal-ctags/ctags/issues/2613) from masatake/python-typerefs\n
