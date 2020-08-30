@@ -1,1 +1,1 @@
-* Merge pull request [#2613](https://github.com/universal-ctags/ctags/issues/2613) from masatake/python-typerefs\n
+* Merge pull request [#2629](https://github.com/universal-ctags/ctags/issues/2629) from masatake/tcl-var-recognition\n
