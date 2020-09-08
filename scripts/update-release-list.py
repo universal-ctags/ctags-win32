@@ -41,7 +41,7 @@ def get_latest_rel():
     rel = ''
     with open(files[-1]) as f:
         for l in f:
-            m = re.match(r'^\* \[(v\d+\.\d+\.\d+)\]', l)
+            m = re.match(r'^\* \[([^]]+)\]', l)
             if m:
                 rel = m.group(1)
     if rel == '':
@@ -71,7 +71,7 @@ def write_new_rels(new_rels, latest_rel):
                 last_y = m1.group(1)
                 last_m = m1.group(2)
             else:
-                m2 = re.match(r'^\* \[(v\d+\.\d+\.\d+)\]', l)
+                m2 = re.match(r'^\* \[([^]]+)\]', l)
                 if m2.group(1) == latest_rel:
                     lines += [l]
                     break
