@@ -1,1 +1,1 @@
-* Merge pull request [#2636](https://github.com/universal-ctags/ctags/issues/2636) from hirooih/sv-typed-parameter\n* Merge pull request [#2642](https://github.com/universal-ctags/ctags/issues/2642) from masatake/github-aciton-azure-apt-get\n
+* Merge pull request [#2643](https://github.com/universal-ctags/ctags/issues/2643) from hirooih/sv-typedef-struct\n
