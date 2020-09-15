@@ -1,1 +1,1 @@
-* Merge pull request [#2643](https://github.com/universal-ctags/ctags/issues/2643) from hirooih/sv-typedef-struct\n
+* Merge pull request [#2646](https://github.com/universal-ctags/ctags/issues/2646) from masatake/readtags-fix-if-special-form\n* Merge pull request [#2644](https://github.com/universal-ctags/ctags/issues/2644) from hirooih/sv-tagNameList-paren-on-RHS\n* Merge pull request [#2645](https://github.com/universal-ctags/ctags/issues/2645) from ploxiln/python\_manpage\_ignore\n
