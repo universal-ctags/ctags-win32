@@ -1,1 +1,1 @@
-* Merge pull request [#2650](https://github.com/universal-ctags/ctags/issues/2650) from hirooih/sv-units-args.ctags\n
+* Merge pull request [#2653](https://github.com/universal-ctags/ctags/issues/2653) from hirooih/sv-type-refactoring\n* units.py: propagate error reported by valgrind properly\n
