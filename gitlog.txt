@@ -1,1 +1,1 @@
-* parsers,refactor: don't access private fields of vString directly\n* main,parsers,refactor: unify the way to access a char in a vString\n
+* Merge pull request [#2655](https://github.com/universal-ctags/ctags/issues/2655) from masatake/weekly-git-tagging\n* Merge pull request [#2659](https://github.com/universal-ctags/ctags/issues/2659) from masatake/emit-parser-ptag-automatically\n
