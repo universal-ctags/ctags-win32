@@ -39,6 +39,7 @@ artifacts:
 
 
 before_deploy:
+  - chcp 65001
   - for /f "delims=" %%i in (%APPVEYOR_BUILD_FOLDER%\gitlog.txt) do set GITLOG=%%i
 
 deploy:
