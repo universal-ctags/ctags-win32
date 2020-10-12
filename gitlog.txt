@@ -1,1 +1,1 @@
-* Tmain: a test case for invocation as “etags”\n* main.c: fix invocation as “etags”\n
+* Merge pull request [#2664](https://github.com/universal-ctags/ctags/issues/2664) from hirooih/sv-switch-refactoring\n
