@@ -26,7 +26,7 @@ git submodule update
 cd ctags
 git checkout master
 git pull --no-edit --ff-only
-ctagsver=$(git describe --tags --always)
+ctagsver=$(git describe --tags --exact-match --match 'v*' 2> /dev/null || git describe --tags --always)
 cd ..
 ctagslog=$(git submodule summary | grep '^  > ')
 
