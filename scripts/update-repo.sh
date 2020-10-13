@@ -26,7 +26,7 @@ git submodule update
 cd ctags
 git checkout master
 git pull --no-edit --ff-only
-ctagsver=$(git describe --tags --always)
+ctagsver=$(git describe --tags --exact-match --match 'v*' 2> /dev/null || git describe --tags --always)
 cd ..
 ctagslog=$(git submodule summary | grep '^  > ')
 
@@ -45,5 +45,12 @@ echo "$ctagslog" | \
 	perl -pe 's/\n/\\n/g' > gitlog.txt
 ctagslog=$(echo "$ctagslog" | sed -e 's/^  >/*/')
 git commit -a -m "ctags: Update to $ctagsver" -m "$ctagslog"
-git tag $(date --rfc-3339=date)/$ctagsver
+case "$ctagsver" in
+	v* | p*.*.*.0)
+		git tag "$ctagsver"
+		;;
+	*)
+		git tag "$(date --rfc-3339=date)/$ctagsver"
+		;;
+esac
 git push origin master --tags

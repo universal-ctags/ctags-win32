@@ -9,12 +9,12 @@ You can download the zip packages from the [releases](https://github.com/univers
 
 Four types of packages are provided:
 
-* `ctags-YYYY-MM-DD_{CommitID}-x64.zip`: x64 release build
-* `ctags-YYYY-MM-DD_{CommitID}-x64.debug.zip`: x64 debug build
-* `ctags-YYYY-MM-DD_{CommitID}-x86.zip`: x86 release build
-* `ctags-YYYY-MM-DD_{CommitID}-x86.debug.zip`: x86 debug build
+* `ctags-{ctagsver}-x64.zip`: x64 release build
+* `ctags-{ctagsver}-x64.debug.zip`: x64 debug build
+* `ctags-{ctagsver}-x86.zip`: x86 release build
+* `ctags-{ctagsver}-x86.debug.zip`: x86 debug build
 
-`{CommitID}` is a commit ID or a tag name of the [ctags repository](https://github.com/universal-ctags/ctags).
+`{ctagsver}` is an exact tag name of the [ctags repository](https://github.com/universal-ctags/ctags) or a generated name in the format of `YYYY-MM-DD_{tag}-N-gHHHHHHHH`.
 Normally you may want to use the release builds. If you need unstripped binaries for debugging, use the debug builds.
 
 # Note
