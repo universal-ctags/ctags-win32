@@ -26,13 +26,27 @@ git submodule update
 cd ctags
 git checkout master
 git pull --no-edit --ff-only
-ctagsver=$(git describe --tags --exact-match --match 'v*' 2> /dev/null || git describe --tags --always)
+exacttag=yes
+ctagsver=$(git describe --tags --exact-match --match 'v*' 2> /dev/null)
+if [ -z "$ctagsver" ]; then
+	ctagsver=$(git describe --tags --exact-match 2> /dev/null)
+	if [ -z "$ctagsver" ]; then
+		ctagsver=$(git describe --tags --always)
+		exacttag=no
+	fi
+fi
 cd ..
 ctagslog=$(git submodule summary | grep '^  > ')
 
 # Check if it is updated
 if git diff --quiet; then
-	echo "No changes found."
+	if [ "$exacttag" = "no" ] || [ -n "$(git tag --list "$ctagsver")" ]; then
+		echo "No changes found."
+		exit 0
+	fi
+	# Only a new tag was added
+	git tag "$ctagsver"
+	git push origin --tags
 	exit 0
 fi
 
@@ -45,12 +59,9 @@ echo "$ctagslog" | \
 	perl -pe 's/\n/\\n/g' > gitlog.txt
 ctagslog=$(echo "$ctagslog" | sed -e 's/^  >/*/')
 git commit -a -m "ctags: Update to $ctagsver" -m "$ctagslog"
-case "$ctagsver" in
-	v* | p*.*.*.0)
-		git tag "$ctagsver"
-		;;
-	*)
-		git tag "$(date --rfc-3339=date)/$ctagsver"
-		;;
-esac
+if [ "$exacttag" = "yes" ]; then
+	git tag "$ctagsver"
+else
+	git tag "$(date --rfc-3339=date)/$ctagsver"
+fi
 git push origin master --tags
