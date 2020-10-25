@@ -1,1 +1,1 @@
-* Merge pull request [#2666](https://github.com/universal-ctags/ctags/issues/2666) from hirooih/sv-parameter-property\n
+* Merge pull request [#2673](https://github.com/universal-ctags/ctags/issues/2673) from masatake/keyword-group-api\n* Merge pull request [#2672](https://github.com/universal-ctags/ctags/issues/2672) from masatake/systemverilog-remove-symtab\n
