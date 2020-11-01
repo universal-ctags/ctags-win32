@@ -50,10 +50,18 @@ def get_latest_rel():
     return rel
 
 
+def find_rel(rels_info, rel_name):
+    for rel in rels_info:
+        if rel['name'] == rel_name:
+            return rel
+    return None
+
+
 def get_new_rels(rels_info, latest_rel):
     rels = []
+    latest_rel_info = find_rel(rels_info, latest_rel)
     for rel in rels_info:
-        if rel['name'] > latest_rel:
+        if rel['published_at'] > latest_rel_info['published_at']:
             rels.insert(0, rel)
     return rels
 
