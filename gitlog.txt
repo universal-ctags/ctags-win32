@@ -1,1 +1,1 @@
-* Merge pull request [#2680](https://github.com/universal-ctags/ctags/issues/2680) from hirooih/sv-token-handling\n* Merge pull request [#2671](https://github.com/universal-ctags/ctags/issues/2671) from masatake/r-r6class\n
+* Merge pull request [#2685](https://github.com/universal-ctags/ctags/issues/2685) from masatake/update-libreadtags\n
