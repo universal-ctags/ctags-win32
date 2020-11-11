@@ -1,1 +1,1 @@
-* Merge pull request [#2687](https://github.com/universal-ctags/ctags/issues/2687) from masatake/vhdl-arch\n
+* Merge pull request [#2693](https://github.com/universal-ctags/ctags/issues/2693) from masatake/ptag-for-excmd\n
