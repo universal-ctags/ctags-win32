@@ -1,1 +1,1 @@
-* Merge pull request [#2684](https://github.com/universal-ctags/ctags/issues/2684) from hirooih/sv-kind-fixes\n
+* Merge pull request [#2696](https://github.com/universal-ctags/ctags/issues/2696) from hirooih/sv-processType\n
