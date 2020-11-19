@@ -1,1 +1,1 @@
-* Merge pull request [#2696](https://github.com/universal-ctags/ctags/issues/2696) from hirooih/sv-processType\n
+* Merge pull request [#2702](https://github.com/universal-ctags/ctags/issues/2702) from masatake/verilog-ptrArray\n* Merge pull request [#2699](https://github.com/universal-ctags/ctags/issues/2699) from AmaiKinono/man/readtags\n
