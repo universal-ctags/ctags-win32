@@ -1,1 +1,1 @@
-* Merge pull request [#2702](https://github.com/universal-ctags/ctags/issues/2702) from masatake/verilog-ptrArray\n* Merge pull request [#2699](https://github.com/universal-ctags/ctags/issues/2699) from AmaiKinono/man/readtags\n
+* Merge pull request [#2704](https://github.com/universal-ctags/ctags/issues/2704) from timgates42/bugfix\_typo\_preceded\n* Merge pull request [#2710](https://github.com/universal-ctags/ctags/issues/2710) from k-takata/use-ascii-chars\n
