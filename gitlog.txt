@@ -1,1 +1,1 @@
-* main: use actual line number in combined pattern fields\n* Merge pull request [#2701](https://github.com/universal-ctags/ctags/issues/2701) from hirooih/sv-struct-member\n* Merge pull request [#2708](https://github.com/universal-ctags/ctags/issues/2708) from techee/external\_parser\_fix\n
+* Merge pull request [#2718](https://github.com/universal-ctags/ctags/issues/2718) from hirooih/sv-createPastMatch\n
