@@ -1,1 +1,1 @@
-* Merge pull request [#2718](https://github.com/universal-ctags/ctags/issues/2718) from hirooih/sv-createPastMatch\n
+* Merge pull request [#2703](https://github.com/universal-ctags/ctags/issues/2703) from my2817/verilog\_TagInst\n* Merge pull request [#2720](https://github.com/universal-ctags/ctags/issues/2720) from masatake/update-libreadtags\n
