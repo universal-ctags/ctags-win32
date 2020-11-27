@@ -1,1 +1,1 @@
-* Merge pull request [#2729](https://github.com/universal-ctags/ctags/issues/2729) from hirooih/sv-readWordToken-fix\n* Clojure: Fix skipMetadata not called for functions ([#2728](https://github.com/universal-ctags/ctags/issues/2728))\n* Add abc parser from Geany ([#2713](https://github.com/universal-ctags/ctags/issues/2713))\n* Merge pull request [#2715](https://github.com/universal-ctags/ctags/issues/2715) from techee/geany\_abaqus\_parser\n
+* Merge pull request [#2733](https://github.com/universal-ctags/ctags/issues/2733) from hirooih/sv-eof-on-loop\n
