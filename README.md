@@ -9,13 +9,14 @@ You can download the zip packages from the [releases](https://github.com/univers
 
 Four types of packages are provided:
 
-* `ctags-{ctagsver}-x64.zip`: x64 release build
-* `ctags-{ctagsver}-x64.debug.zip`: x64 debug build
-* `ctags-{ctagsver}-x86.zip`: x86 release build
-* `ctags-{ctagsver}-x86.debug.zip`: x86 debug build
+* `ctags-{ctagsver}-x64.zip`: x64 package
+* `ctags-{ctagsver}-x64.debuginfo.zip`: x64 debug symbol files
+* `ctags-{ctagsver}-x86.zip`: x86 package
+* `ctags-{ctagsver}-x86.debuginfo.zip`: x86 debug symbol files
 
-`{ctagsver}` is an exact tag name of the [ctags repository](https://github.com/universal-ctags/ctags) or a generated name in the format of `YYYY-MM-DD_{tag}-N-gHHHHHHHH`.
-Normally you may want to use the release builds. If you need unstripped binaries for debugging, use the debug builds.
+`{ctagsver}` can be an exact tag name of the [ctags repository](https://github.com/universal-ctags/ctags) (when the latest commit is tagged) or a generated name in the format of `YYYY-MM-DD_{tag}-N-gHHHHHHHH` (when the latest commit is not tagged).
+
+x64/x86 package includes stripped binaries. If you want to debug the binaries on GDB, extract the package and the debug symbol files into the same directory, and also put the ctags source code there.
 
 # Note
 
