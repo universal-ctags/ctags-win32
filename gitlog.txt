@@ -1,1 +1,1 @@
-* Merge pull request [#2744](https://github.com/universal-ctags/ctags/issues/2744) from hirooih/sv-infinite-loop\n
+* Merge pull request [#2746](https://github.com/universal-ctags/ctags/issues/2746) from k-takata/appveyor-debuginfo\n
