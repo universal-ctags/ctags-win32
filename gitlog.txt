@@ -1,1 +1,1 @@
-* Merge pull request [#2732](https://github.com/universal-ctags/ctags/issues/2732) from masatake/add-timestamp-field-for-file-kind\n
+* Merge pull request [#2753](https://github.com/universal-ctags/ctags/issues/2753) from hirooih/sv-port-list\n
