@@ -1,1 +1,1 @@
-* Merge pull request [#2747](https://github.com/universal-ctags/ctags/issues/2747) from leleliu008/master\n
+* Merge pull request [#2757](https://github.com/universal-ctags/ctags/issues/2757) from masatake/circleci-fix-centos-powertools\n
