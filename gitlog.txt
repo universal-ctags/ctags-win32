@@ -1,1 +1,1 @@
-* Merge pull request [#2766](https://github.com/universal-ctags/ctags/issues/2766) from hirooih/sv-broken-list-kinds\n
+* Merge pull request [#2765](https://github.com/universal-ctags/ctags/issues/2765) from masatake/meson-parser\n
