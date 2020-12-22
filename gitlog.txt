@@ -1,1 +1,1 @@
-* Merge pull request [#2765](https://github.com/universal-ctags/ctags/issues/2765) from masatake/meson-parser\n
+* Merge pull request [#2768](https://github.com/universal-ctags/ctags/issues/2768) from hirooih/doc-restructuring\n
