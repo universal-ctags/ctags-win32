@@ -1,1 +1,1 @@
-* Merge pull request [#2772](https://github.com/universal-ctags/ctags/issues/2772) from hirooih/doc-extending-ctags\n* Merge pull request [#2771](https://github.com/universal-ctags/ctags/issues/2771) from masatake/markdown-relaxing-codeblock-detection\n
+* README.md: fix a typo\n
