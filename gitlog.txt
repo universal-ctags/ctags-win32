@@ -1,1 +1,1 @@
-* README.md: fix a typo\n
+* Kotlin: new parsre ([#2769](https://github.com/universal-ctags/ctags/issues/2769))\n
