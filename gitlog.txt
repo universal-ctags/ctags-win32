@@ -1,1 +1,1 @@
-* Merge pull request [#2773](https://github.com/universal-ctags/ctags/issues/2773) from masatake/update-libreadtags\n
+* Merge pull request [#2774](https://github.com/universal-ctags/ctags/issues/2774) from masatake/prepare-for-multi-pass\n
