@@ -1,1 +1,1 @@
-* Merge pull request [#2775](https://github.com/universal-ctags/ctags/issues/2775) from masatake/add-role-ptag\n
+* Merge pull request [#2777](https://github.com/universal-ctags/ctags/issues/2777) from masatake/fix-packcc-building\n
