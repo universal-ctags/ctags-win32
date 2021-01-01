@@ -42,7 +42,8 @@ jobs:
         #latest=$(git describe --tags --abbrev=0)
         cd ../wiki
         ../main/scripts/update-release-list.py
-        if git diff --quiet; then
+        git add Releases-in-*.md
+        if git diff HEAD --quiet; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
         else
           git config --local user.name ${USER_NAME}
