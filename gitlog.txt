@@ -1,1 +1,1 @@
-* Merge pull request [#2777](https://github.com/universal-ctags/ctags/issues/2777) from masatake/fix-packcc-building\n
+* Merge pull request [#2778](https://github.com/universal-ctags/ctags/issues/2778) from YorickPeterse/master\n
