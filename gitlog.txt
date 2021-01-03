@@ -1,1 +1,1 @@
-* Merge pull request [#2778](https://github.com/universal-ctags/ctags/issues/2778) from YorickPeterse/master\n
+* Julia: fill scope field for functions ([#2763](https://github.com/universal-ctags/ctags/issues/2763))\n* Merge pull request [#2767](https://github.com/universal-ctags/ctags/issues/2767) from masatake/migrate-testing-at-travis-to-github-actions\n* Merge pull request [#2782](https://github.com/universal-ctags/ctags/issues/2782) from masatake/migrate-MacOS-related-testing-at-travis-to-github-actions\n
