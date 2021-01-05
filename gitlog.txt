@@ -1,1 +1,1 @@
-* Merge pull request [#2785](https://github.com/universal-ctags/ctags/issues/2785) from masatake/misc-minor-fixes\n* Merge pull request [#2784](https://github.com/universal-ctags/ctags/issues/2784) from hirooih/docs-building\n
+* Merge pull request [#2790](https://github.com/universal-ctags/ctags/issues/2790) from getzze/julia-token-none\n
