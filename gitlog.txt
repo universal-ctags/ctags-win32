@@ -1,1 +1,1 @@
-* Merge pull request [#2793](https://github.com/universal-ctags/ctags/issues/2793) from masatake/github-actions-disable-macos-11\n
+* circleci: verify the architecture of the generated binary file when cross-compiling ([#2797](https://github.com/universal-ctags/ctags/issues/2797))\n* Merge pull request [#2796](https://github.com/universal-ctags/ctags/issues/2796) from bernardjosef/extra-mtable-regex\n
