@@ -1,1 +1,1 @@
-* Merge pull request [#2802](https://github.com/universal-ctags/ctags/issues/2802) from leleliu008/issues-2800\n* Merge pull request [#2801](https://github.com/universal-ctags/ctags/issues/2801) from hirooih/docs-fix-links\n
+* Merge pull request [#2798](https://github.com/universal-ctags/ctags/issues/2798) from leleliu008/issues-2776\n* GitHub Actions: run "brew link --overwrite python@3.9" if installing libxml2 fails ([#2803](https://github.com/universal-ctags/ctags/issues/2803))\n
