@@ -1,1 +1,1 @@
-* Merge pull request [#2811](https://github.com/universal-ctags/ctags/issues/2811) from masatake/use-https-for-accessing-vault-centos-org\n* Merge pull request [#2781](https://github.com/universal-ctags/ctags/issues/2781) from masatake/pragmaware-fix-recursive-macro-expansion+limit-useCount\n
+* Merge pull request [#2788](https://github.com/universal-ctags/ctags/issues/2788) from getzze/julia-scoped-macro\n
