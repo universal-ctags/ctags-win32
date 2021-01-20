@@ -1,1 +1,1 @@
-* Merge pull request [#2788](https://github.com/universal-ctags/ctags/issues/2788) from getzze/julia-scoped-macro\n
+* docs(man): fix backslash display in readtags(1)\n* Merge pull request [#2809](https://github.com/universal-ctags/ctags/issues/2809) from masatake/revise-notice-function\n* Merge pull request [#2810](https://github.com/universal-ctags/ctags/issues/2810) from hirooih/docs-option-order\n
