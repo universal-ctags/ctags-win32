@@ -1,1 +1,1 @@
-* docs(man): improve readtags(1) and ctags-client-tools(7)\n
+* Merge pull request [#2820](https://github.com/universal-ctags/ctags/issues/2820) from leleliu008/run-units-target-on-freebsd\n
