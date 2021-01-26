@@ -1,1 +1,1 @@
-* Merge pull request [#2820](https://github.com/universal-ctags/ctags/issues/2820) from leleliu008/run-units-target-on-freebsd\n
+* Merge pull request [#2830](https://github.com/universal-ctags/ctags/issues/2830) from leleliu008/run-units-target-on-netbsd-and-openbsd\n* Merge pull request [#2828](https://github.com/universal-ctags/ctags/issues/2828) from leleliu008/fix-issue-2827\n
