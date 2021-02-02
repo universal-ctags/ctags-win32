@@ -1,1 +1,1 @@
-* Merge pull request [#2830](https://github.com/universal-ctags/ctags/issues/2830) from leleliu008/run-units-target-on-netbsd-and-openbsd\n* Merge pull request [#2828](https://github.com/universal-ctags/ctags/issues/2828) from leleliu008/fix-issue-2827\n
+* Merge pull request [#2839](https://github.com/universal-ctags/ctags/issues/2839) from masatake/Units-fix-typo\n* Merge pull request [#2834](https://github.com/universal-ctags/ctags/issues/2834) from masatake/rebuild-packcc\n
