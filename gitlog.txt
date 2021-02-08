@@ -1,1 +1,1 @@
-* Merge pull request [#2847](https://github.com/universal-ctags/ctags/issues/2847) from leleliu008/run-units-target-on-cygwin\n* Merge pull request [#2846](https://github.com/universal-ctags/ctags/issues/2846) from masatake/perl-function-parameters-test-case\n* Merge pull request [#2841](https://github.com/universal-ctags/ctags/issues/2841) from masatake/perl-function-parameters\n
+* Merge pull request [#2837](https://github.com/universal-ctags/ctags/issues/2837) from leleliu008/fix-issue-2835\n
