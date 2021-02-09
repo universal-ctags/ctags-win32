@@ -1,1 +1,1 @@
-* Merge pull request [#2837](https://github.com/universal-ctags/ctags/issues/2837) from leleliu008/fix-issue-2835\n
+* roundtrip,circleci: limit the number of tag entries for testing to reduce the time for testing\n
