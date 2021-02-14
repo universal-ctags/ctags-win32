@@ -1,1 +1,1 @@
-* Merge pull request [#2858](https://github.com/universal-ctags/ctags/issues/2858) from hirooih/docs-man-readme\n
+* Merge pull request [#2861](https://github.com/universal-ctags/ctags/issues/2861) from masatake/relax-options-order\n* Merge pull request [#2859](https://github.com/universal-ctags/ctags/issues/2859) from hirooih/docs-open-issues\n* Merge pull request [#2862](https://github.com/universal-ctags/ctags/issues/2862) from masatake/docs-minor-fix-for-R-man-page\n
