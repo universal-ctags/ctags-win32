@@ -1,1 +1,1 @@
-* GitHub Actions: run units target on MSYS2\n* CPreProcessor: don't prepare per-input-file macro table if the client language doesn't enable symtab\n* Units: remove files unintentionally merged\n* Units: unify directories for testing FunctionParameters subparser\n* Units: added tests for Function::Parameters parser ([#2868](https://github.com/universal-ctags/ctags/issues/2868))\n
+* Tmain(client): add test for vista.vim ([#2875](https://github.com/universal-ctags/ctags/issues/2875))\n
