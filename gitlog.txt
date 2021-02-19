@@ -1,1 +1,1 @@
-* Tmain(client): add test for vista.vim ([#2875](https://github.com/universal-ctags/ctags/issues/2875))\n
+* kotlin: parser based on peg grammar ([#2866](https://github.com/universal-ctags/ctags/issues/2866))\n
