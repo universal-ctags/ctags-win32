@@ -1,1 +1,1 @@
-* kotlin: parser based on peg grammar ([#2866](https://github.com/universal-ctags/ctags/issues/2866))\n
+* ReStructuredText: extract |substitute definitions| ([#2877](https://github.com/universal-ctags/ctags/issues/2877))\n* main: adjust states of enabled/disabled for fixed fields before listing with --list-fields ([#2876](https://github.com/universal-ctags/ctags/issues/2876))\n
