@@ -1,1 +1,1 @@
-* Merge pull request [#2881](https://github.com/universal-ctags/ctags/issues/2881) from hirooih/options-help-msg\n
+* Merge pull request [#2887](https://github.com/universal-ctags/ctags/issues/2887) from dkearns/fix-awk-leading-whitespace-function-matching\n
