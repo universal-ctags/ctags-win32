@@ -1,1 +1,1 @@
-* Merge pull request [#2889](https://github.com/universal-ctags/ctags/issues/2889) from hirooih/options-help-reorder\n
+* GitHub Actions: run units target on AlplineLinux\n* Tmain: using \`shift\_jis\` instead of \`cp932\` coding.\n
