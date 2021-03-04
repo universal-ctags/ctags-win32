@@ -1,1 +1,1 @@
-* GitHub Actions: run units target on AlplineLinux\n* Tmain: using \`shift\_jis\` instead of \`cp932\` coding.\n
+* Merge pull request [#2863](https://github.com/universal-ctags/ctags/issues/2863) from masatake/docs-about-codebase\n* buildsys: expose more configure variables: AR, RANLIB, WINDRES\n
