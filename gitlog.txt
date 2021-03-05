@@ -1,1 +1,1 @@
-* Merge pull request [#2863](https://github.com/universal-ctags/ctags/issues/2863) from masatake/docs-about-codebase\n* buildsys: expose more configure variables: AR, RANLIB, WINDRES\n
+* Merge pull request [#2872](https://github.com/universal-ctags/ctags/issues/2872) from masatake/c++-clear-TemplateParameters\n* Merge pull request [#2897](https://github.com/universal-ctags/ctags/issues/2897) from masatake/preparations-for-optscript\n
