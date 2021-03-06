@@ -1,1 +1,1 @@
-* Merge pull request [#2872](https://github.com/universal-ctags/ctags/issues/2872) from masatake/c++-clear-TemplateParameters\n* Merge pull request [#2897](https://github.com/universal-ctags/ctags/issues/2897) from masatake/preparations-for-optscript\n
+* Merge pull request [#2902](https://github.com/universal-ctags/ctags/issues/2902) from masatake/fypp-fix-valgrind-error\n
