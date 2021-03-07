@@ -1,1 +1,1 @@
-* Merge pull request [#2902](https://github.com/universal-ctags/ctags/issues/2902) from masatake/fypp-fix-valgrind-error\n
+* Merge pull request [#2900](https://github.com/universal-ctags/ctags/issues/2900) from hirooih/sv-man\n
