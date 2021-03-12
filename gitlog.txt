@@ -1,1 +1,1 @@
-* Merge pull request [#2900](https://github.com/universal-ctags/ctags/issues/2900) from hirooih/sv-man\n
+* Merge pull request [#2906](https://github.com/universal-ctags/ctags/issues/2906) from masatake/docs-non-ascii-char-with-mate-test-encoding-fix\n
