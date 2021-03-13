@@ -1,1 +1,1 @@
-* Merge pull request [#2906](https://github.com/universal-ctags/ctags/issues/2906) from masatake/docs-non-ascii-char-with-mate-test-encoding-fix\n
+* Merge pull request [#2904](https://github.com/universal-ctags/ctags/issues/2904) from masatake/pygments-lexer-ctags\n
