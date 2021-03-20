@@ -1,1 +1,1 @@
-* Merge pull request [#2915](https://github.com/universal-ctags/ctags/issues/2915) from masatake/ada-string-literal\n
+* Merge pull request [#2917](https://github.com/universal-ctags/ctags/issues/2917) from masatake/docs-fix-typos-in-figure\n
