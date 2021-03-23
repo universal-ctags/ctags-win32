@@ -1,1 +1,1 @@
-* Merge pull request [#2917](https://github.com/universal-ctags/ctags/issues/2917) from masatake/docs-fix-typos-in-figure\n
+* GitHub Actions: use new freebsd image to avoid ntp related failures\n* GitHub Actions: cross compile with mingw-w64 and android-ndk\n* Merge pull request [#2920](https://github.com/universal-ctags/ctags/issues/2920) from hirooih/docs-optlib-emphasize-lines\n* Merge pull request [#2916](https://github.com/universal-ctags/ctags/issues/2916) from hirooih/docs-parser-in-c\n
