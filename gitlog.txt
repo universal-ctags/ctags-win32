@@ -1,1 +1,1 @@
-* Merge pull request [#2937](https://github.com/universal-ctags/ctags/issues/2937) from masatake/github-actions-fix-building-on-macos\n
+* Merge pull request [#2940](https://github.com/universal-ctags/ctags/issues/2940) from masatake/optscript-prep\n
