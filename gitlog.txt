@@ -1,1 +1,1 @@
-* Merge pull request [#2940](https://github.com/universal-ctags/ctags/issues/2940) from masatake/optscript-prep\n
+* Merge pull request [#2886](https://github.com/universal-ctags/ctags/issues/2886) from dkearns/improve-basic-support\n
