@@ -1,1 +1,1 @@
-* Merge pull request [#2946](https://github.com/universal-ctags/ctags/issues/2946) from koenmeersman/ada-cppcheck\n
+* Merge pull request [#2947](https://github.com/universal-ctags/ctags/issues/2947) from universal-ctags/switch-packcc-repo\n
