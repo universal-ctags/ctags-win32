@@ -1,1 +1,1 @@
-* Merge pull request [#2947](https://github.com/universal-ctags/ctags/issues/2947) from universal-ctags/switch-packcc-repo\n
+* Merge pull request [#2949](https://github.com/universal-ctags/ctags/issues/2949) from masatake/rust-skip-visibility-specs\n
