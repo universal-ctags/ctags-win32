@@ -1,1 +1,1 @@
-* Merge pull request [#2954](https://github.com/universal-ctags/ctags/issues/2954) from masatake/berndf--bibtex--colon-in-id\n
+* Merge pull request [#2956](https://github.com/universal-ctags/ctags/issues/2956) from ArcsinX/build-sys-visual-studio-x64\n
