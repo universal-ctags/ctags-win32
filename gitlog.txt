@@ -1,1 +1,1 @@
-* main: truncate output file when rescan is failed\n* Merge pull request [#2957](https://github.com/universal-ctags/ctags/issues/2957) from masatake/appveyor-cygwin-perl\n
+* SQL: Skip "IF NOT EXISTS" in create table\n
