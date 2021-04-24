@@ -1,1 +1,1 @@
-* Merge pull request [#2966](https://github.com/universal-ctags/ctags/issues/2966) from masatake/markdown--fix-table-priorities\n
+* Merge pull request [#2969](https://github.com/universal-ctags/ctags/issues/2969) from leleliu008/update-github-workflows-testing-netbsd\n
