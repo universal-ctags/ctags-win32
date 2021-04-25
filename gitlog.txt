@@ -1,1 +1,1 @@
-* Merge pull request [#2969](https://github.com/universal-ctags/ctags/issues/2969) from leleliu008/update-github-workflows-testing-netbsd\n
+* Merge pull request [#2971](https://github.com/universal-ctags/ctags/issues/2971) from k-takata/fix-2970\n* Merge pull request [#2968](https://github.com/universal-ctags/ctags/issues/2968) from leleliu008/fix-issue-2967\n
