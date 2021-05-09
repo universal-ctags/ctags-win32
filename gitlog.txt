@@ -1,1 +1,1 @@
-* Merge pull request [#3000](https://github.com/universal-ctags/ctags/issues/3000) from masatake/ipython-cell\n* Merge pull request [#3002](https://github.com/universal-ctags/ctags/issues/3002) from masatake/optscript-fix-order-of-init\n
+* Merge pull request [#2985](https://github.com/universal-ctags/ctags/issues/2985) from masatake/no-environment-variables\n
