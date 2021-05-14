@@ -1,1 +1,1 @@
-* Merge pull request [#3012](https://github.com/universal-ctags/ctags/issues/3012) from masatake/sql-plsql-predefined-inquiry-directives\n
+* Merge pull request [#3025](https://github.com/universal-ctags/ctags/issues/3025) from masatake/hide-fedora34-canary\n* Merge pull request [#3024](https://github.com/universal-ctags/ctags/issues/3024) from masatake/sphinx-4\n
