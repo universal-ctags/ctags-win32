@@ -1,1 +1,1 @@
-* Merge pull request [#3023](https://github.com/universal-ctags/ctags/issues/3023) from masatake/optscript-refine-dict-key-types\n
+* Merge pull request [#3029](https://github.com/universal-ctags/ctags/issues/3029) from leleliu008/update-github-workflows-testing-openbsd\n
