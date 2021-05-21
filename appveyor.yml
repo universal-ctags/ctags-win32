@@ -53,7 +53,7 @@ deploy:
       $(GITLOG)
 
     auth_token:
-      secure: WqjLi6FMpAWGSZvDSpVaZ3hNhE69MVeqGNh0CwMcXtu/pPKiLbX+KmBbActqt8Di
+      secure: kgtg5CfzjZplmERPJVJeMRe/w+azLHd8YTc9xJ482AcecFhdMvjPzXS7jNMGFAWu
     artifact: /ctags/
     prerelease: true
     on:
