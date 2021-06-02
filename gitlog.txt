@@ -1,1 +1,1 @@
-* Merge pull request [#3037](https://github.com/universal-ctags/ctags/issues/3037) from masatake/mvc-define-READTAGS\_DSL\n* Merge pull request [#3040](https://github.com/universal-ctags/ctags/issues/3040) from masatake/docs-ext-fix-name-of-highlighter\n
+* Merge pull request [#3047](https://github.com/universal-ctags/ctags/issues/3047) from masatake/docs-web--sphinx-1-8\n
