@@ -1,1 +1,1 @@
-* Merge pull request [#3051](https://github.com/universal-ctags/ctags/issues/3051) from leleliu008/optimize-configure-cross-compile\n
+* Merge pull request [#3049](https://github.com/universal-ctags/ctags/issues/3049) from masatake/docs-delete-pyc-file\n* Merge pull request [#3050](https://github.com/universal-ctags/ctags/issues/3050) from masatake/autogen--report-tool-paths\n* Merge pull request [#3038](https://github.com/universal-ctags/ctags/issues/3038) from masatake/c++-built-in-type-as-name-of-operator\n
