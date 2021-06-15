@@ -1,1 +1,1 @@
-* Merge pull request [#3065](https://github.com/universal-ctags/ctags/issues/3065) from masatake/docs-minor-change\n
+* CXX: Extract decltype() variables ([#3064](https://github.com/universal-ctags/ctags/issues/3064))\n* Merge pull request [#3061](https://github.com/universal-ctags/ctags/issues/3061) from masatake/update-packcc-for-AIX\n
