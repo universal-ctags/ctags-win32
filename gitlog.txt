@@ -1,1 +1,1 @@
-* CXX: Extract decltype() variables ([#3064](https://github.com/universal-ctags/ctags/issues/3064))\n* Merge pull request [#3061](https://github.com/universal-ctags/ctags/issues/3061) from masatake/update-packcc-for-AIX\n
+* docs(man): fix a typo and sentences as English\n* Merge pull request [#3063](https://github.com/universal-ctags/ctags/issues/3063) from masatake/cxx-parameters-in-prototypes\n
