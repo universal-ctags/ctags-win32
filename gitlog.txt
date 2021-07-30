@@ -1,1 +1,1 @@
-* Merge pull request [#3103](https://github.com/universal-ctags/ctags/issues/3103) from hirooih/non-verbose-autogen.sh\n
+* Merge pull request [#3107](https://github.com/universal-ctags/ctags/issues/3107) from masatake/use-unified-CI-var\n* Merge pull request [#3106](https://github.com/universal-ctags/ctags/issues/3106) from masatake/circleci-drop-centos6\n
