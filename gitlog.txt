@@ -1,1 +1,1 @@
-* Merge pull request [#3067](https://github.com/universal-ctags/ctags/issues/3067) from masatake/nth-field\n* Merge pull request [#3072](https://github.com/universal-ctags/ctags/issues/3072) from k-takata/mingw-manual-globbing\n
+* Merge pull request [#3118](https://github.com/universal-ctags/ctags/issues/3118) from hirooih/build-autgen.sh-remove-optilib2c-text2cstr\n* Merge pull request [#3115](https://github.com/universal-ctags/ctags/issues/3115) from hirooih/build-man-dist\n
