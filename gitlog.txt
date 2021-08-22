@@ -1,1 +1,1 @@
-* Merge pull request [#3125](https://github.com/universal-ctags/ctags/issues/3125) from athos-ribeiro/armhf-statx\n
+* Merge pull request [#3133](https://github.com/universal-ctags/ctags/issues/3133) from hirooih/build-sys-add-update-docs-to-make-all\n* Merge pull request [#3132](https://github.com/universal-ctags/ctags/issues/3132) from masatake/python-man-fix\n* Merge pull request [#3127](https://github.com/universal-ctags/ctags/issues/3127) from masatake/ci-fedora34\n
