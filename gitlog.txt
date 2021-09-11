@@ -1,1 +1,1 @@
-* Merge pull request [#3146](https://github.com/universal-ctags/ctags/issues/3146) from masatake/lua-no-modules\n
+* Merge pull request [#3156](https://github.com/universal-ctags/ctags/issues/3156) from rootkea/break\n
