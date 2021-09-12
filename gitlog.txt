@@ -1,1 +1,1 @@
-* Merge pull request [#3156](https://github.com/universal-ctags/ctags/issues/3156) from rootkea/break\n
+* Merge pull request [#3157](https://github.com/universal-ctags/ctags/issues/3157) from masatake/kconfig-exnted-configPrefixed-extra\n
