@@ -1,1 +1,1 @@
-* Merge pull request [#3163](https://github.com/universal-ctags/ctags/issues/3163) from leleliu008/add-github-actions-environment-macos-11\n* Merge pull request [#3162](https://github.com/universal-ctags/ctags/issues/3162) from leleliu008/remove-github-actions-environment-ubuntu-16.04\n
+* Merge pull request [#3128](https://github.com/universal-ctags/ctags/issues/3128) from hirooih/build-gen-vcsproj\n
