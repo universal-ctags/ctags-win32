@@ -1,1 +1,1 @@
-* Merge pull request [#3170](https://github.com/universal-ctags/ctags/issues/3170) from masatake/github-actions-install-global\n
+* Merge pull request [#3171](https://github.com/universal-ctags/ctags/issues/3171) from henrebotha/patch-1\n
