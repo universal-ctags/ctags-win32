@@ -1,1 +1,1 @@
-* GitHub Actions: run only ctags related tests in Citre\n
+* Merge pull request [#3164](https://github.com/universal-ctags/ctags/issues/3164) from fwmechanic/fix-missing-end-in-fully-qualified-tag\n
