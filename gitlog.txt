@@ -1,1 +1,1 @@
-* Merge pull request [#3177](https://github.com/universal-ctags/ctags/issues/3177) from masatake/yacc-rewrite\n
+* Merge pull request [#3176](https://github.com/universal-ctags/ctags/issues/3176) from masatake/python-pep604\n
