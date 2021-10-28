@@ -1,1 +1,1 @@
-* Merge pull request [#3176](https://github.com/universal-ctags/ctags/issues/3176) from masatake/python-pep604\n
+* Merge pull request [#3036](https://github.com/universal-ctags/ctags/issues/3036) from masatake/pcre2\n* Merge pull request [#3178](https://github.com/universal-ctags/ctags/issues/3178) from masatake/thrift-parser\n
