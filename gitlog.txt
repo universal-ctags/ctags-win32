@@ -1,1 +1,1 @@
-* Merge pull request [#3187](https://github.com/universal-ctags/ctags/issues/3187) from techee/update\_mini\_geany\n
+* Merge pull request [#3189](https://github.com/universal-ctags/ctags/issues/3189) from masatake/make--fill-end-fields\n
