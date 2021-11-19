@@ -1,1 +1,1 @@
-* Merge pull request [#3189](https://github.com/universal-ctags/ctags/issues/3189) from masatake/make--fill-end-fields\n
+* Merge pull request [#3191](https://github.com/universal-ctags/ctags/issues/3191) from masatake/doc--typo-in-role-desc\n
