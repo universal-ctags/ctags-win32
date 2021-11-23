@@ -1,1 +1,1 @@
-* Merge pull request [#3191](https://github.com/universal-ctags/ctags/issues/3191) from masatake/doc--typo-in-role-desc\n
+* Merge pull request [#3195](https://github.com/universal-ctags/ctags/issues/3195) from masatake/ada-minor-fix\n* Merge pull request [#3192](https://github.com/universal-ctags/ctags/issues/3192) from masatake/cpp-cond-role\n
