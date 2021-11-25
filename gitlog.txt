@@ -1,1 +1,1 @@
-* Merge pull request [#3195](https://github.com/universal-ctags/ctags/issues/3195) from masatake/ada-minor-fix\n* Merge pull request [#3192](https://github.com/universal-ctags/ctags/issues/3192) from masatake/cpp-cond-role\n
+* Merge pull request [#3179](https://github.com/universal-ctags/ctags/issues/3179) from Jonta/patch-1\n
