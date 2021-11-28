@@ -1,1 +1,1 @@
-* Merge pull request [#3196](https://github.com/universal-ctags/ctags/issues/3196) from masatake/thrift-more-test\n
+* Merge pull request [#3197](https://github.com/universal-ctags/ctags/issues/3197) from masatake/sql-add-missing-test-input\n
