@@ -1,1 +1,1 @@
-* Merge pull request [#3197](https://github.com/universal-ctags/ctags/issues/3197) from masatake/sql-add-missing-test-input\n
+* Merge pull request [#3198](https://github.com/universal-ctags/ctags/issues/3198) from masatake/elixir-minor-revise\n* Merge pull request [#3201](https://github.com/universal-ctags/ctags/issues/3201) from masatake/perl--heredoc\n* Merge pull request [#3204](https://github.com/universal-ctags/ctags/issues/3204) from masatake/cxx--kind-minor-cleanup\n
