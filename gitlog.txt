@@ -1,1 +1,1 @@
-* Merge pull request [#3214](https://github.com/universal-ctags/ctags/issues/3214) from masatake/minor-fixes\n* Merge pull request [#3213](https://github.com/universal-ctags/ctags/issues/3213) from eht16/pascal\_consistent\_code\_style\n* Merge pull request [#3205](https://github.com/universal-ctags/ctags/issues/3205) from eht16/pascal\_add\_signature\_parsing\n
+* Merge pull request [#3215](https://github.com/universal-ctags/ctags/issues/3215) from masatake/revise-ntrel-pas-type-partial\n
