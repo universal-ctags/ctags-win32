@@ -1,1 +1,1 @@
-* Merge pull request [#3215](https://github.com/universal-ctags/ctags/issues/3215) from masatake/revise-ntrel-pas-type-partial\n
+* GDScript: delete an unused parameter\n
