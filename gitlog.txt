@@ -1,1 +1,1 @@
-* GDScript: delete an unused parameter\n
+* Merge pull request [#3210](https://github.com/universal-ctags/ctags/issues/3210) from masatake/man-page-for-gdscript-parser\n
