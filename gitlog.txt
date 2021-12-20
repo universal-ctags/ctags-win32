@@ -1,1 +1,1 @@
-* Merge pull request [#3228](https://github.com/universal-ctags/ctags/issues/3228) from masatake/use-single-thread-mode-of-gnulib\n
+* Merge pull request [#3202](https://github.com/universal-ctags/ctags/issues/3202) from masatake/rspec--rewrite\n
