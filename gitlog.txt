@@ -1,1 +1,1 @@
-* Merge pull request [#3202](https://github.com/universal-ctags/ctags/issues/3202) from masatake/rspec--rewrite\n
+* Merge pull request [#3231](https://github.com/universal-ctags/ctags/issues/3231) from masatake/gemspec-parser\n
