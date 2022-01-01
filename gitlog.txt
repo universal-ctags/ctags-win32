@@ -1,1 +1,1 @@
-* Merge pull request [#3244](https://github.com/universal-ctags/ctags/issues/3244) from techee/haxe\n* Merge pull request [#3239](https://github.com/universal-ctags/ctags/issues/3239) from techee/latex\n
+* Merge pull request [#3243](https://github.com/universal-ctags/ctags/issues/3243) from techee/ada\n
