@@ -1,1 +1,1 @@
-* Merge pull request [#3236](https://github.com/universal-ctags/ctags/issues/3236) from techee/markdown3\n
+* Merge pull request [#3252](https://github.com/universal-ctags/ctags/issues/3252) from techee/geany\_doc\n
