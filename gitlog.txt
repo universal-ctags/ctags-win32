@@ -1,1 +1,1 @@
-* Merge pull request [#3252](https://github.com/universal-ctags/ctags/issues/3252) from techee/geany\_doc\n
+* Merge pull request [#3255](https://github.com/universal-ctags/ctags/issues/3255) from masatake/YAML-accept-dot-yaml\n* Merge pull request [#3246](https://github.com/universal-ctags/ctags/issues/3246) from masatake/rst--title\n* Merge pull request [#3253](https://github.com/universal-ctags/ctags/issues/3253) from techee/rust2\n* Merge pull request [#3249](https://github.com/universal-ctags/ctags/issues/3249) from techee/basic\n
