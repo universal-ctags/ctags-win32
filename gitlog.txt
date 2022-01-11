@@ -1,1 +1,1 @@
-* Merge pull request [#3262](https://github.com/universal-ctags/ctags/issues/3262) from masatake/kotlin-fix-membug\n
+* Merge pull request [#3266](https://github.com/universal-ctags/ctags/issues/3266) from masatake/openapi-minor-changes\n
