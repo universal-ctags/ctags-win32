@@ -1,1 +1,1 @@
-* Merge pull request [#3266](https://github.com/universal-ctags/ctags/issues/3266) from masatake/openapi-minor-changes\n
+* Merge pull request [#3270](https://github.com/universal-ctags/ctags/issues/3270) from masatake/cxx-debug-code\n
