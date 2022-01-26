@@ -1,1 +1,1 @@
-* Merge pull request [#3270](https://github.com/universal-ctags/ctags/issues/3270) from masatake/cxx-debug-code\n
+* Merge pull request [#3284](https://github.com/universal-ctags/ctags/issues/3284) from masatake/basic--3276-tophalf\n* Merge pull request [#3217](https://github.com/universal-ctags/ctags/issues/3217) from masatake/cython-v0\n* Merge pull request [#3229](https://github.com/universal-ctags/ctags/issues/3229) from masatake/cxx-enum-bit-field\n* Merge pull request [#3274](https://github.com/universal-ctags/ctags/issues/3274) from techee/latex\_env2\n
