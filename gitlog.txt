@@ -1,1 +1,1 @@
-* Merge pull request [#3287](https://github.com/universal-ctags/ctags/issues/3287) from masatake/rpmMacros-ext\n
+* Merge pull request [#3290](https://github.com/universal-ctags/ctags/issues/3290) from masatake/fix--field-resetting\n* Merge pull request [#3291](https://github.com/universal-ctags/ctags/issues/3291) from masatake/ubi8\n
