@@ -1,1 +1,1 @@
-* Merge pull request [#3299](https://github.com/universal-ctags/ctags/issues/3299) from t-b/raise-copyright-year\n
+* Merge pull request [#3301](https://github.com/universal-ctags/ctags/issues/3301) from masatake/chrismwendt-reset-protobuf-syntax\n
