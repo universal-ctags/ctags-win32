@@ -1,1 +1,1 @@
-* Merge pull request [#3264](https://github.com/universal-ctags/ctags/issues/3264) from masatake/php--guest-parsers\n* Merge pull request [#3289](https://github.com/universal-ctags/ctags/issues/3289) from masatake/basic--decl\n
+* Merge pull request [#3307](https://github.com/universal-ctags/ctags/issues/3307) from masatake/ruby--fix-scope-loop\n
