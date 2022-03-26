@@ -1,1 +1,1 @@
-* Merge pull request [#3309](https://github.com/universal-ctags/ctags/issues/3309) from masatake/RMarkdown-parser\n
+* Merge pull request [#3313](https://github.com/universal-ctags/ctags/issues/3313) from masatake/rake\n* Merge pull request [#3311](https://github.com/universal-ctags/ctags/issues/3311) from masatake/frontmatter\n
