@@ -1,1 +1,1 @@
-* Merge pull request [#3317](https://github.com/universal-ctags/ctags/issues/3317) from masatake/rake-anonymous\n
+* Merge pull request [#3316](https://github.com/universal-ctags/ctags/issues/3316) from masatake/rdoc\n
