@@ -1,1 +1,1 @@
-* Merge pull request [#3318](https://github.com/universal-ctags/ctags/issues/3318) from masatake/rspec-it\n
+* Elm: Rewritten using PackCC PEG parser ([#3312](https://github.com/universal-ctags/ctags/issues/3312))\n
