@@ -1,1 +1,1 @@
-* Merge pull request [#3321](https://github.com/universal-ctags/ctags/issues/3321) from niksilver/elm-import-exposed\n
+* Merge pull request [#3322](https://github.com/universal-ctags/ctags/issues/3322) from masatake/Elm-minor-fix-about-roles\n
