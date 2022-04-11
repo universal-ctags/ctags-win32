@@ -1,1 +1,1 @@
-* GitHub Actions: Use Android NDK r23 to build\n* GitHub Actions: update AlpineLinux versions\n
+* Merge pull request [#3334](https://github.com/universal-ctags/ctags/issues/3334) from masatake/rake--add-missing--else\n
