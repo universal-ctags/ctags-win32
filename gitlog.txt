@@ -1,1 +1,1 @@
-* buildsys: fix ld can not find -liconv on FreeBSD and OpenBSD\n* buildsys: improve docs/Makefile\n* Merge pull request [#3335](https://github.com/universal-ctags/ctags/issues/3335) from masatake/relocate-test-cases\n* Merge pull request [#3340](https://github.com/universal-ctags/ctags/issues/3340) from masatake/gha--update-freebsd-vm\n
+* Merge pull request [#3348](https://github.com/universal-ctags/ctags/issues/3348) from masatake/lua--skip-curly-brackets\n
