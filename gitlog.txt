@@ -1,1 +1,1 @@
-* Merge pull request [#3348](https://github.com/universal-ctags/ctags/issues/3348) from masatake/lua--skip-curly-brackets\n
+* Merge pull request [#3331](https://github.com/universal-ctags/ctags/issues/3331) from jafl/javascript-always-parse-function-block\n* Merge pull request [#3329](https://github.com/universal-ctags/ctags/issues/3329) from jafl/javascript-allow-class-methods-get-and-set\n* GitHub Actions: fix testing-alpine.yml git issue\n* Revert "buildsys: rewite man/Makefile.am"\n* buildsys: rewite man/Makefile.am\n
