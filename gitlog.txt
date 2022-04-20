@@ -1,1 +1,1 @@
-* Merge pull request [#3358](https://github.com/universal-ctags/ctags/issues/3358) from jafl/javascript-cosmetic-clean-up\n
+* Merge pull request [#3362](https://github.com/universal-ctags/ctags/issues/3362) from masatake/testing--check-gen\n* Merge pull request [#3361](https://github.com/universal-ctags/ctags/issues/3361) from masatake/yaml--broken-input\n
