@@ -1,1 +1,1 @@
-* Merge pull request [#3357](https://github.com/universal-ctags/ctags/issues/3357) from jafl/javascript-capture-methods-inside-objects\n* Merge pull request [#3364](https://github.com/universal-ctags/ctags/issues/3364) from masatake/tmain--use-direq\_maybe\n
+* Merge pull request [#3371](https://github.com/universal-ctags/ctags/issues/3371) from tartley/icon\n
