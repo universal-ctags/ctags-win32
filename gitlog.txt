@@ -1,1 +1,1 @@
-* Merge pull request [#3365](https://github.com/universal-ctags/ctags/issues/3365) from masatake/macro-expansion--ldscript\n
+* Merge pull request [#3376](https://github.com/universal-ctags/ctags/issues/3376) from hidekiiwamoto/fix-reading-outside-malloced-area\n
