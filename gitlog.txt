@@ -1,1 +1,1 @@
-* Merge pull request [#3376](https://github.com/universal-ctags/ctags/issues/3376) from hidekiiwamoto/fix-reading-outside-malloced-area\n
+* Merge pull request [#3375](https://github.com/universal-ctags/ctags/issues/3375) from masatake/c--fix-leak-in-anon-params-in-broken-paramlist-v2\n
