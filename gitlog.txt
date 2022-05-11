@@ -1,1 +1,1 @@
-* Merge pull request [#3379](https://github.com/universal-ctags/ctags/issues/3379) from masatake/build-sys--rm-aclocal-m4-in-autogen-sh\n
+* Merge pull request [#3381](https://github.com/universal-ctags/ctags/issues/3381) from k-takata/fix-mk\_mvc-clean\n
