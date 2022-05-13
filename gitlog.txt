@@ -1,1 +1,1 @@
-* Merge pull request [#3381](https://github.com/universal-ctags/ctags/issues/3381) from k-takata/fix-mk\_mvc-clean\n
+* Merge pull request [#3384](https://github.com/universal-ctags/ctags/issues/3384) from masatake/check--iconv-encodings\n
