@@ -1,1 +1,1 @@
-* Merge pull request [#3384](https://github.com/universal-ctags/ctags/issues/3384) from masatake/check--iconv-encodings\n
+* Merge pull request [#3383](https://github.com/universal-ctags/ctags/issues/3383) from masatake/cxx--skip-declspec\n
