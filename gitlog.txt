@@ -1,1 +1,1 @@
-* Merge pull request [#3383](https://github.com/universal-ctags/ctags/issues/3383) from masatake/cxx--skip-declspec\n
+* Merge pull request [#3386](https://github.com/universal-ctags/ctags/issues/3386) from masatake/jscript--prep-for-cork-API\n
