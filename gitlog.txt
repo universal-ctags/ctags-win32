@@ -1,1 +1,1 @@
-* Merge pull request [#3386](https://github.com/universal-ctags/ctags/issues/3386) from masatake/jscript--prep-for-cork-API\n
+* Merge pull request [#3389](https://github.com/universal-ctags/ctags/issues/3389) from k-takata/fix-msvc2015-build-error\n
