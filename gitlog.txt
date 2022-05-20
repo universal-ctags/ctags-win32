@@ -1,1 +1,1 @@
-* Merge pull request [#3389](https://github.com/universal-ctags/ctags/issues/3389) from k-takata/fix-msvc2015-build-error\n
+* Merge pull request [#3391](https://github.com/universal-ctags/ctags/issues/3391) from k-takata/adjust-config\_mvc\n
