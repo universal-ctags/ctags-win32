@@ -1,1 +1,1 @@
-* Merge pull request [#3391](https://github.com/universal-ctags/ctags/issues/3391) from k-takata/adjust-config\_mvc\n
+* Merge pull request [#3395](https://github.com/universal-ctags/ctags/issues/3395) from k-takata/appveyor-disable-cygwin-tests\n
