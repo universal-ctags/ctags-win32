@@ -1,1 +1,1 @@
-* Merge pull request [#3395](https://github.com/universal-ctags/ctags/issues/3395) from k-takata/appveyor-disable-cygwin-tests\n
+* Merge pull request [#3392](https://github.com/universal-ctags/ctags/issues/3392) from k-takata/adjust-line-endings\n* Merge pull request [#3385](https://github.com/universal-ctags/ctags/issues/3385) from techee/mini\_geany\_update\n
