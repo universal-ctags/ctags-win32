@@ -1,1 +1,1 @@
-* Merge pull request [#3400](https://github.com/universal-ctags/ctags/issues/3400) from k-takata/drop-support-for-mingw-org\n* Merge pull request [#3402](https://github.com/universal-ctags/ctags/issues/3402) from k-takata/skip-checkgen-win32\n
+\n
