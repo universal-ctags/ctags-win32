@@ -1,1 +1,1 @@
-* GitHub Actions: add debug vagrant support\n* Merge pull request [#3404](https://github.com/universal-ctags/ctags/issues/3404) from masatake/gha-s390x\n* Merge pull request [#3403](https://github.com/universal-ctags/ctags/issues/3403) from masatake/pull-subtrees\n
+\n
