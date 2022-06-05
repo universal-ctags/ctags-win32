@@ -1,5 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/uo4k9ug54ngexai8/branch/master?svg=true)](https://ci.appveyor.com/project/universalctags/ctags-win32/branch/master)
-[![Github All Releases](https://img.shields.io/github/downloads/universal-ctags/ctags-win32/total.svg)](https://github.com/universal-ctags/ctags-win32/releases)
+[![Build](https://github.com/universal-ctags/ctags-win32/actions/workflows/build-ctags.yaml/badge.svg)](https://github.com/universal-ctags/ctags-win32/actions/workflows/build-ctags.yaml)
+[![GitHub All Releases](https://img.shields.io/github/downloads/universal-ctags/ctags-win32/total.svg)](https://github.com/universal-ctags/ctags-win32/releases)
 
 # Universal Ctags Win32/64 daily builds
 
