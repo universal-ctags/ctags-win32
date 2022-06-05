@@ -24,12 +24,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
-        #fetch-depth: 0
         path: main
 
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         repository: "${{ github.repository }}.wiki"
         path: wiki
@@ -39,7 +38,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         cd main
-        #latest=$(git describe --tags --abbrev=0)
+        latest=$(cat ctagsver.txt)
         cd ../wiki
         ../main/scripts/update-release-list.py
         git add Releases-in-*.md
@@ -48,7 +47,6 @@ jobs:
         else
           git config --local user.name ${USER_NAME}
           git config --local user.email ${USER_EMAIL}
-          #git commit -a -m "Update Release List to ${latest}"
-          git commit -a -m "Update Release List"
+          git commit -a -m "Update Release List to ${latest}"
           git push origin HEAD
         fi
