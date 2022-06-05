@@ -10,8 +10,10 @@ on:
 
 env:
   CTAGSREPO: https://github.com/universal-ctags/ctags
-  DEPLOY_USER_NAME: 'ctags-win32 CI'
-  DEPLOY_USER_EMAIL: 'ctags-win32-ci@users.noreply.github.com'
+
+  # Account for committing
+  USER_NAME: 'ctags-win32 CI'
+  USER_EMAIL: 'ctags-win32-ci@users.noreply.github.com'
 
   # Escape sequences
   COL_RED: "\x1b[31m"
@@ -97,7 +99,7 @@ jobs:
         git submodule summary | grep '^  > ' | \
           sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
               -e 's/^  >/*/' \
-              -e 's!#\([0-9][0-9]*\)![#\1]('"$CTAGSREPO"'/issues/\1)!' | \
+              -e "s!#\([0-9][0-9]*\)![#\1]($CTAGSREPO/issues/\1)!" | \
           sed -e ':a;N;$!ba;s/\n/%0A/g' | \
           tee ./package/artifacts/changelog.md || :
         echo
@@ -230,8 +232,8 @@ jobs:
           echo ${COL_YELLOW}No updates.${COL_RESET}
           echo "::set-output name=skip::yes"
         else
-          git config --local user.name "$DEPLOY_USER_NAME"
-          git config --local user.email "$DEPLOY_USER_EMAIL"
+          git config --local user.name "$USER_NAME"
+          git config --local user.email "$USER_EMAIL"
           git commit -a \
             -m "ctags: Update to $(cat ctags-win64/latesttag.txt)" \
             -m "$(cat ctags-win64/changelog.txt)"
@@ -249,7 +251,7 @@ jobs:
         tag_name: ${{ steps.changelog.outputs.newtag }}
         name:  ${{ steps.changelog.outputs.newtag }}
         body: |
-          ![Github Downloads (by Release)](https://img.shields.io/github/downloads/$(APPVEYOR_REPO_NAME)/$(APPVEYOR_REPO_TAG_NAME)/total.svg)
+          ![Github Downloads (by Release)](https://img.shields.io/github/downloads/$(GITHUB_ACTION_REPOSITORY)/${{ steps.changelog.outputs.newtag }}/total.svg)
 
           ### Changes:
 
