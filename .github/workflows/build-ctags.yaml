@@ -29,8 +29,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { arch: x64, msystem: MINGW64, bits: 64 }
-          - { arch: x86, msystem: MINGW32, bits: 32 }
+          - { arch: x64, msystem: CLANG64, bits: 64 }
+          - { arch: x86, msystem: CLANG32, bits: 32 }
 
     defaults:
       run:
