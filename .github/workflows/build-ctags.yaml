@@ -1,0 +1,263 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  schedule:
+    - cron: '0 1 * * *'
+
+env:
+  CTAGSREPO: https://github.com/universal-ctags/ctags
+  DEPLOY_USER_NAME: 'ctags-win32 CI'
+  DEPLOY_USER_EMAIL: 'ctags-win32-ci@users.noreply.github.com'
+
+  # Escape sequences
+  COL_RED: "\x1b[31m"
+  COL_GREEN: "\x1b[32m"
+  COL_YELLOW: "\x1b[33m"
+  COL_RESET: "\x1b[m"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { arch: x64, msys2_arch: x86_64, msystem: MINGW64, bits: 64 }
+          - { arch: x86, msys2_arch: i686,   msystem: MINGW32, bits: 32 }
+
+    defaults:
+      run:
+        shell: msys2 {0}
+
+    steps:
+    - uses: msys2/setup-msys2@v2
+      with:
+        msystem: ${{ matrix.msystem }}
+        update: true
+        install: git make automake autoconf
+        pacboy: toolchain:p python3-sphinx:p jansson:p libxml2:p libyaml:p pcre2:p
+
+    - name: Initalize
+      id: init
+      shell: bash
+      run: |
+        #echo "::set-output name=date::$(date +%Y%m%d)"
+        git config --global core.autocrlf input
+
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Update the submodule
+      shell: bash
+      run: |
+        cd ctags
+        git switch master
+        git pull --ff-only
+        cd ..
+
+    - name: Get changelog
+      id: changelog
+      run: |
+        mkdir package/artifacts
+        #if [ ! -d ctags ] || [ "$(git -C ctags tag)" = "" ]; then
+        #  cp ctagsrev.txt package/artifacts/latestrev.txt
+        #  touch package/artifacts/changelog.md
+        #  exit 0
+        #fi
+
+        cd ctags
+        # Get the latest tag of the submodule.
+        exacttag=yes
+        if ! latesttag=$(git describe --tags --exact-match --match 'v*' 2> /dev/null); then
+          if ! latesttag=$(git describe --tags --exact-match 2> /dev/null); then
+            latesttag=$(git describe --tags --always)
+            exacttag=no
+          fi
+        fi
+        if [ "$exacttag" = "yes" ]; then
+          newtag="$latesttag"
+        else
+          newtag="$(date --rfc-3339=date)/$latesttag"
+        fi
+        #echo "::set-output name=ref::${latesttag}"
+        echo "::set-output name=newtag::${newtag}"
+        echo $latesttag > ../package/artifacts/latesttag.txt
+        echo $newtag > ../package/artifacts/newtag.txt
+        git rev-parse HEAD > ../package/artifacts/latestrev.txt
+
+        cd ..
+        git submodule summary | grep '^  > ' | \
+          sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
+              -e 's/^  >/*/' \
+              -e 's!#\([0-9][0-9]*\)![#\1]($CTAGSREPO/issues/\1)!' | \
+          sed -e ':a;N;$!ba;s/\n/%0A/g' | \
+          tee ./package/artifacts/changelog.md || :
+        echo
+        git submodule summary | grep '^  > ' | \
+          sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
+              -e 's/^  >/*/' | \
+          tee ./package/artifacts/changelog.txt || :
+
+    - name: Check changes
+      id: check
+      run: |
+        if git diff --quiet HEAD ctags; then
+          echo ${COL_YELLOW}No updates.${COL_RESET}
+          if [ "${{ github.event_name }}" = 'pull_request' ]; then
+            # Don't skip on pull_request even if there are no updates.
+            echo "::set-output name=skip::no"
+          else
+            echo "::set-output name=skip::yes"
+          fi
+        else
+          echo "::set-output name=skip::no"
+        fi
+
+    - name: Build
+      if: steps.check.outputs.skip == 'no'
+      run: |
+        cd ctags
+        ./autogen.sh
+        ./configure --disable-external-sort --enable-static
+        make -j2
+
+    - name: Test
+      if: steps.check.outputs.skip == 'no'
+      run: |
+        cd ctags
+        file ctags.exe
+        file readtags.exe
+        ./ctags.exe --version
+        make check
+
+    - name: Package
+      if: steps.check.outputs.skip == 'no'
+      run: |
+        cd ctags
+        make -C docs html
+        make -C man html
+        mv docs/_build/html ../package/docs
+        rm -r ../package/docs/_sources
+
+        ver=$(echo ${{ steps.changelog.outputs.newtag }} | sed -e 's|/|_|g')
+
+        filelist="ctags.exe readtags.exe README.md"
+        dirlist="docs license man"
+        cp ${filelist} ../package/
+        cp -r win32/license ../package/
+        cp COPYING ../package/license/
+        cp win32/mkstemp/COPYING.MinGW-w64-runtime.txt ../package/license
+        mkdir ../package/man
+        cp man/*.html ../package/man/
+
+        stripdebug() {
+          objcopy --only-keep-debug $1 $1.debug
+          strip $1
+          objcopy --add-gnu-debuglink=$1.debug $1
+        }
+
+        cd ../package
+        for f in *.exe; do
+          stripdebug $f
+        done
+        "/c/Program Files/7-Zip/7z.exe" a ./artifacts/ctags-${ver}-${{ matrix.arch }}.zip ${filelist} ${dirlist}
+        "/c/Program Files/7-Zip/7z.exe" a ./artifacts/ctags-${ver}-${{ matrix.arch }}.debuginfo.zip *.exe.debug
+        cd ..
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ctags-win${{ matrix.bits }}
+        path: ./package/artifacts
+
+  release:
+    runs-on: windows-latest
+    needs: [build]
+    if: github.event_name != 'pull_request'
+
+    defaults:
+      run:
+        shell: msys2 {0}
+
+    steps:
+    - name: Initalize
+      shell: bash
+      run: |
+        git config --global core.autocrlf input
+
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Download Artifact (win32)
+      uses: actions/download-artifact@v3
+      with:
+        name: ctags-win32
+        path: ctags-win32
+
+    - name: Download Artifact (win64)
+      uses: actions/download-artifact@v3
+      with:
+        name: ctags-win64
+        path: ctags-win64
+
+    - name: Get changelog
+      id: changelog
+      shell: bash
+      run: |
+        changelog=$(cat ctags-win64/changelog.md)
+        echo "::set-output name=log::$changelog"
+        latesttag=$(cat ctags-win64/latesttag.txt)
+        echo "::set-output name=ref::${latesttag}"
+        newtag=$(cat ctags-win64/newtag.txt)
+        echo "::set-output name=newtag::${newtag}"
+
+    - name: Commit and push
+      id: commit
+      shell: bash
+      run: |
+        git -C ctags fetch origin
+        git -C ctags checkout $(cat ctags-win64/latestrev.txt)
+        if git diff --quiet HEAD ctags; then
+          echo ${COL_YELLOW}No updates.${COL_RESET}
+          echo "::set-output name=skip::yes"
+        else
+          git config --local user.name "$DEPLOY_USER_NAME"
+          git config --local user.email "$DEPLOY_USER_EMAIL"
+          git commit -a \
+            -m "ctags: Update to ${{ steps.changelog.outputs.ref }}" \
+            -m "$(cat ctags-win64/changelog.txt)"
+          git tag "${{ steps.changelog.outputs.newtag }}"
+          git push origin HEAD --tags
+          echo "::set-output name=skip::no"
+        fi
+
+    - name: Create Release
+      uses: softprops/action-gh-release@9993ae85344fa542b3edb2533f97011277698cf6
+      if: steps.commit.outputs.skip == 'no'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.changelog.outputs.newtag }}
+        name:  ${{ steps.changelog.outputs.newtag }}
+        body: |
+          ![Github Downloads (by Release)](https://img.shields.io/github/downloads/$(APPVEYOR_REPO_NAME)/$(APPVEYOR_REPO_TAG_NAME)/total.svg)
+
+          ### Changes:
+
+          ${{ steps.changelog.outputs.log }}
+        draft: false
+        prerelease: true
+        files: |
+          ./ctags-win32/ctags-*-win32.zip
+          ./ctags-win32/ctags-*-win32.debuginfo.zip
+          ./ctags-win64/ctags-*-win64.zip
+          ./ctags-win64/ctags-*-win64.debuginfo.zip
+
+# vim: ts=2 sw=2 sts=2 et
