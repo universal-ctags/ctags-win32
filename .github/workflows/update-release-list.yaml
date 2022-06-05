@@ -1,12 +1,12 @@
 name: Update Release List
 
 on:
-  release:
-    types: [published]
-  #workflow_run:
-  #  workflows: ["Build Ctags"]
-  #  branches: [master]
-  #  types: [completed]
+  #release:
+  #  types: [published]
+  workflow_run:
+    workflows: ["Build"]
+    branches: [master]
+    types: [completed]
 
 env:
   # Account for committing
