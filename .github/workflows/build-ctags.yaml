@@ -80,6 +80,7 @@ jobs:
             exacttag=no
           fi
         fi
+        # Compose a new tag name for this repository.
         if [ "$exacttag" = "yes" ]; then
           newtag="$latesttag"
         else
@@ -88,6 +89,7 @@ jobs:
         #echo "::set-output name=ref::${latesttag}"
         echo "::set-output name=newtag::${newtag}"
         echo $latesttag > ../package/artifacts/latesttag.txt
+        echo $latesttag > ../ctagsver.txt
         echo $newtag > ../package/artifacts/newtag.txt
         git rev-parse HEAD > ../package/artifacts/latestrev.txt
 
@@ -95,7 +97,7 @@ jobs:
         git submodule summary | grep '^  > ' | \
           sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
               -e 's/^  >/*/' \
-              -e 's!#\([0-9][0-9]*\)![#\1]($CTAGSREPO/issues/\1)!' | \
+              -e 's!#\([0-9][0-9]*\)![#\1]('"$CTAGSREPO"'/issues/\1)!' | \
           sed -e ':a;N;$!ba;s/\n/%0A/g' | \
           tee ./package/artifacts/changelog.md || :
         echo
@@ -107,7 +109,7 @@ jobs:
     - name: Check changes
       id: check
       run: |
-        if git diff --quiet HEAD ctags; then
+        if git diff --quiet HEAD ctagsver.txt; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
           if [ "${{ github.event_name }}" = 'pull_request' ]; then
             # Don't skip on pull_request even if there are no updates.
@@ -217,6 +219,7 @@ jobs:
         echo "::set-output name=ref::${latesttag}"
         newtag=$(cat ctags-win64/newtag.txt)
         echo "::set-output name=newtag::${newtag}"
+        cp ctags-win64/latesttag.txt ctagsver.txt
 
     - name: Commit and push
       id: commit
@@ -224,7 +227,7 @@ jobs:
       run: |
         git -C ctags fetch origin
         git -C ctags checkout $(cat ctags-win64/latestrev.txt)
-        if git diff --quiet HEAD ctags; then
+        if git diff --quiet HEAD ctagsver.txt; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
           echo "::set-output name=skip::yes"
         else
