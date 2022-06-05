@@ -27,8 +27,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { arch: x64, msys2_arch: x86_64, msystem: MINGW64, bits: 64 }
-          - { arch: x86, msys2_arch: i686,   msystem: MINGW32, bits: 32 }
+          - { arch: x64, msystem: MINGW64, bits: 64 }
+          - { arch: x86, msystem: MINGW32, bits: 32 }
 
     defaults:
       run:
@@ -50,12 +50,10 @@ jobs:
         git config --global core.autocrlf input
 
     - uses: actions/checkout@v3
-      with:
-        submodules: true
-
-    - name: Update the submodule
+    - name: Checkout and update the submodule
       shell: bash
       run: |
+        git submodule update --init
         cd ctags
         git switch master
         git pull --ff-only
@@ -87,13 +85,14 @@ jobs:
           newtag="$(date --rfc-3339=date)/$latesttag"
         fi
         #echo "::set-output name=ref::${latesttag}"
-        echo "::set-output name=newtag::${newtag}"
+        #echo "::set-output name=newtag::${newtag}"
         echo $latesttag > ../package/artifacts/latesttag.txt
         echo $latesttag > ../ctagsver.txt
         echo $newtag > ../package/artifacts/newtag.txt
         git rev-parse HEAD > ../package/artifacts/latestrev.txt
 
         cd ..
+        echo "ChangeLog in Markdown:"
         git submodule summary | grep '^  > ' | \
           sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
               -e 's/^  >/*/' \
@@ -101,6 +100,7 @@ jobs:
           sed -e ':a;N;$!ba;s/\n/%0A/g' | \
           tee ./package/artifacts/changelog.md || :
         echo
+        echo "ChangeLog in text:"
         git submodule summary | grep '^  > ' | \
           sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
               -e 's/^  >/*/' | \
@@ -109,7 +109,7 @@ jobs:
     - name: Check changes
       id: check
       run: |
-        if git diff --quiet HEAD ctagsver.txt; then
+        if git diff --exit-code HEAD ctagsver.txt; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
           if [ "${{ github.event_name }}" = 'pull_request' ]; then
             # Don't skip on pull_request even if there are no updates.
@@ -147,7 +147,7 @@ jobs:
         mv docs/_build/html ../package/docs
         rm -r ../package/docs/_sources
 
-        ver=$(echo ${{ steps.changelog.outputs.newtag }} | sed -e 's|/|_|g')
+        ver=$(sed -e 's|/|_|g' < ../package/artifacts/newtag.txt)
 
         filelist="ctags.exe readtags.exe README.md"
         dirlist="docs license man"
@@ -168,8 +168,8 @@ jobs:
         for f in *.exe; do
           stripdebug $f
         done
-        "/c/Program Files/7-Zip/7z.exe" a ./artifacts/ctags-${ver}-${{ matrix.arch }}.zip ${filelist} ${dirlist}
-        "/c/Program Files/7-Zip/7z.exe" a ./artifacts/ctags-${ver}-${{ matrix.arch }}.debuginfo.zip *.exe.debug
+        "/c/Program Files/7-Zip/7z.exe" a -mx=9 ./artifacts/ctags-${ver}-${{ matrix.arch }}.zip ${filelist} ${dirlist}
+        "/c/Program Files/7-Zip/7z.exe" a -mx=9 ./artifacts/ctags-${ver}-${{ matrix.arch }}.debuginfo.zip *.exe.debug
         cd ..
 
     - name: Upload Artifact
@@ -215,8 +215,6 @@ jobs:
       run: |
         changelog=$(cat ctags-win64/changelog.md)
         echo "::set-output name=log::$changelog"
-        latesttag=$(cat ctags-win64/latesttag.txt)
-        echo "::set-output name=ref::${latesttag}"
         newtag=$(cat ctags-win64/newtag.txt)
         echo "::set-output name=newtag::${newtag}"
         cp ctags-win64/latesttag.txt ctagsver.txt
@@ -234,7 +232,7 @@ jobs:
           git config --local user.name "$DEPLOY_USER_NAME"
           git config --local user.email "$DEPLOY_USER_EMAIL"
           git commit -a \
-            -m "ctags: Update to ${{ steps.changelog.outputs.ref }}" \
+            -m "ctags: Update to $(cat ctags-win64/latesttag.txt)" \
             -m "$(cat ctags-win64/changelog.txt)"
           git tag "${{ steps.changelog.outputs.newtag }}"
           git push origin HEAD --tags
