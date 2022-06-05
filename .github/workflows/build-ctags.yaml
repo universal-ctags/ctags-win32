@@ -257,9 +257,9 @@ jobs:
         draft: false
         prerelease: true
         files: |
-          ./ctags-win32/ctags-*-win32.zip
-          ./ctags-win32/ctags-*-win32.debuginfo.zip
-          ./ctags-win64/ctags-*-win64.zip
-          ./ctags-win64/ctags-*-win64.debuginfo.zip
+          ./ctags-win32/ctags-*-x86.zip
+          ./ctags-win32/ctags-*-x86.debuginfo.zip
+          ./ctags-win64/ctags-*-x64.zip
+          ./ctags-win64/ctags-*-x64.debuginfo.zip
 
 # vim: ts=2 sw=2 sts=2 et
