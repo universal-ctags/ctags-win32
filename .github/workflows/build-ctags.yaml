@@ -29,8 +29,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { arch: x64, msystem: CLANG64, bits: 64 }
-          - { arch: x86, msystem: CLANG32, bits: 32 }
+          - { arch: x64,       msystem: MINGW64 }
+          - { arch: x86,       msystem: MINGW32 }
+          - { arch: clang-x64, msystem: CLANG64 }
+          - { arch: clang-x86, msystem: CLANG32 }
 
     defaults:
       run:
@@ -181,7 +183,7 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: ctags-win${{ matrix.bits }}
+        name: ctags-${{ matrix.arch }}
         path: ./package/artifacts
 
   release:
@@ -203,34 +205,46 @@ jobs:
       with:
         submodules: true
 
-    - name: Download Artifact (win32)
+    - name: Download Artifact (x86)
       uses: actions/download-artifact@v3
       with:
-        name: ctags-win32
-        path: ctags-win32
+        name: ctags-x86
+        path: ctags-x86
 
-    - name: Download Artifact (win64)
+    - name: Download Artifact (x64)
       uses: actions/download-artifact@v3
       with:
-        name: ctags-win64
-        path: ctags-win64
+        name: ctags-x64
+        path: ctags-x64
+
+    - name: Download Artifact (clang-x86)
+      uses: actions/download-artifact@v3
+      with:
+        name: ctags-clang-x86
+        path: ctags-clang-x86
+
+    - name: Download Artifact (clang-x64)
+      uses: actions/download-artifact@v3
+      with:
+        name: ctags-clang-x64
+        path: ctags-clang-x64
 
     - name: Get changelog
       id: changelog
       shell: bash
       run: |
-        changelog=$(cat ctags-win64/changelog.md)
+        changelog=$(cat ctags-x64/changelog.md)
         echo "::set-output name=log::$changelog"
-        newtag=$(cat ctags-win64/newtag.txt)
+        newtag=$(cat ctags-x64/newtag.txt)
         echo "::set-output name=newtag::${newtag}"
-        cp ctags-win64/latesttag.txt ctagsver.txt
+        cp ctags-x64/latesttag.txt ctagsver.txt
 
     - name: Commit and push
       id: commit
       shell: bash
       run: |
         git -C ctags fetch origin
-        git -C ctags checkout $(cat ctags-win64/latestrev.txt)
+        git -C ctags checkout $(cat ctags-x64/latestrev.txt)
         if git diff --quiet HEAD ctagsver.txt; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
           echo "::set-output name=skip::yes"
@@ -238,8 +252,8 @@ jobs:
           git config --local user.name "$USER_NAME"
           git config --local user.email "$USER_EMAIL"
           git commit -a \
-            -m "ctags: Update to $(cat ctags-win64/latesttag.txt)" \
-            -m "$(cat ctags-win64/changelog.txt)"
+            -m "ctags: Update to $(cat ctags-x64/latesttag.txt)" \
+            -m "$(cat ctags-x64/changelog.txt)"
           git tag "${{ steps.changelog.outputs.newtag }}"
           git push origin HEAD --tags
           echo "::set-output name=skip::no"
@@ -262,9 +276,13 @@ jobs:
         draft: false
         prerelease: true
         files: |
-          ./ctags-win32/ctags-*-x86.zip
-          ./ctags-win32/ctags-*-x86.debuginfo.zip
-          ./ctags-win64/ctags-*-x64.zip
-          ./ctags-win64/ctags-*-x64.debuginfo.zip
+          ./ctags-x86/ctags-*-x86.zip
+          ./ctags-x86/ctags-*-x86.debuginfo.zip
+          ./ctags-x64/ctags-*-x64.zip
+          ./ctags-x64/ctags-*-x64.debuginfo.zip
+          ./ctags-clang-x86/ctags-*-x86.zip
+          ./ctags-clang-x86/ctags-*-x86.debuginfo.zip
+          ./ctags-clang-x64/ctags-*-x64.zip
+          ./ctags-clang-x64/ctags-*-x64.debuginfo.zip
 
 # vim: ts=2 sw=2 sts=2 et
