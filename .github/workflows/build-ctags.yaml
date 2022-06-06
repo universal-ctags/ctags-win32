@@ -37,13 +37,6 @@ jobs:
         shell: msys2 {0}
 
     steps:
-    - uses: msys2/setup-msys2@v2
-      with:
-        msystem: ${{ matrix.msystem }}
-        update: true
-        install: git make automake autoconf
-        pacboy: toolchain:p python3-sphinx:p jansson:p libxml2:p libyaml:p pcre2:p
-
     - name: Initalize
       id: init
       shell: bash
@@ -64,6 +57,7 @@ jobs:
 
     - name: Get changelog
       id: changelog
+      shell: bash
       run: |
         mkdir package/artifacts
         #if [ ! -d ctags ] || [ "$(git -C ctags tag)" = "" ]; then
@@ -111,6 +105,7 @@ jobs:
 
     - name: Check changes
       id: check
+      shell: bash
       run: |
         if git diff --exit-code HEAD ctagsver.txt; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
@@ -123,6 +118,14 @@ jobs:
         else
           echo "::set-output name=skip::no"
         fi
+
+    - uses: msys2/setup-msys2@v2
+      if: steps.check.outputs.skip == 'no'
+      with:
+        msystem: ${{ matrix.msystem }}
+        update: true
+        install: git make automake autoconf
+        pacboy: toolchain:p python3-sphinx:p jansson:p libxml2:p libyaml:p pcre2:p
 
     - name: Build
       if: steps.check.outputs.skip == 'no'
