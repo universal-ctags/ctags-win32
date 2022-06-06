@@ -30,5 +30,3 @@ Starting from the build [2019-12-10/9f494f08](https://github.com/universal-ctags
 # License
 
 Universal Ctags itself (which is in the ctags subdirectory) is licensed under GPL 2 (or later).
-
-The build scripts in this repository are based on the [vim-win32-installer](https://github.com/vim/vim-win32-installer) project, and [the Vim license](http://vimhelp.appspot.com/uganda.txt.html#license) applies to them.
