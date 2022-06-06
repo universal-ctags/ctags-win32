@@ -18,6 +18,15 @@ Four types of packages are provided:
 
 x64/x86 package includes stripped binaries. If you want to debug the binaries on GDB, extract the package and the debug symbol files into the same directory, and also put the ctags source code there.
 
+There are also experimental packages that are built with Clang and linked against Universal CRT:
+
+* `ctags-{ctagsver}-clang-x64.zip`: x64 package built with Clang
+* `ctags-{ctagsver}-clang-x64.debuginfo.zip`: clang-x64 debug symbol files
+* `ctags-{ctagsver}-clang-x86.zip`: x86 package built with Clang
+* `ctags-{ctagsver}-clang-x86.debuginfo.zip`: clang-x86 debug symbol files
+
+Hopefully, the issue reported at [#3014](https://github.com/universal-ctags/ctags/issues/3014) is solved.
+
 # Note
 
 Starting from the build [2017-10-14/d9944ef9](https://github.com/universal-ctags/ctags-win32/releases/tag/2017-10-14%2Fd9944ef9), Universal Ctags doesn't load `~/.ctags` and other exuberant-ctags compatible configuration files.
