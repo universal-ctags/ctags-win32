@@ -34,6 +34,9 @@ jobs:
           - { arch: clang-x64, msystem: CLANG64 }
           - { arch: clang-x86, msystem: CLANG32 }
 
+    outputs:
+      skip: ${{ steps.check.outputs.skip }}
+
     defaults:
       run:
         shell: msys2 {0}
@@ -181,6 +184,7 @@ jobs:
         cd ..
 
     - name: Upload Artifact
+      if: steps.check.outputs.skip == 'no'
       uses: actions/upload-artifact@v3
       with:
         name: ctags-${{ matrix.arch }}
@@ -189,7 +193,7 @@ jobs:
   release:
     runs-on: windows-latest
     needs: [build]
-    if: github.event_name != 'pull_request'
+    if: (github.event_name != 'pull_request') && (needs.build.outputs.skip == 'no')
 
     defaults:
       run:
@@ -247,21 +251,18 @@ jobs:
         git -C ctags checkout $(cat ctags-x64/latestrev.txt)
         if git diff --quiet HEAD ctagsver.txt; then
           echo ${COL_YELLOW}No updates.${COL_RESET}
-          echo "::set-output name=skip::yes"
-        else
-          git config --local user.name "$USER_NAME"
-          git config --local user.email "$USER_EMAIL"
-          git commit -a \
-            -m "ctags: Update to $(cat ctags-x64/latesttag.txt)" \
-            -m "$(cat ctags-x64/changelog.txt)"
-          git tag "${{ steps.changelog.outputs.newtag }}"
-          git push origin HEAD --tags
-          echo "::set-output name=skip::no"
+          exit 1  # This should not happen.
         fi
+        git config --local user.name "$USER_NAME"
+        git config --local user.email "$USER_EMAIL"
+        git commit -a \
+          -m "ctags: Update to $(cat ctags-x64/latesttag.txt)" \
+          -m "$(cat ctags-x64/changelog.txt)"
+        git tag "${{ steps.changelog.outputs.newtag }}"
+        git push origin HEAD --tags
 
     - name: Create Release
       uses: softprops/action-gh-release@9993ae85344fa542b3edb2533f97011277698cf6
-      if: steps.commit.outputs.skip == 'no'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
