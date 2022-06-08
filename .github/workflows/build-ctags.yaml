@@ -267,7 +267,7 @@ jobs:
         tag_name: ${{ steps.changelog.outputs.newtag }}
         name:  ${{ steps.changelog.outputs.newtag }}
         body: |
-          ![Github Downloads (by Release)](https://img.shields.io/github/downloads/$(GITHUB_ACTION_REPOSITORY)/${{ steps.changelog.outputs.newtag }}/total.svg)
+          ![Github Downloads (by Release)](https://img.shields.io/github/downloads/universal-ctags/ctags-win32/${{ steps.changelog.outputs.newtag }}/total.svg)
 
           ### Changes:
 
