@@ -191,7 +191,8 @@ jobs:
   release:
     runs-on: windows-latest
     needs: [build]
-    if: (github.event_name != 'pull_request') && (needs.build.outputs.skip == 'no')
+    # Create releases only on the 'universal-ctags/ctags-win32' repository.
+    if: (github.event_name != 'pull_request') && (needs.build.outputs.skip == 'no') && (github.repository == 'universal-ctags/ctags-win32')
 
     defaults:
       run:
