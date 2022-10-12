@@ -49,7 +49,7 @@ jobs:
       id: init
       shell: bash
       run: |
-        #echo "::set-output name=date::$(date +%Y%m%d)"
+        #echo "date=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
         git config --global core.autocrlf input
 
     - uses: actions/checkout@v3
@@ -87,8 +87,8 @@ jobs:
         else
           newtag="$(date --rfc-3339=date)/$latesttag"
         fi
-        #echo "::set-output name=ref::${latesttag}"
-        #echo "::set-output name=newtag::${newtag}"
+        #echo "ref=${latesttag}" >> $GITHUB_OUTPUT
+        #echo "newtag=${newtag}" >> $GITHUB_OUTPUT
         echo $latesttag > ../package/artifacts/latesttag.txt
         echo $latesttag > ../ctagsver.txt
         echo $newtag > ../package/artifacts/newtag.txt
@@ -117,12 +117,12 @@ jobs:
           echo ${COL_YELLOW}No updates.${COL_RESET}
           if [ "${{ github.event_name }}" = 'pull_request' ]; then
             # Don't skip on pull_request even if there are no updates.
-            echo "::set-output name=skip::no"
+            echo "skip=no" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=skip::yes"
+            echo "skip=yes" >> $GITHUB_OUTPUT
           fi
         else
-          echo "::set-output name=skip::no"
+          echo "skip=no" >> $GITHUB_OUTPUT
         fi
 
     - uses: msys2/setup-msys2@v2
@@ -229,9 +229,9 @@ jobs:
       id: changelog
       run: |
         changelog=$(cat ctags-x64/changelog.md)
-        echo "::set-output name=log::$changelog"
+        echo "log=$changelog" >> $GITHUB_OUTPUT
         newtag=$(cat ctags-x64/newtag.txt)
-        echo "::set-output name=newtag::${newtag}"
+        echo "newtag=${newtag}" >> $GITHUB_OUTPUT
         cp ctags-x64/latesttag.txt ctagsver.txt
 
     - name: Commit and push
