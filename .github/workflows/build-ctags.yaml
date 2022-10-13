@@ -100,7 +100,6 @@ jobs:
           sed -e 's/\([][_*^<`\\]\)/\\\1/g' \
               -e 's/^  >/*/' \
               -e "s!#\([0-9][0-9]*\)![#\1]($CTAGSREPO/issues/\1)!" | \
-          sed -e ':a;N;$!ba;s/\n/%0A/g' | \
           tee ./package/artifacts/changelog.md || :
         echo
         echo "ChangeLog in text:"
@@ -228,8 +227,13 @@ jobs:
     - name: Get changelog
       id: changelog
       run: |
-        changelog=$(cat ctags-x64/changelog.md)
-        echo "log=$changelog" >> $GITHUB_OUTPUT
+        cat << EOF > changelog.md
+        ![Github Downloads (by Release)](https://img.shields.io/github/downloads/${{ github.repository }}/${{ steps.changelog.outputs.newtag }}/total.svg)
+
+        ### Changes:
+
+        $(cat ctags-x64/changelog.md)
+        EOF
         newtag=$(cat ctags-x64/newtag.txt)
         echo "newtag=${newtag}" >> $GITHUB_OUTPUT
         cp ctags-x64/latesttag.txt ctagsver.txt
@@ -252,18 +256,11 @@ jobs:
         git push origin HEAD --tags
 
     - name: Create Release
-      uses: softprops/action-gh-release@9993ae85344fa542b3edb2533f97011277698cf6
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: softprops/action-gh-release@v1
       with:
         tag_name: ${{ steps.changelog.outputs.newtag }}
-        name:  ${{ steps.changelog.outputs.newtag }}
-        body: |
-          ![Github Downloads (by Release)](https://img.shields.io/github/downloads/${{ github.repository }}/${{ steps.changelog.outputs.newtag }}/total.svg)
-
-          ### Changes:
-
-          ${{ steps.changelog.outputs.log }}
+        name: ${{ steps.changelog.outputs.newtag }}
+        body_path: changelog.md
         draft: false
         prerelease: true
         files: |
