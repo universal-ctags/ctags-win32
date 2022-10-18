@@ -233,15 +233,15 @@ jobs:
     - name: Get changelog
       id: changelog
       run: |
+        newtag=$(cat ctags-x64/newtag.txt)
+        echo "newtag=${newtag}" >> $GITHUB_OUTPUT
         cat << EOF > changelog.md
-        ![Github Downloads (by Release)](https://img.shields.io/github/downloads/${{ github.repository }}/${{ steps.changelog.outputs.newtag }}/total.svg)
+        ![Github Downloads (by Release)](https://img.shields.io/github/downloads/${{ github.repository }}/${newtag}/total.svg)
 
         ### Changes:
 
         $(cat ctags-x64/changelog.md)
         EOF
-        newtag=$(cat ctags-x64/newtag.txt)
-        echo "newtag=${newtag}" >> $GITHUB_OUTPUT
         cp ctags-x64/latesttag.txt ctagsver.txt
 
     - name: Commit and push
