@@ -7,6 +7,16 @@ on:
   pull_request:
   schedule:
     - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag name (in ctags repo) to run'
+        required: true
+        type: string
+      base_commit:
+        description: 'Base commit or tag in ctags-win32 repo'
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -56,14 +66,24 @@ jobs:
         git config --global core.autocrlf input
 
     - uses: actions/checkout@v4
+      if: github.event_name != 'workflow_dispatch'
+    - uses: actions/checkout@v4
+      if: github.event_name == 'workflow_dispatch'
+      with:
+        ref: ${{inputs.base_commit}}
+
     - name: Checkout and update the submodule
       shell: bash
       run: |
         # We need the latest tag. (Is the depth 20 enough?)
         git submodule update --init --depth 20
         cd ctags
-        git switch master
-        git pull --ff-only
+        if [ "${{github.event_name}}" = 'workflow_dispatch' ]; then
+          git checkout "${{inputs.tag}}"
+        else
+          git switch master
+          git pull --ff-only
+        fi
         cd ..
 
     - name: Get changelog
@@ -248,6 +268,9 @@ jobs:
     - name: Commit and push
       id: commit
       run: |
+        if [ "${{github.event_name}}" = 'workflow_dispatch' ] && [ "${{inputs.base_commit}}" != 'master' ]; then
+          git switch -c "work-${{inputs.tag}}"
+        fi
         git -C ctags fetch origin
         git -C ctags checkout $(cat ctags-x64/latestrev.txt)
         if git diff --quiet HEAD ctagsver.txt; then
