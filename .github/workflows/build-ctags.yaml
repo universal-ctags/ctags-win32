@@ -231,6 +231,7 @@ jobs:
       if: github.event_name == 'workflow_dispatch'
       with:
         ref: ${{inputs.base_commit}}
+        token: ${{ secrets.CTAGS_WIN32_DEPLOY_KEY }}
 
     - name: Checkout the submodule
       if: github.event_name == 'workflow_dispatch'
