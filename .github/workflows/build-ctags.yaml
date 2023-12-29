@@ -224,8 +224,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      if: github.event_name != 'workflow_dispatch'
       with:
         submodules: true
+    - uses: actions/checkout@v4
+      if: github.event_name == 'workflow_dispatch'
+      with:
+        ref: ${{inputs.base_commit}}
+
+    - name: Checkout the submodule
+      if: github.event_name == 'workflow_dispatch'
+      shell: bash
+      run: |
+        git submodule update --init --depth 20
+        git -C ctags checkout "${{inputs.tag}}"
 
     - name: Download Artifact (x86)
       uses: actions/download-artifact@v4
