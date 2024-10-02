@@ -22,8 +22,6 @@ There are also experimental packages that are built with Clang and linked agains
 
 * `ctags-{ctagsver}-clang-x64.zip`: x64 package built with Clang
 * `ctags-{ctagsver}-clang-x64.debuginfo.zip`: clang-x64 debug symbol files
-* `ctags-{ctagsver}-clang-x86.zip`: x86 package built with Clang
-* `ctags-{ctagsver}-clang-x86.debuginfo.zip`: clang-x86 debug symbol files
 
 Hopefully, the issue reported at [#3014](https://github.com/universal-ctags/ctags/issues/3014) is solved.
 
