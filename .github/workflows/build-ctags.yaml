@@ -251,12 +251,6 @@ jobs:
         name: ctags-x64
         path: ctags-x64
 
-    - name: Download Artifact (clang-x86)
-      uses: actions/download-artifact@v4
-      with:
-        name: ctags-clang-x86
-        path: ctags-clang-x86
-
     - name: Download Artifact (clang-x64)
       uses: actions/download-artifact@v4
       with:
@@ -310,8 +304,6 @@ jobs:
           ./ctags-x86/ctags-*-x86.debuginfo.zip
           ./ctags-x64/ctags-*-x64.zip
           ./ctags-x64/ctags-*-x64.debuginfo.zip
-          ./ctags-clang-x86/ctags-*-x86.zip
-          ./ctags-clang-x86/ctags-*-x86.debuginfo.zip
           ./ctags-clang-x64/ctags-*-x64.zip
           ./ctags-clang-x64/ctags-*-x64.debuginfo.zip
 
