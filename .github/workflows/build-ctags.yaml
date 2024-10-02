@@ -48,7 +48,6 @@ jobs:
           - { arch: x64,       msystem: MINGW64 }
           - { arch: x86,       msystem: MINGW32 }
           - { arch: clang-x64, msystem: CLANG64 }
-          - { arch: clang-x86, msystem: CLANG32 }
 
     outputs:
       skip: ${{ steps.check.outputs.skip }}
