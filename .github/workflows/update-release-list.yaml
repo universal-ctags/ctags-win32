@@ -28,11 +28,11 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       with:
         path: main
 
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       with:
         repository: "${{ github.repository }}.wiki"
         path: wiki
