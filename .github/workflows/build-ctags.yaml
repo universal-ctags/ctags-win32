@@ -78,6 +78,7 @@ jobs:
         git submodule update --init --depth 20
         cd ctags
         if [ "${{github.event_name}}" = 'workflow_dispatch' ]; then
+          git fetch --tags
           git checkout "${{inputs.tag}}"
         else
           git switch master
@@ -237,6 +238,7 @@ jobs:
       shell: bash
       run: |
         git submodule update --init --depth 20
+        git fetch --tags
         git -C ctags checkout "${{inputs.tag}}"
 
     - name: Download Artifact (x86)
