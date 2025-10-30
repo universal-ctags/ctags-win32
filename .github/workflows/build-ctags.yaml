@@ -64,9 +64,9 @@ jobs:
         #echo "date=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
         git config --global core.autocrlf input
 
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       if: github.event_name != 'workflow_dispatch'
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       if: github.event_name == 'workflow_dispatch'
       with:
         ref: ${{inputs.base_commit}}
@@ -209,7 +209,7 @@ jobs:
 
     - name: Upload Artifact
       if: steps.check.outputs.skip == 'no'
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: ctags-${{ matrix.arch }}
         path: ./package/artifacts
@@ -223,11 +223,11 @@ jobs:
       contents: write # to create release
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       if: github.event_name != 'workflow_dispatch'
       with:
         submodules: true
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       if: github.event_name == 'workflow_dispatch'
       with:
         ref: ${{inputs.base_commit}}
@@ -242,19 +242,19 @@ jobs:
         git -C ctags checkout "${{inputs.tag}}"
 
     - name: Download Artifact (x86)
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v6
       with:
         name: ctags-x86
         path: ctags-x86
 
     - name: Download Artifact (x64)
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v6
       with:
         name: ctags-x64
         path: ctags-x64
 
     - name: Download Artifact (clang-x64)
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v6
       with:
         name: ctags-clang-x64
         path: ctags-clang-x64
