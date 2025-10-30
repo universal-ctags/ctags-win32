@@ -208,7 +208,7 @@ jobs:
 
     - name: Upload Artifact
       if: steps.check.outputs.skip == 'no'
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: ctags-${{ matrix.arch }}
         path: ./package/artifacts
