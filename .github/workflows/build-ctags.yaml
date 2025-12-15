@@ -242,19 +242,19 @@ jobs:
         git -C ctags checkout "${{inputs.tag}}"
 
     - name: Download Artifact (x86)
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: ctags-x86
         path: ctags-x86
 
     - name: Download Artifact (x64)
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: ctags-x64
         path: ctags-x64
 
     - name: Download Artifact (clang-x64)
-      uses: actions/download-artifact@v6
+      uses: actions/download-artifact@v7
       with:
         name: ctags-clang-x64
         path: ctags-clang-x64
