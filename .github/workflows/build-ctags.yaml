@@ -45,9 +45,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { arch: x64,       msystem: MINGW64 }
-          - { arch: x86,       msystem: MINGW32 }
-          - { arch: clang-x64, msystem: CLANG64 }
+          - { arch: x64,       msystem: MINGW64, pkgs: "jansson:p" }
+          - { arch: x86,       msystem: MINGW32, pkgs: "" }
+          - { arch: clang-x64, msystem: CLANG64, pkgs: "jansson:p" }
 
     outputs:
       skip: ${{ steps.check.outputs.skip }}
@@ -153,7 +153,7 @@ jobs:
         msystem: ${{ matrix.msystem }}
         update: true
         install: git make automake autoconf
-        pacboy: toolchain:p python-sphinx:p jansson:p libxml2:p libyaml:p pcre2:p
+        pacboy: toolchain:p python-sphinx:p libxml2:p libyaml:p pcre2:p ${{ matrix.pkgs }}
 
     - name: Build
       if: steps.check.outputs.skip == 'no'
